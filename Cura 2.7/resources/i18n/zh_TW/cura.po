@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cura 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 16:53+0000\n"
-"PO-Revision-Date: 2017-09-06 19:40+0800\n"
+"PO-Revision-Date: 2017-09-06 23:59+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -167,18 +167,18 @@ msgstr "無法儲存到 <filename>{0}</filename>：<message>{1}</message>"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
-msgstr "儲存到隨身碟 {0} ：{1}"
+msgstr "儲存到隨身碟 {0}：{1}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:133
 msgctxt "@action:button"
 msgid "Eject"
-msgstr "彈出"
+msgstr "卸載"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:133
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
-msgstr "彈出可移動設備 {0}"
+msgstr "卸載隨身碟 {0}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:138
 #, python-brace-format
@@ -190,13 +190,13 @@ msgstr "無法儲存到隨身碟 {0}：{1}"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
-msgstr "已彈出 {0}。現在，您可以安全地拔出磁盤。"
+msgstr "已卸載 {0}。現在您可以安全地拔出隨身碟。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:150
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
-msgstr "無法彈出 {0}，另一個程序可能正在使用磁盤。"
+msgstr "無法卸載 {0}，另一個程式可能正在使用隨身碟。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/WindowsRemovableDrivePlugin.py:68
 msgctxt "@item:intext"
@@ -280,7 +280,7 @@ msgstr "存取請求在印表機上被拒絕。"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:386
 msgctxt "@info:status"
 msgid "Access request failed due to a timeout."
-msgstr "存取請求失敗（原因：超時）。"
+msgstr "存取請求超時失敗。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:450
 msgctxt "@info:status"
@@ -320,7 +320,7 @@ msgstr "線軸 {0} 上沒有足夠的材料。"
 #, python-brace-format
 msgctxt "@label"
 msgid "Different PrintCore (Cura: {0}, Printer: {1}) selected for extruder {2}"
-msgstr "不同的列印頭（Cura： {0}，印表機： 為擠出機 {2} 選擇了 {1})"
+msgstr "不同的列印頭（Cura：{0}，印表機： 為擠出機 {2} 選擇了 {1}）"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:694
 #, python-brace-format
@@ -342,7 +342,7 @@ msgstr "您確定要使用所選設定進行列印嗎？"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:708
 msgctxt "@label"
 msgid "There is a mismatch between the configuration or calibration of the printer and Cura. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "印表機的設定或校準與 Cura 之間不匹配。為了獲得最佳列印效果，請務必切換列印頭和印表機中插入的材料。"
+msgstr "印表機的設定或校準與 Cura 之間不匹配。為了獲得最佳列印效果，請使用印表機列印頭和材料的設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:714
 msgctxt "@window:title"
@@ -352,7 +352,7 @@ msgstr "設定不匹配"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:815
 msgctxt "@info:status"
 msgid "Sending data to printer"
-msgstr "向印表機發送數據"
+msgstr "向印表機發送資料中"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:816
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/SettingsWindow.qml:46
@@ -372,7 +372,7 @@ msgstr "取消"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:884
 msgctxt "@info:status"
 msgid "Unable to send data to printer. Is another job still active?"
-msgstr "無法向印表機發送數據。請確認是否有另一項列印任務仍在進行？"
+msgstr "無法向印表機發送資料。請確認是否有另一項列印任務正在進行？"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1018
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:198
@@ -393,7 +393,7 @@ msgstr "暫停列印..."
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1032
 msgctxt "@label:MonitorStatus"
 msgid "Resuming print..."
-msgstr "恢復列印..."
+msgstr "繼續列印..."
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1175
 msgctxt "@window:title"
@@ -408,7 +408,7 @@ msgstr "您想在 Cura 中使用當前的印表機設定嗎？"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1179
 msgctxt "@label"
 msgid "The PrintCores and/or materials on your printer differ from those within your current project. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "印表機上的列印頭和/或材料與當前專案中的不同。 為獲得最佳列印效果，請始終使用已插入印表機的列印頭和材料進行切片。"
+msgstr "印表機上的列印頭和/或材料與當前專案中的不同。 為獲得最佳列印效果，請使用目前印表機列印頭和材料的設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.py:19
 msgctxt "@action"
@@ -443,7 +443,7 @@ msgstr "啟動 %s 時發生錯誤！"
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/CommonComReader.py:207
 msgctxt "@info:status"
 msgid "Please keep in mind, that you have to reopen your SolidWorks file manually! Reloading the model won't work!"
-msgstr "請記住，您必須手動重新開啟 SolidWorks 檔案！ 重新加載模型將無法正常工作！"
+msgstr "請注意，您必須手動重新開啟 SolidWorks 檔案！ 重新載入模型無法正常工作！"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.py:24
 msgid "Modify G-Code"
@@ -452,7 +452,7 @@ msgstr "修改 G-Code 檔案"
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:43
 msgctxt "@info"
 msgid "Cura collects anonymised slicing statistics. You can disable this in the preferences."
-msgstr "Cura 收集匿名切片統計資料。 您可以在偏好設定中禁用此選項。"
+msgstr "Cura 收集匿名切片統計資料。 您可以在偏好設定中關閉此選項。"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:44
 msgctxt "@action:button"
@@ -509,7 +509,7 @@ msgstr "GIF 圖像"
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:108
 msgctxt "@info:status"
 msgid "The selected material is incompatible with the selected machine or configuration."
-msgstr "所選材料與所選機器或設定不兼容。"
+msgstr "所選材料與所選機器或設定不相容。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:308
 #, python-brace-format
@@ -525,7 +525,7 @@ msgstr "無法切片（原因：主塔或主位置無效）。"
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:325
 msgctxt "@info:status"
 msgid "Nothing to slice because none of the models fit the build volume. Please scale or rotate models to fit."
-msgstr "無法執行，因為沒有一個模型符合成形空間體積。請縮放或旋轉模型以適應列印平台。"
+msgstr "沒有模型可進行切片，因為模型超出了建構空間。請縮放或旋轉模型。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:65
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:238
@@ -553,7 +553,7 @@ msgstr "推薦"
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:459
 msgctxt "@title:tab"
 msgid "Custom"
-msgstr "自定義"
+msgstr "自定選項"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:30
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:36
@@ -642,7 +642,7 @@ msgstr "預切片檔案 {0}"
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:440
 msgctxt "@item:material"
 msgid "No material loaded"
-msgstr "未加載材料"
+msgstr "未裝載材料"
 
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:447
 msgctxt "@item:material"
@@ -658,7 +658,7 @@ msgstr "正在為模型尋找新位置"
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:83
 msgctxt "@info:status"
 msgid "Unable to find a location within the build volume for all objects"
-msgstr "無法在成形空間體積內放下全部模型"
+msgstr "無法在建構空間內放下全部模型"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:417
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:112
@@ -676,17 +676,17 @@ msgstr "檔案 <filename>{0}</filename> 已存在。你確定要替換它嗎?"
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:801
 msgctxt "@label"
 msgid "Custom"
-msgstr "自定義"
+msgstr "自定"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:805
 msgctxt "@label"
 msgid "Custom Material"
-msgstr "自定義材料"
+msgstr "自定材料"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:24
 msgctxt "@info:status Has a cancel button next to it."
 msgid "The selected material diameter causes the material to become incompatible with the current printer."
-msgstr "所選材料直徑導致材料與當前印表機不兼容。"
+msgstr "所選材料直徑導致材料與當前印表機不相容。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:25
 msgctxt "@action:button"
@@ -776,7 +776,7 @@ msgid ""
 "        <p>Please use the information below to post a bug report at <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>\n"
 "    "
 msgstr ""
-"<p>發生了致命錯誤，我們無法恢復！</p>\n"
+"<p>發生了致命錯誤，我們無法繼續！</p>\n"
 "        <p>請在以下網址中使用下方的信息提交錯誤報告：<a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>\n"
 "    "
 
@@ -798,7 +798,7 @@ msgstr "正在設定場景..."
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:652
 msgctxt "@info:progress"
 msgid "Loading interface..."
-msgstr "正在載入界面…"
+msgstr "正在載入介面…"
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:815
 #, python-format
@@ -1335,7 +1335,7 @@ msgstr "走線類型"
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:144
 msgctxt "@label"
 msgid "Compatibility Mode"
-msgstr "兼容模式"
+msgstr "相容模式"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:210
 msgctxt "@label"
@@ -1839,7 +1839,7 @@ msgstr "請取出列印件"
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:238
 msgctxt "@label:"
 msgid "Resume"
-msgstr "恢復"
+msgstr "繼續"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:242
 msgctxt "@label:"
@@ -2052,7 +2052,7 @@ msgstr "基本"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:128
 msgctxt "@label"
 msgid "Interface"
-msgstr "接口"
+msgstr "介面"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:139
 msgctxt "@label"
@@ -2162,12 +2162,12 @@ msgstr "G-code 讀取器中的警告信息"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:423
 msgctxt "@info:tooltip"
 msgid "Should layer be forced into compatibility mode?"
-msgstr "層視圖要強制進入兼容模式嗎？"
+msgstr "層視圖要強制進入相容模式嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:428
 msgctxt "@option:check"
 msgid "Force layer view compatibility mode (restart required)"
-msgstr "強制層視圖兼容模式（需要重新啟動）"
+msgstr "強制層視圖相容模式（需要重新啟動）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:444
 msgctxt "@label"
@@ -2267,7 +2267,7 @@ msgstr "啟動時檢查更新"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:644
 msgctxt "@info:tooltip"
 msgid "Should anonymous data about your print be sent to Ultimaker? Note, no models, IP addresses or other personally identifiable information is sent or stored."
-msgstr "您願意將關於您的列印數據以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄/發送任何模型、IP 地址或其他私人數據。"
+msgstr "您願意將關於您的列印資料以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄/發送任何模型、IP 地址或其他私人資料。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:649
 msgctxt "@option:check"
@@ -2583,7 +2583,7 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:118
 msgctxt "@label"
 msgid "Graphical user interface"
-msgstr "圖形用戶界面"
+msgstr "圖形用戶介面"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:119
 msgctxt "@label"
@@ -2623,7 +2623,7 @@ msgstr "C / C++ 綁定庫"
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:127
 msgctxt "@label"
 msgid "Data interchange format"
-msgstr "數據交換格式"
+msgstr "資料交換格式"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:128
 msgctxt "@label"
@@ -2740,7 +2740,7 @@ msgid ""
 msgstr ""
 "此設定的值與設定檔案不同。\n"
 "\n"
-"單擊以恢復設定檔案的值。"
+"單擊以復原設定檔案的值。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:284
 msgctxt "@label"
@@ -2751,7 +2751,7 @@ msgid ""
 msgstr ""
 "此設定通常可被自動計算，但其當前已被絕對定義。\n"
 "\n"
-"單擊以恢復自動計算的值。"
+"單擊以復原自動計算的值。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:112
 msgctxt "@label:listbox"
@@ -2902,7 +2902,7 @@ msgstr "預計剩餘時間"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:67
 msgctxt "@action:inmenu"
 msgid "Toggle Fu&ll Screen"
-msgstr "切換完整界面（&F）"
+msgstr "切換全螢幕（&F）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:74
 msgctxt "@action:inmenu menubar:edit"
@@ -3420,7 +3420,7 @@ msgstr "材料"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:236
 msgctxt "@tooltip"
 msgid "Click to check the material compatibility on Ultimaker.com."
-msgstr "點擊查看 Ultimaker.com 上的材料兼容情況。"
+msgstr "點擊查看 Ultimaker.com 上的材料相容性。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:325
 msgctxt "@label"
