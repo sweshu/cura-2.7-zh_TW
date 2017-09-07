@@ -3,19 +3,30 @@
 
 安裝方式
 ----------
-1. 點擊右上方 `Clone or download` 綠色按鈕，選擇 `Download ZIP`
-2. 解開 zip 檔後，將 `Cura 2.7\` 目錄複製到你 cura 2.7 的安裝目錄下即可。
-3. Windows 通常是安裝在 `c:\Program Files\Cura 2.7\` 下
+1. 點擊網頁右上方 `Clone or download` 綠色按鈕，選擇 `Download ZIP`
+2. 解壓 zip 檔後，將 `Cura 2.7\` 目錄複製到你 cura 2.7 的目錄下即可。
+3. Windows 的 cura 2.7 目錄通常是在 `c:\Program Files\Cura 2.7\`
 
 
 設定方式
 ----------
+
+### 方法一 ( 官方建議方式 )
 1. 打開 cura
 2. 點擊選單 Help 的第一項 `Show Configuration Folder`，打開設定檔所在的資料夾
 3. 使用文字編輯器編輯 cura.cfg 這個檔案
 4. 找到 `language = xxxx` 這一行，改成 `language = zh_TW`
 5. 如果找不到 `language = xxxx` ，可以直接把 `language = zh_TW` 加在 `[general]` 下面一行
 6. 關閉 cura 再重新打開
+
+### 方法二
+1. 使用文字編輯器編輯下面的檔案
+   `c:\Program Files\Cura 2.7\resources\qml\Preferences\GeneralPage.qml`
+2. 搜尋這一行
+   `append({ text: "简体中文", code: "zh_CN" })`
+3. 在底下增加一行
+   `append({ text: "繁體中文", code: "zh_TW" })`
+4. 執行 cura ，在設定中就會多出繁體中文可以選擇了
 
 
 問題回報
