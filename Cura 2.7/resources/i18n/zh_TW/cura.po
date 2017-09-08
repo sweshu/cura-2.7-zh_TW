@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cura 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 16:53+0000\n"
-"PO-Revision-Date: 2017-09-06 23:59+0800\n"
+"PO-Revision-Date: 2017-09-08 23:33+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.py:28
 msgctxt "@action"
 msgid "Machine Settings"
-msgstr "印表機設定"
+msgstr "列印機設定"
 
 #: /home/ruben/Projects/Cura/plugins/XRayView/__init__.py:12
 msgctxt "@item:inlistbox"
@@ -31,12 +31,12 @@ msgstr "透視"
 #: /home/ruben/Projects/Cura/plugins/X3DReader/__init__.py:13
 msgctxt "@item:inlistbox"
 msgid "X3D File"
-msgstr "X3D 檔案"
+msgstr "X3D 檔"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeWriter/__init__.py:16
 msgctxt "@item:inlistbox"
 msgid "GCode File"
-msgstr "GCode 檔案"
+msgstr "GCode 檔"
 
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/__init__.py:13
 msgctxt "@label"
@@ -46,7 +46,7 @@ msgstr "Doodle3D"
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/__init__.py:17
 msgctxt "@info:whatsthis"
 msgid "Accepts G-Code and sends them over WiFi to a Doodle3D WiFi-Box."
-msgstr "接受 G-Code 並通過 WiFi 將其發送到 Doodle3D WiFi-Box。"
+msgstr "接受 G-Code 並透過 WiFi 將其發送到 Doodle3D WiFi-Box。"
 
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/PrinterConnection.py:36
 msgctxt "@item:inmenu"
@@ -86,7 +86,7 @@ msgstr "合併有效設定"
 #: /home/ruben/Projects/Cura/plugins/ProfileFlattener/ProfileFlattener.py:32
 msgctxt "@info:status"
 msgid "Profile has been flattened & activated."
-msgstr "設定檔案已被合併並啟動。"
+msgstr "設定檔案已被合併並啟用。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:26
 msgctxt "@item:inmenu"
@@ -96,65 +96,65 @@ msgstr "USB 連線列印"
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:27
 msgctxt "@action:button Preceded by 'Ready to'."
 msgid "Print via USB"
-msgstr "通過 USB 連線列印"
+msgstr "透過 USB 連線列印"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:28
 msgctxt "@info:tooltip"
 msgid "Print via USB"
-msgstr "通過 USB 連線列印"
+msgstr "透過 USB 連線列印"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:30
 msgctxt "@info:status"
 msgid "Connected via USB"
-msgstr "通過 USB 連接"
+msgstr "透過 USB 連接"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:153
 msgctxt "@info:status"
 msgid "Unable to start a new job because the printer is busy or not connected."
-msgstr "無法啟動新作業，因為印表機處於忙碌狀態或未連接。"
+msgstr "無法啟動新作業，因為列印機處於忙碌狀態或未連接。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:456
 msgctxt "@info:status"
 msgid "This printer does not support USB printing because it uses UltiGCode flavor."
-msgstr "此印表機不支援通過 USB 列印，因為其使用 UltiGCode 類型的 G-code 檔案。"
+msgstr "此列印機不支援透過 USB 列印，因為其使用 UltiGCode 類型的 G-code 檔。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:460
 msgctxt "@info:status"
 msgid "Unable to start a new job because the printer does not support usb printing."
-msgstr "無法啟動新作業，因為該印表機不支援通過 USB 列印。"
+msgstr "無法啟動新作業，因為該列印機不支援 USB 連線列印。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDeviceManager.py:108
 msgctxt "@info"
 msgid "Unable to update firmware because there are no printers connected."
-msgstr "無法更新韌體，因為沒有連接印表機。"
+msgstr "無法更新韌體，因為沒有連接列印機。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDeviceManager.py:122
 #, python-format
 msgctxt "@info"
 msgid "Could not find firmware required for the printer at %s."
-msgstr "在 %s 無法找到印表機所需的韌體。"
+msgstr "在 %s 無法找到列印機所需的韌體。"
 
 #: /home/ruben/Projects/Cura/plugins/X3GWriter/__init__.py:14
 msgctxt "X3G Writer File Description"
 msgid "X3G File"
-msgstr "X3G 檔案"
+msgstr "X3G 檔"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:23
 msgctxt "@action:button Preceded by 'Ready to'."
 msgid "Save to Removable Drive"
-msgstr "儲存至隨身碟"
+msgstr "儲存至行動裝置"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:24
 #, python-brace-format
 msgctxt "@item:inlistbox"
 msgid "Save to Removable Drive {0}"
-msgstr "儲存到隨身碟 {0}"
+msgstr "儲存到行動裝置 {0}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:89
 #, python-brace-format
 msgctxt "@info:progress"
 msgid "Saving to Removable Drive <filename>{0}</filename>"
-msgstr "儲存到隨身碟 <filename> {0} </filename>"
+msgstr "儲存到行動裝置 <filename> {0} </filename>"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:99
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:102
@@ -167,7 +167,7 @@ msgstr "無法儲存到 <filename>{0}</filename>：<message>{1}</message>"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
-msgstr "儲存到隨身碟 {0}：{1}"
+msgstr "儲存到行動裝置 {0}：{1}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:133
 msgctxt "@action:button"
@@ -178,45 +178,45 @@ msgstr "卸載"
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
-msgstr "卸載隨身碟 {0}"
+msgstr "卸載行動裝置 {0}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:138
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to removable drive {0}: {1}"
-msgstr "無法儲存到隨身碟 {0}：{1}"
+msgstr "無法儲存到行動裝置 {0}：{1}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:148
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
-msgstr "已卸載 {0}。現在您可以安全地拔出隨身碟。"
+msgstr "已卸載 {0}。現在你可以安全地拔出行動裝置。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:150
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
-msgstr "無法卸載 {0}，另一個程式可能正在使用隨身碟。"
+msgstr "無法卸載 {0}，另一個程式可能正在使用行動裝置。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/WindowsRemovableDrivePlugin.py:68
 msgctxt "@item:intext"
 msgid "Removable Drive"
-msgstr "隨身碟"
+msgstr "行動裝置"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:106
 msgctxt "@action:button Preceded by 'Ready to'."
 msgid "Print over network"
-msgstr "通過網路列印"
+msgstr "網路連線列印"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:107
 msgctxt "@properties:tooltip"
 msgid "Print over network"
-msgstr "通過網路列印"
+msgstr "網路連線列印"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:156
 msgctxt "@info:status"
 msgid "Access to the printer requested. Please approve the request on the printer"
-msgstr "已發送印表機存取請求，請在印表機上批准該請求"
+msgstr "已發送列印機存取請求，請在列印機上批准該請求"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:157
 msgctxt "@info:status"
@@ -236,12 +236,12 @@ msgstr "重新發送存取請求"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:160
 msgctxt "@info:status"
 msgid "Access to the printer accepted"
-msgstr "印表機接受了存取請求"
+msgstr "列印機接受了存取請求"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:161
 msgctxt "@info:status"
 msgid "No access to print with this printer. Unable to send print job."
-msgstr "無法使用本印表機進行列印，無法發送列印作業。"
+msgstr "無法使用本列印機進行列印，無法發送列印作業。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:162
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:28
@@ -255,27 +255,27 @@ msgstr "請求存取"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:71
 msgctxt "@info:tooltip"
 msgid "Send access request to the printer"
-msgstr "向印表機發送存取請求"
+msgstr "向列印機發送存取請求"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:358
 msgctxt "@info:status"
 msgid "Connected over the network. Please approve the access request on the printer."
-msgstr "已通過網路連接。請在印表機上接受存取請求。"
+msgstr "已透過網路連接。請在列印機上接受存取請求。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:365
 msgctxt "@info:status"
 msgid "Connected over the network."
-msgstr "已通過網路連接。"
+msgstr "已透過網路連接。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:378
 msgctxt "@info:status"
 msgid "Connected over the network. No access to control the printer."
-msgstr "已通過網路連接，但沒有印表機的控制權限。"
+msgstr "已透過網路連接，但沒有列印機的控制權限。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:383
 msgctxt "@info:status"
 msgid "Access request was denied on the printer."
-msgstr "存取請求在印表機上被拒絕。"
+msgstr "存取請求在列印機上被拒絕。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:386
 msgctxt "@info:status"
@@ -290,13 +290,13 @@ msgstr "網路連接中斷。"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:481
 msgctxt "@info:status"
 msgid "The connection with the printer was lost. Check your printer to see if it is connected."
-msgstr "與印表機的連接中斷，請檢查印表機是否已連接。"
+msgstr "與列印機的連接中斷，請檢查列印機是否已連接。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:630
 #, python-format
 msgctxt "@info:status"
 msgid "Unable to start a new print job, printer is busy. Current printer status is %s."
-msgstr "印表機無法啟動新的列印作業，當前的印表機狀態為 %s。"
+msgstr "列印機無法啟動新的列印作業，目前的列印機狀態為 %s。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:654
 #, python-brace-format
@@ -308,41 +308,41 @@ msgstr "無法啟動新的列印作業。插槽 {0} 中未加載列印頭。"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Unable to start a new print job. No material loaded in slot {0}"
-msgstr "無法啟動新的列印作業。插槽 {0} 中未加載材料。"
+msgstr "無法啟動新的列印作業。插槽 {0} 中未加載耗材。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:670
 #, python-brace-format
 msgctxt "@label"
 msgid "Not enough material for spool {0}."
-msgstr "線軸 {0} 上沒有足夠的材料。"
+msgstr "線軸 {0} 上沒有足夠的耗材。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:680
 #, python-brace-format
 msgctxt "@label"
 msgid "Different PrintCore (Cura: {0}, Printer: {1}) selected for extruder {2}"
-msgstr "不同的列印頭（Cura：{0}，印表機： 為擠出機 {2} 選擇了 {1}）"
+msgstr "不同的列印頭（Cura：{0}，列印機： 為擠出機 {2} 選擇了 {1}）"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:694
 #, python-brace-format
 msgctxt "@label"
 msgid "Different material (Cura: {0}, Printer: {1}) selected for extruder {2}"
-msgstr "您為擠出機 {2} 選擇了不同的材料（Cura：{0}，印表機：{1}）"
+msgstr "你為擠出機 {2} 選擇了不同的耗材（Cura：{0}，列印機：{1}）"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:702
 #, python-brace-format
 msgctxt "@label"
 msgid "PrintCore {0} is not properly calibrated. XY calibration needs to be performed on the printer."
-msgstr "列印頭 {0} 未正確校準。 需要在印表機上執行 XY 校準。"
+msgstr "列印頭 {0} 未正確校準。 需要在列印機上執行 XY 校準。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:707
 msgctxt "@label"
 msgid "Are you sure you wish to print with the selected configuration?"
-msgstr "您確定要使用所選設定進行列印嗎？"
+msgstr "你確定要使用所選設定進行列印嗎？"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:708
 msgctxt "@label"
 msgid "There is a mismatch between the configuration or calibration of the printer and Cura. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "印表機的設定或校準與 Cura 之間不匹配。為了獲得最佳列印效果，請使用印表機列印頭和材料的設定進行切片。"
+msgstr "列印機的設定或校準與 Cura 之間不匹配。為了獲得最佳列印效果，請使用列印機列印頭和耗材的設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:714
 msgctxt "@window:title"
@@ -352,7 +352,7 @@ msgstr "設定不匹配"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:815
 msgctxt "@info:status"
 msgid "Sending data to printer"
-msgstr "向印表機發送資料中"
+msgstr "向列印機發送資料中"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:816
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/SettingsWindow.qml:46
@@ -372,7 +372,7 @@ msgstr "取消"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:884
 msgctxt "@info:status"
 msgid "Unable to send data to printer. Is another job still active?"
-msgstr "無法向印表機發送資料。請確認是否有另一項列印任務正在進行？"
+msgstr "無法向列印機發送資料。請確認是否有另一項列印任務正在進行？"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1018
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:198
@@ -383,7 +383,7 @@ msgstr "中止列印..."
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1024
 msgctxt "@label:MonitorStatus"
 msgid "Print aborted. Please check the printer"
-msgstr "列印已中止。請檢查印表機"
+msgstr "列印已中止。請檢查列印機"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1030
 msgctxt "@label:MonitorStatus"
@@ -398,22 +398,22 @@ msgstr "繼續列印..."
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1175
 msgctxt "@window:title"
 msgid "Sync with your printer"
-msgstr "與您的印表機同步"
+msgstr "與你的列印機同步"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1177
 msgctxt "@label"
 msgid "Would you like to use your current printer configuration in Cura?"
-msgstr "您想在 Cura 中使用當前的印表機設定嗎？"
+msgstr "你想在 Cura 中使用目前的列印機設定嗎？"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1179
 msgctxt "@label"
 msgid "The PrintCores and/or materials on your printer differ from those within your current project. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "印表機上的列印頭和/或材料與當前專案中的不同。 為獲得最佳列印效果，請使用目前印表機列印頭和材料的設定進行切片。"
+msgstr "列印機上的列印頭和/或耗材與目前專案中的不同。 為獲得最佳列印效果，請使用目前列印機列印頭和耗材的設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.py:19
 msgctxt "@action"
 msgid "Connect via Network"
-msgstr "通過網路連接"
+msgstr "透過網路連接"
 
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/SolidWorksReader.py:172
 msgctxt "@info:status"
@@ -443,7 +443,7 @@ msgstr "啟動 %s 時發生錯誤！"
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/CommonComReader.py:207
 msgctxt "@info:status"
 msgid "Please keep in mind, that you have to reopen your SolidWorks file manually! Reloading the model won't work!"
-msgstr "請注意，您必須手動重新開啟 SolidWorks 檔案！ 重新載入模型無法正常工作！"
+msgstr "請注意，你必須手動重新開啟 SolidWorks 檔案！ 重新載入模型無法正常工作！"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.py:24
 msgid "Modify G-Code"
@@ -452,7 +452,7 @@ msgstr "修改 G-Code 檔案"
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:43
 msgctxt "@info"
 msgid "Cura collects anonymised slicing statistics. You can disable this in the preferences."
-msgstr "Cura 收集匿名切片統計資料。 您可以在偏好設定中關閉此選項。"
+msgstr "Cura 收集匿名切片統計資料。 你可以在偏好設定中關閉此選項。"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:44
 msgctxt "@action:button"
@@ -468,7 +468,7 @@ msgstr "Cura 15.04 設定檔案"
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "G-code File"
-msgstr "GCode 檔案"
+msgstr "G-code 檔"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/__init__.py:13
 msgctxt "@item:inlistbox"
@@ -509,13 +509,13 @@ msgstr "GIF 圖像"
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:108
 msgctxt "@info:status"
 msgid "The selected material is incompatible with the selected machine or configuration."
-msgstr "所選材料與所選機器或設定不相容。"
+msgstr "所選耗材與所選機器或設定不相容。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:308
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Unable to slice with the current settings. The following settings have errors: {0}"
-msgstr "無法使用當前設定進行切片。以下設定存在錯誤：{0}"
+msgstr "無法使用目前設定進行切片。以下設定存在錯誤：{0}"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:317
 msgctxt "@info:status"
@@ -525,7 +525,7 @@ msgstr "無法切片（原因：主塔或主位置無效）。"
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:325
 msgctxt "@info:status"
 msgid "Nothing to slice because none of the models fit the build volume. Please scale or rotate models to fit."
-msgstr "沒有模型可進行切片，因為模型超出了建構空間。請縮放或旋轉模型。"
+msgstr "沒有模型可進行切片，因為模型超出了列印範圍。請縮放或旋轉模型, 讓模型可置入列印範圍。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:65
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:238
@@ -553,28 +553,28 @@ msgstr "推薦"
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:459
 msgctxt "@title:tab"
 msgid "Custom"
-msgstr "自定選項"
+msgstr "自訂選項"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:30
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:36
 msgctxt "@item:inlistbox"
 msgid "3MF File"
-msgstr "3MF 檔案"
+msgstr "3MF 檔"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/ThreeMFWorkspaceReader.py:122
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:1050
 msgctxt "@label"
 msgid "Nozzle"
-msgstr "噴嘴"
+msgstr "噴頭"
 
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.py:25
 msgid "Browse plugins"
-msgstr "瀏覽插件"
+msgstr "瀏覽外掛"
 
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.py:120
 msgctxt "@window:title"
 msgid "Plugin browser"
-msgstr "插件瀏覽器"
+msgstr "外掛瀏覽器"
 
 #: /home/ruben/Projects/Cura/plugins/SolidView/__init__.py:12
 msgctxt "@item:inmenu"
@@ -584,7 +584,7 @@ msgstr "實體"
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/__init__.py:18
 msgctxt "@item:inlistbox"
 msgid "G File"
-msgstr "G 檔案"
+msgstr "G 檔"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/GCodeReader.py:254
 msgctxt "@info:status"
@@ -594,7 +594,7 @@ msgstr "解析 G-code"
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/GCodeReader.py:365
 msgctxt "@info:generic"
 msgid "Make sure the g-code is suitable for your printer and printer configuration before sending the file to it. The g-code representation may not be accurate."
-msgstr "發送檔案之前，請確保 G-code 適用於當前印表機和印表機設定。當前 G-code 檔案可能不準確。"
+msgstr "發送檔案之前，請確保 G-code 適用於目前列印機和列印機設定。目前 G-code 檔案可能不準確。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileWriter/__init__.py:14
 #: /home/ruben/Projects/Cura/plugins/CuraProfileReader/__init__.py:14
@@ -605,12 +605,12 @@ msgstr "Cura 設定檔案"
 #: /home/ruben/Projects/Cura/plugins/3MFWriter/__init__.py:30
 msgctxt "@item:inlistbox"
 msgid "3MF file"
-msgstr "3MF 檔案"
+msgstr "3MF 檔"
 
 #: /home/ruben/Projects/Cura/plugins/3MFWriter/__init__.py:38
 msgctxt "@item:inlistbox"
 msgid "Cura Project 3MF file"
-msgstr "Cura 專案 3MF 檔案"
+msgstr "Cura 專案 3MF 檔"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelection.py:20
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelection.py:20
@@ -637,17 +637,17 @@ msgstr "調平列印平台"
 #, python-brace-format
 msgctxt "@label"
 msgid "Pre-sliced file {0}"
-msgstr "預切片檔案 {0}"
+msgstr "預切片檔 {0}"
 
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:440
 msgctxt "@item:material"
 msgid "No material loaded"
-msgstr "未裝載材料"
+msgstr "未裝載耗材"
 
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:447
 msgctxt "@item:material"
 msgid "Unknown material"
-msgstr "未知材料"
+msgstr "未知耗材"
 
 #: /home/ruben/Projects/Cura/cura/ArrangeObjectsJob.py:30
 msgctxt "@info:status"
@@ -658,13 +658,13 @@ msgstr "正在為模型尋找新位置"
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:83
 msgctxt "@info:status"
 msgid "Unable to find a location within the build volume for all objects"
-msgstr "無法在建構空間內放下全部模型"
+msgstr "無法在列印範圍內放下全部模型"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:417
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:112
 msgctxt "@title:window"
 msgid "File Already Exists"
-msgstr "檔案已存在"
+msgstr "檔案已經存在"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:418
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:113
@@ -676,17 +676,17 @@ msgstr "檔案 <filename>{0}</filename> 已存在。你確定要替換它嗎?"
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:801
 msgctxt "@label"
 msgid "Custom"
-msgstr "自定"
+msgstr "自訂"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:805
 msgctxt "@label"
 msgid "Custom Material"
-msgstr "自定材料"
+msgstr "自訂耗材"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:24
 msgctxt "@info:status Has a cancel button next to it."
 msgid "The selected material diameter causes the material to become incompatible with the current printer."
-msgstr "所選材料直徑導致材料與當前印表機不相容。"
+msgstr "所選耗材直徑導致耗材與目前列印機不相容。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:25
 msgctxt "@action:button"
@@ -696,7 +696,7 @@ msgstr "撤銷"
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:25
 msgctxt "@action"
 msgid "Undo changing the material diameter."
-msgstr "撤銷更改材料直徑。"
+msgstr "撤銷更改耗材直徑。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:143
 #, python-brace-format
@@ -708,7 +708,7 @@ msgstr "無法將設定檔案匯出至<filename> {0} </filename>：<message> {1}
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to export profile to <filename>{0}</filename>: Writer plugin reported failure."
-msgstr "無法將設定檔案匯出至<filename> {0} </filename>：寫入器插件報告故障。"
+msgstr "無法將設定檔案匯出至<filename> {0} </filename>：寫入器外掛報告故障。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:151
 #, python-brace-format
@@ -723,7 +723,7 @@ msgstr "設定檔案已匯出至：<filename> {0} </filename>"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to import profile from <filename>{0}</filename>: <message>{1}</message>"
-msgstr "無法從 <filename> {0} </filename> 匯入設定檔案：<message> {1} </message>"
+msgstr "無法從 <filename> {0} </filename> 匯入設定檔：<message> {1} </message>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:210
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:246
@@ -741,7 +741,7 @@ msgstr "設定 {0} 檔案類型未知或已損壞。"
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:267
 msgctxt "@label"
 msgid "Custom profile"
-msgstr "自定義設定檔案"
+msgstr "自訂設定檔案"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:278
 msgctxt "@info:status"
@@ -752,12 +752,12 @@ msgstr "設定檔案缺少列印品質類型定義。"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not find a quality type {0} for the current configuration."
-msgstr "無法為當前設定找到品質類型 {0}。"
+msgstr "無法為目前設定找到品質類型 {0}。"
 
 #: /home/ruben/Projects/Cura/cura/BuildVolume.py:95
 msgctxt "@info:status"
 msgid "The build volume height has been reduced due to the value of the \"Print Sequence\" setting to prevent the gantry from colliding with printed models."
-msgstr "由於「列印序列」設定的值，成形空間體積高度已被減少，以防止十字軸與列印模型相衝突。"
+msgstr "由於「列印序列」設定的值，成形列印範圍高度已被減少，以防止龍門與列印模型相衝突。"
 
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:34
 msgctxt "@info:status"
@@ -788,7 +788,7 @@ msgstr "開啟網頁"
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:248
 msgctxt "@info:progress"
 msgid "Loading machines..."
-msgstr "正在載入印表機..."
+msgstr "正在載入列印機..."
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:610
 msgctxt "@info:progress"
@@ -821,17 +821,17 @@ msgstr "如果加載 G-code，則無法開啟其他任何檔案。{0} 已跳過�
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:59
 msgctxt "@title"
 msgid "Machine Settings"
-msgstr "印表機設定"
+msgstr "列印機設定"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:77
 msgctxt "@title:tab"
 msgid "Printer"
-msgstr "印表機"
+msgstr "列印機"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:96
 msgctxt "@label"
 msgid "Printer Settings"
-msgstr "印表機設定"
+msgstr "列印機設定"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:107
 msgctxt "@label"
@@ -875,7 +875,7 @@ msgstr "置中"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:156
 msgctxt "@option:check"
 msgid "Heated bed"
-msgstr "加熱床"
+msgstr "熱床"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:167
 msgctxt "@label"
@@ -895,7 +895,7 @@ msgstr "X 最小值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:191
 msgctxt "@tooltip"
 msgid "Distance from the left of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭左側至噴嘴中心的距離。 用於防止「排隊」列印時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭左側至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:200
 msgctxt "@label"
@@ -905,7 +905,7 @@ msgstr "Y 最小值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:201
 msgctxt "@tooltip"
 msgid "Distance from the front of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭前端至噴嘴中心的距離。 用於防止「排隊」列印時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭前端至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:210
 msgctxt "@label"
@@ -915,7 +915,7 @@ msgstr "X 最大值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:211
 msgctxt "@tooltip"
 msgid "Distance from the right of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭右側至噴嘴中心的距離。 用於防止「排隊」列印時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭右側至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:220
 msgctxt "@label"
@@ -925,17 +925,17 @@ msgstr "Y 最大值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:221
 msgctxt "@tooltip"
 msgid "Distance from the rear of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭後部至噴嘴中心的距離。 用於防止「排隊」列印時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭後部至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:233
 msgctxt "@label"
 msgid "Gantry height"
-msgstr "十字軸高度"
+msgstr "龍門高度"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:235
 msgctxt "@tooltip"
 msgid "The height difference between the tip of the nozzle and the gantry system (X and Y axes). Used to prevent collisions between previous prints and the gantry when printing \"One at a Time\"."
-msgstr "噴嘴尖端與十字軸系統（X 軸和 Y 軸）之間的高度差。 用於防止「排隊」列印時之前的列印品與十字軸發生碰撞。"
+msgstr "噴頭尖端與龍門系統（X 軸和 Y 軸）之間的高度差。 用於防止「排隊列印」時之前的列印品與龍門發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:253
 msgctxt "@label"
@@ -945,23 +945,23 @@ msgstr "擠出機數目"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:287
 msgctxt "@tooltip"
 msgid "The nominal diameter of filament supported by the printer. The exact diameter will be overridden by the material and/or the profile."
-msgstr "印表機所支援耗材的公稱直徑。 材料和/或設定檔案將覆蓋精確直徑。"
+msgstr "列印機所支援耗材的標示直徑。 耗材和/或設定檔案將覆蓋精確直徑。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:289
 msgctxt "@label"
 msgid "Material diameter"
-msgstr "材料直徑"
+msgstr "耗材直徑"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:297
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:388
 msgctxt "@label"
 msgid "Nozzle size"
-msgstr "噴嘴孔徑"
+msgstr "噴頭孔徑"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:315
 msgctxt "@label"
 msgid "Start Gcode"
-msgstr "GCode 開始部分"
+msgstr "起始 Gcode"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:325
 msgctxt "@tooltip"
@@ -971,7 +971,7 @@ msgstr "將在開始時執行的 Gcode 命令。"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:334
 msgctxt "@label"
 msgid "End Gcode"
-msgstr "GCode 結束部分"
+msgstr "結束 Gcode"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:344
 msgctxt "@tooltip"
@@ -981,27 +981,27 @@ msgstr "將在結束時執行的 Gcode 命令。"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:376
 msgctxt "@label"
 msgid "Nozzle Settings"
-msgstr "噴嘴設定"
+msgstr "噴頭設定"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:398
 msgctxt "@label"
 msgid "Nozzle offset X"
-msgstr "噴嘴偏移 X"
+msgstr "噴頭偏移 X"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:410
 msgctxt "@label"
 msgid "Nozzle offset Y"
-msgstr "噴嘴偏移 Y"
+msgstr "噴頭偏移 Y"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:431
 msgctxt "@label"
 msgid "Extruder Start Gcode"
-msgstr "擠出機 Gcode 開始部分"
+msgstr "擠出機起始 Gcode"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:449
 msgctxt "@label"
 msgid "Extruder End Gcode"
-msgstr "擠出機 Gcode 結束部分"
+msgstr "擠出機結束 Gcode"
 
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/SettingsWindow.qml:20
 msgctxt "@title:window"
@@ -1100,7 +1100,7 @@ msgstr "由於輸入/輸出錯誤，導致韌體升級失敗。"
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:70
 msgctxt "@label"
 msgid "Firmware update failed due to missing firmware."
-msgstr "由於韌體丟失，導致韌體升級失敗。"
+msgstr "由於韌體遺失，導致韌體升級失敗。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:73
 msgctxt "@label"
@@ -1110,7 +1110,7 @@ msgstr "未知錯誤代碼: %1"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:55
 msgctxt "@title:window"
 msgid "Connect to Networked Printer"
-msgstr "連接到網路印表機"
+msgstr "連接到網路列印機"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:65
 msgctxt "@label"
@@ -1119,15 +1119,15 @@ msgid ""
 "\n"
 "Select your printer from the list below:"
 msgstr ""
-"要通過網路向印表機發送列印請求，請確保您的印表機已通過網線或 WIFI 連接到網路。若您不能連接 Cura 與印表機，您仍然可以使用 USB 設備將 G-code 檔案傳輸到印表機。\n"
+"要透過網路向列印機發送列印請求，請確保你的列印機已透過網線或 WIFI 連接到網路。若你不能連接 Cura 與列印機，你仍然可以使用 USB 設備將 G-code 檔案傳輸到列印機。\n"
 "\n"
-"從以下列表中選擇您的印表機："
+"從以下列表中選擇你的列印機："
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:75
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:44
 msgctxt "@action:button"
 msgid "Add"
-msgstr "添加"
+msgstr "增加"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:85
 msgctxt "@action:button"
@@ -1151,7 +1151,7 @@ msgstr "刷新"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:196
 msgctxt "@label"
 msgid "If your printer is not listed, read the <a href='%1'>network printing troubleshooting guide</a>"
-msgstr "如果您的印表機未列出，請閱讀<a href='%1'>網路列印故障排除指南</a>"
+msgstr "如果你的列印機未列出，請閱讀<a href='%1'>網路列印故障排除指南</a>"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:223
 msgctxt "@label"
@@ -1181,12 +1181,12 @@ msgstr "韌體版本"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:266
 msgctxt "@label"
 msgid "Address"
-msgstr "地址"
+msgstr "位址"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:280
 msgctxt "@label"
 msgid "The printer at this address has not yet responded."
-msgstr "該網路地址的印表機尚未響應。"
+msgstr "該網路位址的列印機尚無回應。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:285
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:38
@@ -1197,12 +1197,12 @@ msgstr "連接"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:299
 msgctxt "@title:window"
 msgid "Printer Address"
-msgstr "印表機網路地址"
+msgstr "列印機網路位址"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:329
 msgctxt "@alabel"
 msgid "Enter the IP address or hostname of your printer on the network."
-msgstr "輸入印表機在網路上的 IP 地址或主機名。"
+msgstr "輸入列印機在網路上的 IP 位址或主機名。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:359
 msgctxt "@action:button"
@@ -1212,22 +1212,22 @@ msgstr "確定"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:37
 msgctxt "@info:tooltip"
 msgid "Connect to a printer"
-msgstr "連接到印表機"
+msgstr "連接到列印機"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:116
 msgctxt "@info:tooltip"
 msgid "Load the configuration of the printer into Cura"
-msgstr "將印表機設定匯入 Cura"
+msgstr "將列印機設定匯入 Cura"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:117
 msgctxt "@action:button"
 msgid "Activate Configuration"
-msgstr "應用設定"
+msgstr "啟用設定"
 
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/ConfigDialog.qml:20
 msgctxt "@title:window"
 msgid "Cura SolidWorks Plugin Configuration"
-msgstr "Cura SolidWorks 插件設定"
+msgstr "Cura SolidWorks 外掛設定"
 
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/ConfigDialog.qml:44
 msgctxt "@action:label"
@@ -1290,12 +1290,12 @@ msgstr "記住我的選擇"
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:18
 msgctxt "@title:window"
 msgid "Post Processing Plugin"
-msgstr "後期處理插件"
+msgstr "後處理外掛"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:49
 msgctxt "@label"
 msgid "Post Processing Scripts"
-msgstr "後期處理腳本"
+msgstr "後處理腳本"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:218
 msgctxt "@action"
@@ -1310,7 +1310,7 @@ msgstr "設定"
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:456
 msgctxt "@info:tooltip"
 msgid "Change active post-processing scripts"
-msgstr "更改目前啟用的後期處理腳本"
+msgstr "更改目前啟用的後處理腳本"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:71
 msgctxt "@label"
@@ -1325,12 +1325,12 @@ msgstr "顏色方案"
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:102
 msgctxt "@label:listbox"
 msgid "Material Color"
-msgstr "材料顏色"
+msgstr "耗材顏色"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:106
 msgctxt "@label:listbox"
 msgid "Line Type"
-msgstr "走線類型"
+msgstr "線條類型"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:144
 msgctxt "@label"
@@ -1365,7 +1365,7 @@ msgstr "只顯示頂層"
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:273
 msgctxt "@label"
 msgid "Show 5 Detailed Layers On Top"
-msgstr "在頂部顯示 5 層列印細節"
+msgstr "顯示頂端 5 層列印細節"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:284
 msgctxt "@label"
@@ -1440,7 +1440,7 @@ msgstr "顏色越深厚度越大"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:149
 msgctxt "@info:tooltip"
 msgid "The amount of smoothing to apply to the image."
-msgstr "要應用到圖像的平滑量。"
+msgstr "影像平滑程度。"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:154
 msgctxt "@action:label"
@@ -1455,7 +1455,7 @@ msgstr "選擇設定"
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:197
 msgctxt "@title:window"
 msgid "Select Settings to Customize for this model"
-msgstr "選擇對此模型的自定義設定"
+msgstr "選擇對此模型的自訂設定"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:221
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:91
@@ -1493,12 +1493,12 @@ msgstr "摘要 - Cura 專案"
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:88
 msgctxt "@action:label"
 msgid "Printer settings"
-msgstr "印表機設定"
+msgstr "列印機設定"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:104
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the machine be resolved?"
-msgstr "機器的設定衝突應如何解決？"
+msgstr "如何解決機器的設定衝突？"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:124
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:97
@@ -1513,7 +1513,7 @@ msgstr "類型"
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:188
 msgctxt "@action:label"
 msgid "Name"
-msgstr "名字"
+msgstr "名稱"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:161
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:164
@@ -1524,7 +1524,7 @@ msgstr "設定檔案設定"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:177
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the profile be resolved?"
-msgstr "設定檔案中的衝突如何解決？"
+msgstr "如何解决設定檔中的設定衝突？"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:212
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:172
@@ -1537,7 +1537,7 @@ msgstr "不在設定檔案中"
 msgctxt "@action:label"
 msgid "%1 override"
 msgid_plural "%1 overrides"
-msgstr[0] "%1 重寫"
+msgstr[0] "%1 覆寫"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:228
 msgctxt "@action:label"
@@ -1548,17 +1548,17 @@ msgstr "衍生自"
 msgctxt "@action:label"
 msgid "%1, %2 override"
 msgid_plural "%1, %2 overrides"
-msgstr[0] "%1, %2 重寫"
+msgstr[0] "%1, %2 覆寫"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:249
 msgctxt "@action:label"
 msgid "Material settings"
-msgstr "材料設定"
+msgstr "耗材設定"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:265
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the material be resolved?"
-msgstr "材料的設定衝突應如何解決？"
+msgstr "如何解决耗材的設定衝突？"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:308
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:207
@@ -1586,7 +1586,7 @@ msgstr "%1 / %2"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:363
 msgctxt "@action:warning"
 msgid "Loading a project will clear all models on the buildplate"
-msgstr "加載專案將清除列印平台上的所有模型"
+msgstr "載入專案時將清除列印平台上的所有模型"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:381
 msgctxt "@action:button"
@@ -1596,12 +1596,12 @@ msgstr "開啟"
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.qml:11
 msgctxt "@title:window"
 msgid "Find & Update plugins"
-msgstr "查找與更新插件"
+msgstr "查找與更新外掛"
 
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.qml:25
 msgctxt "@label"
 msgid "Here you can find a list of Third Party plugins."
-msgstr "您可以在這裡找到第三方插件列表。"
+msgstr "你可以在這裡找到第三方外掛列表。"
 
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.qml:143
 msgctxt "@action:button"
@@ -1622,12 +1622,12 @@ msgstr "下載"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:25
 msgctxt "@title"
 msgid "Select Printer Upgrades"
-msgstr "選擇印表機升級"
+msgstr "選擇列印機更新檔"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelectionMachineAction.qml:37
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker 2."
-msgstr "請選擇適用於 Ultimaker 2 的升級檔案。"
+msgstr "請選擇適用於 Ultimaker 2 的更新檔。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelectionMachineAction.qml:45
 msgctxt "@label"
@@ -1642,12 +1642,12 @@ msgstr "列印平台調平"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:38
 msgctxt "@label"
 msgid "To make sure your prints will come out great, you can now adjust your buildplate. When you click 'Move to Next Position' the nozzle will move to the different positions that can be adjusted."
-msgstr "為了確保列印品質出色，您現在可以開始調整您的列印平台。當您點擊「移動到下一個位置」時，噴嘴將移動到可以調節的不同位置。"
+msgstr "為了確保列印品質出色，你現在可以開始調整你的列印平台。當你點擊「移動到下一個位置」時，噴頭將移動到可以調節的不同位置。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:47
 msgctxt "@label"
 msgid "For every position; insert a piece of paper under the nozzle and adjust the print build plate height. The print build plate height is right when the paper is slightly gripped by the tip of the nozzle."
-msgstr "在列印頭停止的每一個位置下方插入一張紙，並調整平台高度。當紙張恰好被噴嘴的尖端輕微壓住時，此時列印平台的高度已被正確校準。"
+msgstr "在列印頭停止的每一個位置下方插入一張紙，並調整平台高度。當紙張恰好被噴頭的尖端輕微壓住時，此時列印平台的高度已被正確校準。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:62
 msgctxt "@action:button"
@@ -1667,12 +1667,12 @@ msgstr "升級韌體"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:38
 msgctxt "@label"
 msgid "Firmware is the piece of software running directly on your 3D printer. This firmware controls the step motors, regulates the temperature and ultimately makes your printer work."
-msgstr "韌體是直接在 3D 印表機上運行的一個軟體。此韌體控制步進電機，調節溫度並最終使印表機正常工作。"
+msgstr "韌體是直接在 3D 列印機上運行的一個軟體。此韌體控制步進電機，調節溫度讓列印機正常運作。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:48
 msgctxt "@label"
 msgid "The firmware shipping with new printers works, but new versions tend to have more features and improvements."
-msgstr "新印表機出廠配備的韌體完全可以正常使用，但新版本往往具有更多的新功能和改進。"
+msgstr "新列印機出廠配備的韌體完全可以正常使用，但新版本往往具有更多的新功能和改進。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:62
 msgctxt "@action:button"
@@ -1682,37 +1682,37 @@ msgstr "自動升級韌體"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:72
 msgctxt "@action:button"
 msgid "Upload custom Firmware"
-msgstr "上傳自定義韌體"
+msgstr "上傳自訂韌體"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:83
 msgctxt "@title:window"
 msgid "Select custom firmware"
-msgstr "選擇自定義韌體"
+msgstr "選擇自訂韌體"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:37
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker Original"
-msgstr "請選擇適用於 Ultimaker Original 的升級檔案"
+msgstr "請選擇適用於 Ultimaker Original 的更新檔"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:45
 msgctxt "@label"
 msgid "Heated Build Plate (official kit or self-built)"
-msgstr "熱床（官方版本或自製）"
+msgstr "熱床（官方版本或自製版本）"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:27
 msgctxt "@title"
 msgid "Check Printer"
-msgstr "檢查印表機"
+msgstr "檢查列印機"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:39
 msgctxt "@label"
 msgid "It's a good idea to do a few sanity checks on your Ultimaker. You can skip this step if you know your machine is functional"
-msgstr "對 Ultimaker 進行幾項正確性檢查是很好的做法。如果您知道您的機器功能正常，則可跳過此步驟"
+msgstr "對 Ultimaker 進行幾項正確性檢查是很好的做法。如果你知道你的機器功能正常，則可跳過此步驟"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:53
 msgctxt "@action:button"
 msgid "Start Printer Check"
-msgstr "開始印表機檢查"
+msgstr "開始列印機檢查"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:80
 msgctxt "@label"
@@ -1763,7 +1763,7 @@ msgstr "Z Min 限位開關："
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:163
 msgctxt "@label"
 msgid "Nozzle temperature check: "
-msgstr "檢查噴嘴溫度："
+msgstr "檢查噴頭溫度："
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:187
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:248
@@ -1780,7 +1780,7 @@ msgstr "開始加熱"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:223
 msgctxt "@label"
 msgid "Build plate temperature check:"
-msgstr "列印平台溫度檢查："
+msgstr "熱床溫度檢查："
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:234
 msgctxt "@info:status"
@@ -1795,23 +1795,23 @@ msgstr "一切正常！你已經完成檢查。"
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:89
 msgctxt "@label:MonitorStatus"
 msgid "Not connected to a printer"
-msgstr "未連接至印表機"
+msgstr "未連接至列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:91
 msgctxt "@label:MonitorStatus"
 msgid "Printer does not accept commands"
-msgstr "印表機不接受命令"
+msgstr "列印機不接受命令"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:97
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:196
 msgctxt "@label:MonitorStatus"
 msgid "In maintenance. Please check the printer"
-msgstr "維護中。請檢查印表機"
+msgstr "維護中。請檢查列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:102
 msgctxt "@label:MonitorStatus"
 msgid "Lost connection with the printer"
-msgstr "與印表機的連接中斷"
+msgstr "與列印機的連接中斷"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:104
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:186
@@ -1859,7 +1859,7 @@ msgstr "中止列印"
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:283
 msgctxt "@label"
 msgid "Are you sure you want to abort the print?"
-msgstr "您確定要中止列印嗎？"
+msgstr "你確定要中止列印嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:15
 msgctxt "@title:window"
@@ -1872,8 +1872,8 @@ msgid ""
 "You have customized some profile settings.\n"
 "Would you like to keep or discard those settings?"
 msgstr ""
-"您已自定義某些設定檔案設定。\n"
-"您想保留或捨棄這些設定嗎？"
+"你已自訂某些設定檔案設定。\n"
+"你想保留或捨棄這些設定嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:110
 msgctxt "@title:column"
@@ -1888,7 +1888,7 @@ msgstr "預設"
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:124
 msgctxt "@title:column"
 msgid "Customized"
-msgstr "自定義"
+msgstr "自訂"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:157
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:586
@@ -1926,7 +1926,7 @@ msgstr "創建新設定檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:44
 msgctxt "@title"
 msgid "Information"
-msgstr "信息"
+msgstr "資訊"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:68
 msgctxt "@label"
@@ -1941,7 +1941,7 @@ msgstr "品牌"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:92
 msgctxt "@label"
 msgid "Material Type"
-msgstr "材料類型"
+msgstr "耗材類型"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:105
 msgctxt "@label"
@@ -1981,17 +1981,17 @@ msgstr "耗材長度"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:227
 msgctxt "@label"
 msgid "Cost per Meter"
-msgstr "每米成本"
+msgstr "每公尺成本"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:241
 msgctxt "@label"
 msgid "This material is linked to %1 and shares some of its properties."
-msgstr "此材料與 %1 相關聯，並共享其某些屬性。"
+msgstr "此耗材與 %1 相關聯，並共享其某些屬性。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:248
 msgctxt "@label"
 msgid "Unlink Material"
-msgstr "解綁材料"
+msgstr "解綁耗材"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:259
 msgctxt "@label"
@@ -2001,7 +2001,7 @@ msgstr "描述"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:272
 msgctxt "@label"
 msgid "Adhesion Information"
-msgstr "粘附信息"
+msgstr "黏著資訊"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:298
 msgctxt "@label"
@@ -2016,7 +2016,7 @@ msgstr "設定可見性"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:44
 msgctxt "@label:textbox"
 msgid "Check all"
-msgstr "全部勾選"
+msgstr "全選"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:40
 msgctxt "@info:status"
@@ -2036,7 +2036,7 @@ msgstr "設定檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:67
 msgctxt "@title:column"
 msgid "Current"
-msgstr "當前"
+msgstr "目前"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:75
 msgctxt "@title:column"
@@ -2062,7 +2062,7 @@ msgstr "語言："
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:198
 msgctxt "@label"
 msgid "Currency:"
-msgstr "幣種："
+msgstr "貨幣："
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:212
 msgctxt "@label"
@@ -2087,12 +2087,12 @@ msgstr "自動切片"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:311
 msgctxt "@label"
 msgid "Viewport behavior"
-msgstr "視區行為"
+msgstr "顯示區設定"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:319
 msgctxt "@info:tooltip"
 msgid "Highlight unsupported areas of the model in red. Without support these areas will not print properly."
-msgstr "以紅色突出顯示模型需要增加支撐結構的區域。沒有支撐，這些區域將無法正確列印。"
+msgstr "以紅色凸顯模型缺少支撐的區域。如果沒有支撐這些區域將無法正常列印。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:328
 msgctxt "@option:check"
@@ -2142,7 +2142,7 @@ msgstr "確保每個模型都保持分離"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:390
 msgctxt "@info:tooltip"
 msgid "Should models on the platform be moved down to touch the build plate?"
-msgstr "需要轉動模型，使它們接觸列印平台嗎？"
+msgstr "要將模型下降到碰觸列印平台嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:395
 msgctxt "@option:check"
@@ -2152,12 +2152,12 @@ msgstr "自動下降模型到列印平台"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:407
 msgctxt "@info:tooltip"
 msgid "Show caution message in gcode reader."
-msgstr "在 G-code 讀取器中顯示警告信息。"
+msgstr "在 G-code 讀取器中顯示警告資訊。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:416
 msgctxt "@option:check"
 msgid "Caution message in gcode reader"
-msgstr "G-code 讀取器中的警告信息"
+msgstr "G-code 讀取器中的警告資訊"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:423
 msgctxt "@info:tooltip"
@@ -2177,7 +2177,7 @@ msgstr "開啟並儲存檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:450
 msgctxt "@info:tooltip"
 msgid "Should models be scaled to the build volume if they are too large?"
-msgstr "當模型的尺寸過大時，是否將模型自動縮小至成形空間體積？"
+msgstr "當模型的尺寸過大時，是否將模型自動縮小至列印範圍嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:455
 msgctxt "@option:check"
@@ -2187,7 +2187,7 @@ msgstr "縮小過大模型"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:464
 msgctxt "@info:tooltip"
 msgid "An model may appear extremely small if its unit is for example in meters rather than millimeters. Should these models be scaled up?"
-msgstr "當模型以米而不是毫米為單位時，模型可能會在列印平台中顯得非常小。在此情況下是否進行放大？"
+msgstr "某些模型採用較大的單位(例如：公尺)，導致模型變得非常小，要將這些模型放大嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:469
 msgctxt "@option:check"
@@ -2197,12 +2197,12 @@ msgstr "放大過小模型"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:478
 msgctxt "@info:tooltip"
 msgid "Should a prefix based on the printer name be added to the print job name automatically?"
-msgstr "印表機名是否自動作為列印作業名稱的前綴？"
+msgstr "是否自動將列印機名稱作為列印作業名稱的前綴？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:483
 msgctxt "@option:check"
 msgid "Add machine prefix to job name"
-msgstr "將機器前綴添加到作業名稱中"
+msgstr "將列印機名稱前綴添加到列印作業名稱中"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:492
 msgctxt "@info:tooltip"
@@ -2242,12 +2242,12 @@ msgstr "始終匯入模型"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:564
 msgctxt "@info:tooltip"
 msgid "When you have made changes to a profile and switched to a different one, a dialog will be shown asking whether you want to keep your modifications or not, or you can choose a default behaviour and never show that dialog again."
-msgstr "當您對設定檔案進行更改並切換到其他設定檔案時將顯示一個對話框，詢問您是否要保留修改。您也可以選擇一個預設行為並令其不再顯示該對話框。"
+msgstr "當你對設定檔案進行更改並切換到其他設定檔案時將顯示一個對話框，詢問你是否要保留修改。你也可以選擇一個預設行為並令其不再顯示該對話框。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:573
 msgctxt "@label"
 msgid "Override Profile"
-msgstr "重寫設定檔案"
+msgstr "覆寫設定檔案"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:622
 msgctxt "@label"
@@ -2267,25 +2267,25 @@ msgstr "啟動時檢查更新"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:644
 msgctxt "@info:tooltip"
 msgid "Should anonymous data about your print be sent to Ultimaker? Note, no models, IP addresses or other personally identifiable information is sent or stored."
-msgstr "您願意將關於您的列印資料以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄/發送任何模型、IP 地址或其他私人資料。"
+msgstr "你願意將關於你的列印資料以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄/發送任何模型、IP 地址或其他私人資料。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:649
 msgctxt "@option:check"
 msgid "Send (anonymous) print information"
-msgstr "（匿名）發送列印信息"
+msgstr "（匿名）發送列印資訊"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:15
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:497
 msgctxt "@title:tab"
 msgid "Printers"
-msgstr "印表機"
+msgstr "列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:37
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:51
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:137
 msgctxt "@action:button"
 msgid "Activate"
-msgstr "啟動"
+msgstr "啟用"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:57
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:102
@@ -2296,7 +2296,7 @@ msgstr "重命名"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:151
 msgctxt "@label"
 msgid "Printer type:"
-msgstr "印表機類型："
+msgstr "列印機類型："
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:160
 msgctxt "@label"
@@ -2307,7 +2307,7 @@ msgstr "連接："
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:52
 msgctxt "@info:status"
 msgid "The printer is not connected."
-msgstr "尚未連接到印表機。"
+msgstr "尚未連接到列印機。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:172
 msgctxt "@label"
@@ -2317,7 +2317,7 @@ msgstr "狀態："
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:192
 msgctxt "@label:MonitorStatus"
 msgid "Waiting for someone to clear the build plate"
-msgstr "等待清理列印平台"
+msgstr "等待清空列印平台"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:201
 msgctxt "@label:MonitorStatus"
@@ -2338,7 +2338,7 @@ msgstr "受保護的設定檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Custom profiles"
-msgstr "自定義設定檔案"
+msgstr "自訂義設定檔案"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:64
 msgctxt "@label"
@@ -2365,27 +2365,27 @@ msgstr "匯出"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:126
 msgctxt "@label %1 is printer name"
 msgid "Printer: %1"
-msgstr "印表機：%1"
+msgstr "列印機：%1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:165
 msgctxt "@action:button"
 msgid "Update profile with current settings/overrides"
-msgstr "使用當前設定 / 重寫值更新設定檔案"
+msgstr "使用目前設定 / 覆寫值更新設定檔案"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:173
 msgctxt "@action:button"
 msgid "Discard current changes"
-msgstr "捨棄當前更改"
+msgstr "捨棄目前更改"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:190
 msgctxt "@action:label"
 msgid "This profile uses the defaults specified by the printer, so it has no settings/overrides in the list below."
-msgstr "此設定檔案使用印表機指定的預設值，因此在下面的列表中沒有此設定項。"
+msgstr "此設定檔案使用列印機指定的預設值，因此在下面的列表中沒有此設定項。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:197
 msgctxt "@action:label"
 msgid "Your current settings match the selected profile."
-msgstr "您當前的設定與選定的設定檔案相匹配。"
+msgstr "你目前的設定與選定的設定檔案相匹配。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:215
 msgctxt "@title:tab"
@@ -2426,17 +2426,17 @@ msgstr "匯出設定檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:499
 msgctxt "@title:tab"
 msgid "Materials"
-msgstr "材料"
+msgstr "耗材"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:116
 msgctxt "@action:label %1 is printer name, %2 is how this printer names variants, %3 is variant name"
 msgid "Printer: %1, %2: %3"
-msgstr "印表機：%1, %2: %3"
+msgstr "列印機：%1, %2: %3"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:120
 msgctxt "@action:label %1 is printer name"
 msgid "Printer: %1"
-msgstr "印表機：%1"
+msgstr "列印機：%1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:149
 msgctxt "@action:button"
@@ -2452,49 +2452,49 @@ msgstr "複製"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:319
 msgctxt "@title:window"
 msgid "Import Material"
-msgstr "匯入設定"
+msgstr "匯入耗材設定"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:320
 msgctxt "@info:status"
 msgid "Could not import material <filename>%1</filename>: <message>%2</message>"
-msgstr "無法匯入材料 <filename>%1</filename>：<message>%2</message>"
+msgstr "無法匯入耗材 <filename>%1</filename>：<message>%2</message>"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:324
 msgctxt "@info:status"
 msgid "Successfully imported material <filename>%1</filename>"
-msgstr "成功匯入材料 <filename>%1</filename>"
+msgstr "成功匯入耗材 <filename>%1</filename>"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:343
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:358
 msgctxt "@title:window"
 msgid "Export Material"
-msgstr "匯出材料"
+msgstr "匯出耗材設定"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:362
 msgctxt "@info:status"
 msgid "Failed to export material to <filename>%1</filename>: <message>%2</message>"
-msgstr "無法匯出材料至 <filename>%1</filename>：<message>%2</message>"
+msgstr "無法匯出耗材至 <filename>%1</filename>：<message>%2</message>"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:368
 msgctxt "@info:status"
 msgid "Successfully exported material to <filename>%1</filename>"
-msgstr "成功匯出材料至： <filename>%1</filename>"
+msgstr "成功匯出耗材至： <filename>%1</filename>"
 
 #: /home/ruben/Projects/Cura/resources/qml/AddMachineDialog.qml:18
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:822
 msgctxt "@title:window"
 msgid "Add Printer"
-msgstr "新增印表機"
+msgstr "新增列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/AddMachineDialog.qml:185
 msgctxt "@label"
 msgid "Printer Name:"
-msgstr "印表機名稱："
+msgstr "列印機名稱："
 
 #: /home/ruben/Projects/Cura/resources/qml/AddMachineDialog.qml:208
 msgctxt "@action:button"
 msgid "Add Printer"
-msgstr "新增印表機"
+msgstr "新增列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:166
 msgctxt "@tooltip"
@@ -2648,17 +2648,17 @@ msgstr "用於處理 3MF 檔案的函式庫"
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:132
 msgctxt "@label"
 msgid "Serial communication library"
-msgstr "串口通訊庫"
+msgstr "串口通訊函式庫"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:133
 msgctxt "@label"
 msgid "ZeroConf discovery library"
-msgstr "ZeroConf 發現庫"
+msgstr "ZeroConf 發現函式庫"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:134
 msgctxt "@label"
 msgid "Polygon clipping library"
-msgstr "多邊形剪輯庫"
+msgstr "多邊形剪輯函式庫"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:136
 msgctxt "@label"
@@ -2673,12 +2673,12 @@ msgstr "SVG 圖標"
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:60
 msgctxt "@label:textbox"
 msgid "Search..."
-msgstr "搜索..."
+msgstr "搜尋..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:390
 msgctxt "@action:menu"
 msgid "Copy value to all extruders"
-msgstr "將值複製到所有擠出機"
+msgstr "將設定值複製到所有擠出機"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:405
 msgctxt "@action:menu"
@@ -2707,9 +2707,9 @@ msgid ""
 "\n"
 "Click to make these settings visible."
 msgstr ""
-"一些隱藏設定正在使用有別於一般設定的計算值。\n"
+"部份隱藏設定使用的值與一般計算所得的值不同。\n"
 "\n"
-"單擊以使這些設定可見。"
+"點擊以顯這些設定。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:62
 msgctxt "@label Header for list of settings."
@@ -2724,12 +2724,12 @@ msgstr "影響因素"
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:157
 msgctxt "@label"
 msgid "This setting is always shared between all extruders. Changing it here will change the value for all extruders"
-msgstr "此設定始終對所有擠出機有效。在此進行更改將影響所有擠出機"
+msgstr "這個設定由全部的擠出機共享，變更這個設定將改變全部擠出機的設定值。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:160
 msgctxt "@label"
 msgid "The value is resolved from per-extruder values "
-msgstr "該值將會根據每一個擠出機的設定而確定 "
+msgstr "這個數值是由每個擠出機的設定值解析出來的。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:186
 msgctxt "@label"
@@ -2749,9 +2749,9 @@ msgid ""
 "\n"
 "Click to restore the calculated value."
 msgstr ""
-"此設定通常可被自動計算，但其當前已被絕對定義。\n"
+"這個設定通常由計算得出，可是它目前被設定為一個數值。\n"
 "\n"
-"單擊以復原自動計算的值。"
+"點擊以恢復計算得出的數值。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:112
 msgctxt "@label:listbox"
@@ -2765,17 +2765,17 @@ msgid ""
 "G-code files cannot be modified"
 msgstr ""
 "列印設定已禁用\n"
-"G-code 檔案無法被修改"
+"G-code 檔無法被修改"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:455
 msgctxt "@tooltip"
 msgid "<b>Recommended Print Setup</b><br/><br/>Print with the recommended settings for the selected printer, material and quality."
-msgstr "<b>推薦的列印設定</b> <br/> <br/>使用針對所選印表機、材料和品質的推薦設定進行列印。"
+msgstr "<b>推薦的列印設定</b> <br/> <br/>使用針對所選列印機、耗材和品質的推薦設定進行列印。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:460
 msgctxt "@tooltip"
 msgid "<b>Custom Print Setup</b><br/><br/>Print with finegrained control over every last bit of the slicing process."
-msgstr "<b>自定義列印設定</b> <br/>對切片過程中的每一個細節進行精細控制。"
+msgstr "<b>自訂列印設定</b> <br/>對切片過程中的每一個細節進行精細控制。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/MaterialMenu.qml:35
 msgctxt "@title:menuitem %1 is the automatically selected material"
@@ -2812,12 +2812,12 @@ msgstr "複製個數"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/RecentFilesMenu.qml:13
 msgctxt "@title:menu menubar:file"
 msgid "Open &Recent"
-msgstr "開啟最近使用過的檔案(&R)"
+msgstr "最近開啟的檔案(&R)"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:33
 msgctxt "@info:status"
 msgid "No printer connected"
-msgstr "沒有連接印表機"
+msgstr "沒有連接列印機"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:90
 msgctxt "@label"
@@ -2827,22 +2827,22 @@ msgstr "熱端"
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:119
 msgctxt "@tooltip"
 msgid "The current temperature of this extruder."
-msgstr "該擠出機的當前溫度。"
+msgstr "該擠出機的目前溫度。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:154
 msgctxt "@tooltip"
 msgid "The colour of the material in this extruder."
-msgstr "該擠出機中材料的顏色。"
+msgstr "該擠出機中耗材的顏色。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:186
 msgctxt "@tooltip"
 msgid "The material in this extruder."
-msgstr "該擠出機中的材料。"
+msgstr "該擠出機中的耗材。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:218
 msgctxt "@tooltip"
 msgid "The nozzle inserted in this extruder."
-msgstr "該擠出機所使用的噴嘴。"
+msgstr "該擠出機所使用的噴頭。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:249
 msgctxt "@label"
@@ -2857,7 +2857,7 @@ msgstr "熱床的目標溫度。熱床將加熱或冷卻至此溫度。若設定
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:310
 msgctxt "@tooltip"
 msgid "The current temperature of the heated bed."
-msgstr "熱床當前溫度。"
+msgstr "熱床目前溫度。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:389
 msgctxt "@tooltip of temperature input"
@@ -2877,7 +2877,7 @@ msgstr "預熱"
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:610
 msgctxt "@tooltip of pre-heat"
 msgid "Heat the bed in advance before printing. You can continue adjusting your print while it is heating, and you won't have to wait for the bed to heat up when you're ready to print."
-msgstr "列印前請預熱熱床。您可以在熱床加熱時繼續調整相關項，讓您在準備列印時不必等待熱床加熱完畢。"
+msgstr "列印前請預熱熱床。你可以在熱床加熱時繼續調整相關物件，讓你在準備列印時不必等待熱床加熱完畢。"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:643
 msgctxt "@label"
@@ -2907,12 +2907,12 @@ msgstr "切換全螢幕（&F）"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:74
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Undo"
-msgstr "撤銷(&U)"
+msgstr "復原(&U)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:84
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Redo"
-msgstr "重做(&R)"
+msgstr "取消復原(&R)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:94
 msgctxt "@action:inmenu menubar:file"
@@ -2927,32 +2927,32 @@ msgstr "設定 Cura…"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:109
 msgctxt "@action:inmenu menubar:printer"
 msgid "&Add Printer..."
-msgstr "新增印表機(&A)…"
+msgstr "新增列印機(&A)…"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:115
 msgctxt "@action:inmenu menubar:printer"
 msgid "Manage Pr&inters..."
-msgstr "管理印表機(&I)..."
+msgstr "管理列印機(&I)..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:122
 msgctxt "@action:inmenu"
 msgid "Manage Materials..."
-msgstr "管理材料…"
+msgstr "管理耗材…"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:130
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Update profile with current settings/overrides"
-msgstr "使用當前設定 / 重寫值更新設定檔案（&U）"
+msgstr "使用目前設定 / 覆寫更新設定檔案（&U）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:138
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Discard current changes"
-msgstr "捨棄當前更改（&D）"
+msgstr "捨棄目前更改（&D）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:150
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Create profile from current settings/overrides..."
-msgstr "從當前設定 / 重寫值創建設定檔案（&C）…"
+msgstr "從目前設定 / 覆寫值創建設定檔案（&C）…"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:156
 msgctxt "@action:inmenu menubar:profile"
@@ -2962,7 +2962,7 @@ msgstr "管理設定檔案.."
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:163
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Online &Documentation"
-msgstr "顯示線上文檔(&D)"
+msgstr "顯示線上說明文件(&D)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:171
 msgctxt "@action:inmenu menubar:help"
@@ -2984,7 +2984,7 @@ msgstr[0] "刪除所選模型(&S)"
 msgctxt "@action:inmenu menubar:edit"
 msgid "Center Selected Model"
 msgid_plural "Center Selected Models"
-msgstr[0] "居中所選模型"
+msgstr[0] "置中所選模型"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:205
 msgctxt "@action:inmenu menubar:edit"
@@ -3000,22 +3000,22 @@ msgstr "刪除模型"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:222
 msgctxt "@action:inmenu"
 msgid "Ce&nter Model on Platform"
-msgstr "使模型居於平台中央（&N）"
+msgstr "將模型置中(&N)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:228
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Group Models"
-msgstr "綁定模型（&G）"
+msgstr "群組模型(&G)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:238
 msgctxt "@action:inmenu menubar:edit"
 msgid "Ungroup Models"
-msgstr "拆分模型"
+msgstr "取消模型群組"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:248
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Merge Models"
-msgstr "合併模型（&M）"
+msgstr "結合模型(&M)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:258
 msgctxt "@action:inmenu"
@@ -3050,12 +3050,12 @@ msgstr "為所選模型編位"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:309
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model Positions"
-msgstr "復位所有模型的位置"
+msgstr "重置所有模型位置"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:316
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model &Transformations"
-msgstr "復位所有模型的變動(&T)"
+msgstr "重置所有模型旋轉(&T)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:323
 msgctxt "@action:inmenu menubar:file"
@@ -3070,12 +3070,12 @@ msgstr "新建專案（&N）…"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:338
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Engine &Log..."
-msgstr "顯示引擎日誌（&L）..."
+msgstr "顯示切片引擎日誌（&L）..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:346
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Configuration Folder"
-msgstr "顯示設定檔案夾"
+msgstr "顯示設定資料夾"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:353
 msgctxt "@action:menu"
@@ -3125,7 +3125,7 @@ msgstr "取消"
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:288
 msgctxt "@info:tooltip"
 msgid "Select the active output device"
-msgstr "選擇活動的輸出裝置"
+msgstr "選擇作用中的輸出裝置"
 
 #: /home/ruben/Projects/Cura/resources/qml/OpenFilesIncludingProjectsDialog.qml:19
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:649
@@ -3136,7 +3136,7 @@ msgstr "開啟檔案"
 #: /home/ruben/Projects/Cura/resources/qml/OpenFilesIncludingProjectsDialog.qml:64
 msgctxt "@text:window"
 msgid "We have found one or more project file(s) within the files you have selected. You can open only one project file at a time. We suggest to only import models from those files. Would you like to proceed?"
-msgstr "我們已經在您所選擇的檔案中找到一個或多個專案檔案，但一次只能開啟一個專案檔案。我們建議只從那些檔案中匯入模型而不開啟專案。您要繼續操作嗎?"
+msgstr "我們已經在你所選擇的檔案中找到一個或多個專案檔案，但一次只能開啟一個專案檔案。我們建議只從那些檔案中匯入模型而不開啟專案。你要繼續操作嗎?"
 
 #: /home/ruben/Projects/Cura/resources/qml/OpenFilesIncludingProjectsDialog.qml:99
 msgctxt "@action:button"
@@ -3176,7 +3176,7 @@ msgstr "編輯（&E）"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:162
 msgctxt "@title:menu"
 msgid "&View"
-msgstr "視圖(&V)"
+msgstr "檢視(&V)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:167
 msgctxt "@title:menu"
@@ -3186,13 +3186,13 @@ msgstr "設定(&S)"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:169
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Printer"
-msgstr "印表機（&P）"
+msgstr "列印機（&P）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:179
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:191
 msgctxt "@title:menu"
 msgid "&Material"
-msgstr "材料（&M）"
+msgstr "耗材（&M）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:180
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:192
@@ -3228,7 +3228,7 @@ msgstr "開啟檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:428
 msgctxt "@action:button"
 msgid "View Mode"
-msgstr "視圖模式"
+msgstr "檢視模式"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:495
 msgctxt "@title:tab"
@@ -3248,7 +3248,7 @@ msgstr "你確定要開始一個新專案嗎？這將清除列印平台及任何
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:750
 msgctxt "@window:title"
 msgid "Install Plugin"
-msgstr "安裝插件"
+msgstr "安裝外掛"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:757
 msgctxt "@title:window"
@@ -3258,7 +3258,7 @@ msgstr "開啟檔案"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:760
 msgctxt "@text:window"
 msgid "We have found one or more G-Code files within the files you have selected. You can only open one G-Code file at a time. If you want to open a G-Code file, please just select only one."
-msgstr "我們已經在您選擇的檔案中找到一個或多個 G-Code 檔案。您一次只能開啟一個 G-Code 檔案。若需開啟 G-Code 檔案，請僅選擇一個。"
+msgstr "我們已經在你選擇的檔案中找到一個或多個 G-Code 檔案。你一次只能開啟一個 G-Code 檔案。若需開啟 G-Code 檔案，請僅選擇一個。"
 
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:14
 msgctxt "@title:window"
@@ -3273,7 +3273,7 @@ msgstr "擠出機 %1"
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:144
 msgctxt "@action:label"
 msgid "%1 & material"
-msgstr "%1 & 材料"
+msgstr "%1 & 耗材"
 
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:240
 msgctxt "@action:label"
@@ -3333,7 +3333,7 @@ msgstr "100%"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:232
 msgctxt "@label"
 msgid "Solid (100%) infill will make your model completely solid."
-msgstr "完全（100%）填充將使您的模型處於完全實心狀態。"
+msgstr "完全（100%）填充將使你的模型處於完全實心狀態。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:236
 msgctxt "@label"
@@ -3373,12 +3373,12 @@ msgstr "列印平台附著"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:462
 msgctxt "@label"
 msgid "Enable printing a brim or raft. This will add a flat area around or under your object which is easy to cut off afterwards."
-msgstr "允許列印 Brim 或 Raft。這將在您的對象周圍或下方添加一個容易切斷的平面區域。"
+msgstr "允許列印 Brim 或 Raft。這將在你的對象周圍或下方添加一個容易切斷的平面區域。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:515
 msgctxt "@label"
 msgid "Need help improving your prints?<br>Read the <a href='%1'>Ultimaker Troubleshooting Guides</a>"
-msgstr "需要幫助改善您的列印？閱讀 <a href=『%1』>Ultimaker 故障排除指南</a>"
+msgstr "需要幫助改善你的列印？閱讀 <a href=『%1』>Ultimaker 故障排除指南</a>"
 
 #: /home/ruben/Projects/Cura/resources/qml/ExtruderButton.qml:16
 msgctxt "@label %1 is filled in with the name of an extruder"
@@ -3394,7 +3394,7 @@ msgstr "開啟專案檔案"
 #: /home/ruben/Projects/Cura/resources/qml/AskOpenAsProjectOrModelsDialog.qml:71
 msgctxt "@text:window"
 msgid "This is a Cura project file. Would you like to open it as a project or import the models from it?"
-msgstr "這是一個 Cura 專案檔案。您想將其作為一個專案開啟還是從中匯入模型？"
+msgstr "這是一個 Cura 專案檔案。你想將其作為一個專案開啟還是從中匯入模型？"
 
 #: /home/ruben/Projects/Cura/resources/qml/AskOpenAsProjectOrModelsDialog.qml:95
 msgctxt "@action:button"
@@ -3415,12 +3415,12 @@ msgstr "引擎日誌"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:201
 msgctxt "@label"
 msgid "Material"
-msgstr "材料"
+msgstr "耗材"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:236
 msgctxt "@tooltip"
 msgid "Click to check the material compatibility on Ultimaker.com."
-msgstr "點擊查看 Ultimaker.com 上的材料相容性。"
+msgstr "點擊查看 Ultimaker.com 上的耗材相容性。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:325
 msgctxt "@label"
@@ -3434,19 +3434,19 @@ msgid ""
 "\n"
 "Click to open the profile manager."
 msgstr ""
-"某些設定/重寫值與存儲在設定檔案中的值不同。\n"
+"某些設定/覆寫值與存儲在設定檔案中的值不同。\n"
 "\n"
 "點擊開啟設定檔案管理器。"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"
 msgid "Provides a way to change machine settings (such as build volume, nozzle size, etc)"
-msgstr "提供更改印表機設定（如成形空間體積、噴嘴口徑等）的方法"
+msgstr "提供更改列印機設定（如成形空間體積、噴頭口徑等）的方法"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "name"
 msgid "Machine Settings action"
-msgstr "印表機設定操作"
+msgstr "列印機設定操作"
 
 #: XRayView/plugin.json
 msgctxt "description"
@@ -3511,7 +3511,7 @@ msgstr "設定檔案合併器"
 #: USBPrinting/plugin.json
 msgctxt "description"
 msgid "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
-msgstr "接受 G-Code 並將其發送到一台印表機。 插件也可以更新韌體。"
+msgstr "接受 G-Code 並且傳送到列印機。外掛也可以更新韌體。"
 
 #: USBPrinting/plugin.json
 msgctxt "name"
@@ -3531,17 +3531,17 @@ msgstr "X3G 寫入器"
 #: RemovableDriveOutputDevice/plugin.json
 msgctxt "description"
 msgid "Provides removable drive hotplugging and writing support."
-msgstr "提供隨身碟熱插拔和寫入檔案的支援。"
+msgstr "提供行動裝置熱插拔和寫入檔案的支援。"
 
 #: RemovableDriveOutputDevice/plugin.json
 msgctxt "name"
 msgid "Removable Drive Output Device Plugin"
-msgstr "隨身碟輸出設備插件"
+msgstr "行動裝置輸出設備外掛"
 
 #: UM3NetworkPrinting/plugin.json
 msgctxt "description"
 msgid "Manages network connections to Ultimaker 3 printers"
-msgstr "管理與 Ultimaker 3 印表機的網路連接"
+msgstr "管理與 Ultimaker 3 列印機的網路連接"
 
 #: UM3NetworkPrinting/plugin.json
 msgctxt "name"
@@ -3551,7 +3551,7 @@ msgstr "UM3 網路連接"
 #: CuraSolidWorksPlugin/plugin.json
 msgctxt "description"
 msgid "Gives you the possibility to open certain files via SolidWorks itself. These are then converted and loaded into Cura"
-msgstr "讓您可以通過 SolidWorks 自身開啟特定檔案。 隨後會將這些檔案進行轉換並載入 Cura"
+msgstr "讓你可以透過 SolidWorks 自身開啟特定檔案。 隨後會將這些檔案進行轉換並載入 Cura"
 
 #: CuraSolidWorksPlugin/plugin.json
 msgctxt "name"
@@ -3561,17 +3561,17 @@ msgstr "SolidWorks 集成"
 #: PostProcessingPlugin/plugin.json
 msgctxt "description"
 msgid "Extension that allows for user created scripts for post processing"
-msgstr "擴展程序（允許用戶創建腳本進行後期處理）"
+msgstr "擴充程式（允許用戶建立腳本進行後處理）"
 
 #: PostProcessingPlugin/plugin.json
 msgctxt "name"
 msgid "Post Processing"
-msgstr "後期處理"
+msgstr "後處理"
 
 #: AutoSave/plugin.json
 msgctxt "description"
 msgid "Automatically saves Preferences, Machines and Profiles after changes."
-msgstr "更改後自動儲存首選項、機器和設定檔案。"
+msgstr "偏好設定、機器設定和設定檔案修改後自動儲存。"
 
 #: AutoSave/plugin.json
 msgctxt "name"
@@ -3581,22 +3581,22 @@ msgstr "自動儲存"
 #: SliceInfoPlugin/plugin.json
 msgctxt "description"
 msgid "Submits anonymous slice info. Can be disabled through preferences."
-msgstr "提交匿名切片信息。 可以通過偏好設定禁用。"
+msgstr "提交匿名切片資訊。這項功能可以在偏好設定中關閉。"
 
 #: SliceInfoPlugin/plugin.json
 msgctxt "name"
 msgid "Slice info"
-msgstr "切片信息"
+msgstr "切片資訊"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "description"
 msgid "Provides capabilities to read and write XML-based material profiles."
-msgstr "提供讀取和寫入基於 XML 的材料設定檔案的功能。"
+msgstr "提供讀取和寫入 XML 格式的耗材設定檔案的功能。"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "name"
 msgid "Material Profiles"
-msgstr "材料設定檔案"
+msgstr "耗材設定檔案"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "description"
@@ -3671,7 +3671,7 @@ msgstr "版本自 2.2 升級到 2.4"
 #: ImageReader/plugin.json
 msgctxt "description"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr "支援從 2D 圖像檔案生成可列印幾何模型的能力。"
+msgstr "支援從 2D 圖像檔生成可列印 3D 模型的能力。"
 
 #: ImageReader/plugin.json
 msgctxt "name"
@@ -3681,12 +3681,12 @@ msgstr "圖像讀取器"
 #: CuraEngineBackend/plugin.json
 msgctxt "description"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr "提供 CuraEngine 切片後端的路徑。"
+msgstr "提供連結到Cura切片引擎後台。"
 
 #: CuraEngineBackend/plugin.json
 msgctxt "name"
 msgid "CuraEngine Backend"
-msgstr "CuraEngine 後端"
+msgstr "Cura引擎後台"
 
 #: PerObjectSettingsTool/plugin.json
 msgctxt "description"
@@ -3711,17 +3711,17 @@ msgstr "3MF 讀取器"
 #: PluginBrowser/plugin.json
 msgctxt "description"
 msgid "Find, manage and install new plugins."
-msgstr "查找、管理和安裝新插件。"
+msgstr "查找、管理和安裝新外掛。"
 
 #: PluginBrowser/plugin.json
 msgctxt "name"
 msgid "Plugin Browser"
-msgstr "插件瀏覽器"
+msgstr "外掛瀏覽器"
 
 #: SolidView/plugin.json
 msgctxt "description"
 msgid "Provides a normal solid mesh view."
-msgstr "提供一個基本的實體網格視圖。"
+msgstr "提供一個基本的實體網格檢視。"
 
 #: SolidView/plugin.json
 msgctxt "name"
@@ -3731,7 +3731,7 @@ msgstr "實體視圖"
 #: GCodeReader/plugin.json
 msgctxt "description"
 msgid "Allows loading and displaying G-code files."
-msgstr "允許加載和顯示 G-code 檔案。"
+msgstr "允許載入和顯示 G-code 檔案。"
 
 #: GCodeReader/plugin.json
 msgctxt "name"
@@ -3761,12 +3761,12 @@ msgstr "3MF 寫入器"
 #: UltimakerMachineActions/plugin.json
 msgctxt "description"
 msgid "Provides machine actions for Ultimaker machines (such as bed leveling wizard, selecting upgrades, etc)"
-msgstr "為 Ultimaker 印表機提供操作選項(如平台調平嚮導、選擇升級等)"
+msgstr "提供 Ultimaker 列印機專屬功能(如平台調平精靈、選擇升級等)"
 
 #: UltimakerMachineActions/plugin.json
 msgctxt "name"
 msgid "Ultimaker machine actions"
-msgstr "Ultimaker 印表機操作"
+msgstr "Ultimaker 列印機操作"
 
 #: CuraProfileReader/plugin.json
 msgctxt "description"

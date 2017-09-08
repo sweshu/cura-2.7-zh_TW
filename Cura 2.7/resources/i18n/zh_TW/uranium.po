@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Uranium 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 14:05+0200\n"
-"PO-Revision-Date: 2017-09-06 19:40+0800\n"
+"PO-Revision-Date: 2017-09-08 23:33+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -28,34 +28,34 @@ msgstr "簡單"
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "STL File"
-msgstr "STL 檔案"
+msgstr "STL 檔"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/OBJReader/__init__.py:15
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/OBJWriter/__init__.py:15
 msgctxt "@item:inlistbox"
 msgid "Wavefront OBJ File"
-msgstr "Wavefront OBJ 檔案"
+msgstr "Wavefront OBJ 檔"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:17
 msgctxt "@item:inlistbox"
 msgid "STL File (ASCII)"
-msgstr "STL 檔案 (ASCII)"
+msgstr "STL 檔 (ASCII)"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:23
 msgctxt "@item:inlistbox"
 msgid "STL File (Binary)"
-msgstr "STL 檔案 (二進制)"
+msgstr "STL 檔 (二進制)"
 
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:51
 msgctxt "@info"
 msgid "Could not access update information."
-msgstr "無法獲取更新信息。"
+msgstr "無法獲取更新資訊。"
 
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:62
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:67
 msgctxt "@info"
 msgid "The version you are using does not support checking for updates."
-msgstr "您正在使用的軟體版本不支援檢查更新。"
+msgstr "你正在使用的軟體版本不支援檢查更新。"
 
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:78
 msgctxt "@info"
@@ -90,28 +90,28 @@ msgstr "本地檔案"
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:34
 msgctxt "@action:button Preceded by 'Ready to'."
 msgid "Save to File"
-msgstr "儲存到檔案"
+msgstr "儲存檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:35
 msgctxt "@info:tooltip"
 msgid "Save to File"
-msgstr "儲存到檔案"
+msgstr "儲存檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:56
 msgctxt "@title:window"
 msgid "Save to File"
-msgstr "儲存到檔案"
+msgstr "儲存檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:121
 msgctxt "@title:window"
 msgid "File Already Exists"
-msgstr "檔案已存在"
+msgstr "檔案已經存在"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:121
 #, python-brace-format
 msgctxt "@label"
 msgid "The file <filename>{0}</filename> already exists. Are you sure you want to overwrite it?"
-msgstr "檔案 <filename>{0}</filename> 已存在。你確定要替代它嗎?"
+msgstr "檔案 <filename>{0}</filename> 已經存在。你確定要覆蓋檔案嗎？"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:150
 #, python-brace-format
@@ -141,12 +141,12 @@ msgstr "已儲存至 <filename>{0}</filename>"
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:172
 msgctxt "@action:button"
 msgid "Open Folder"
-msgstr "打開檔案夾"
+msgstr "開啟資料夾"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:172
 msgctxt "@info:tooltip"
 msgid "Open the folder containing the file"
-msgstr "打開包含相應檔案的檔案夾"
+msgstr "開啟包含這個檔案的資料夾"
 
 #: /home/ruben/Projects/Uranium/plugins/Tools/ScaleTool/__init__.py:12
 msgctxt "@label"
@@ -209,13 +209,13 @@ msgstr "所有檔案 (*)"
 #, python-brace-format
 msgctxt "@label Short days-hours-minutes format. {0} is days, {1} is hours, {2} is minutes"
 msgid "{0:0>2}d {1:0>2}h {2:0>2}min"
-msgstr "{0:0>2}天 {1:0>2}小時 {2:0>2}分鐘"
+msgstr "{0:0>2}天 {1:0>2}時 {2:0>2}分"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/Duration.py:106
 #, python-brace-format
 msgctxt "@label Short hours-minutes format. {0} is hours, {1} is minutes"
 msgid "{0:0>2}h {1:0>2}min"
-msgstr "{0:0>2}小時 {1:0>2}分鐘"
+msgstr "{0:0>2}時 {1:0>2}分"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/Duration.py:109
 #, python-brace-format
@@ -230,7 +230,7 @@ msgstr[0] "{0} 天"
 msgctxt "@label Long duration format. {0} is hours"
 msgid "{0} hour"
 msgid_plural "{0} hours"
-msgstr[0] "{0} 小時"
+msgstr[0] "{0} 時"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/Duration.py:109
 #: /home/ruben/Projects/Uranium/UM/Qt/Duration.py:111
@@ -239,28 +239,28 @@ msgstr[0] "{0} 小時"
 msgctxt "@label Long duration format. {0} is minutes"
 msgid "{0} minute"
 msgid_plural "{0} minutes"
-msgstr[0] "{0} 分鐘"
+msgstr[0] "{0} 分"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/QtApplication.py:109
 msgctxt "@info:progress"
 msgid "Loading plugins..."
-msgstr "正在載入插件..."
+msgstr "正在載入外掛..."
 
 #: /home/ruben/Projects/Uranium/UM/Qt/QtApplication.py:115
 msgctxt "@info:progress"
 msgid "Updating configuration..."
-msgstr "正在更新配置..."
+msgstr "正在更新設定..."
 
 #: /home/ruben/Projects/Uranium/UM/Qt/QtApplication.py:126
 msgctxt "@info:progress"
 msgid "Loading preferences..."
-msgstr "正在加載偏好設定..."
+msgstr "正在載入偏好設定..."
 
 #: /home/ruben/Projects/Uranium/UM/Mesh/ReadMeshJob.py:67
 #, python-format, python-brace-format
 msgctxt "@info:status"
 msgid "Auto scaled object to {0}% of original size"
-msgstr "自動縮放模型至原始大小的 {0}% o"
+msgstr "自動將物件縮放到原始大小的 {0}% o"
 
 #: /home/ruben/Projects/Uranium/UM/PluginRegistry.py:95
 msgctxt "@info:status"
@@ -268,8 +268,8 @@ msgid ""
 "The plugin has been installed.\n"
 "Please re-start the application to activate the plugin."
 msgstr ""
-"插件已安裝。\n"
-"請重新啟動應用程序以啟動插件。"
+"外掛已安裝。\n"
+"請重新啟動應用程式以啟動外掛。"
 
 #: /home/ruben/Projects/Uranium/UM/PluginRegistry.py:106
 #: /home/ruben/Projects/Uranium/UM/PluginRegistry.py:140
@@ -279,7 +279,7 @@ msgid ""
 "Failed to install plugin from <filename>{0}</filename>:\n"
 "<message>{1}</message>"
 msgstr ""
-"無法從 <filename>{0}</filename> 中安裝插件：\n"
+"無法從 <filename>{0}</filename> 中安裝外掛：\n"
 "<message>{1}</message>"
 
 #: /home/ruben/Projects/Uranium/UM/PluginRegistry.py:127
@@ -290,7 +290,7 @@ msgid ""
 "Failed to install the plugin;\n"
 "<message>{0}</message>"
 msgstr ""
-"無法安裝插件；\n"
+"無法安裝外掛；\n"
 "<message>{0}</message>"
 
 #: /home/ruben/Projects/Uranium/UM/VersionUpgradeManager.py:122
@@ -307,13 +307,13 @@ msgstr "無法初始化 OpenGL"
 #: /home/ruben/Projects/Uranium/UM/View/GL/OpenGL.py:56
 msgctxt "Critical OpenGL Extensions Missing"
 msgid "Critical OpenGL extensions are missing. This program requires support for Framebuffer Objects. Please check your video card drivers."
-msgstr "關鍵 OpenGL 拓展檔案缺失。該程序需要對 Framebuffer Objects 的支援。請檢查您的顯卡驅動是否正常。"
+msgstr "關鍵的 OpenGL 擴充功能遺失。此程式需要 Framebuffer 物件支援，請檢查您的顯示卡驅動程式是否正常。"
 
 #: /home/ruben/Projects/Uranium/UM/FileHandler/ReadFileJob.py:36
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Cannot open file type <filename>{0}</filename>"
-msgstr "無法打開檔案類型 <filename>{0}</filename>"
+msgstr "無法開啟檔案類型 <filename>{0}</filename>"
 
 #: /home/ruben/Projects/Uranium/UM/FileHandler/ReadFileJob.py:49
 #: /home/ruben/Projects/Uranium/UM/FileHandler/ReadFileJob.py:69
@@ -347,7 +347,7 @@ msgstr "等比例縮放"
 #: /home/ruben/Projects/Uranium/plugins/Tools/RotateTool/RotateTool.qml:38
 msgctxt "@action:button"
 msgid "Lay flat"
-msgstr "放平"
+msgstr "平放"
 
 #: /home/ruben/Projects/Uranium/plugins/Tools/RotateTool/RotateTool.qml:53
 msgctxt "@action:checkbox"
@@ -358,22 +358,22 @@ msgstr "等距旋轉（Snap Rotation）"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PreferencesDialog.qml:148
 msgctxt "@title:tab"
 msgid "Plugins"
-msgstr "插件"
+msgstr "外掛"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:28
 msgctxt "@action:button"
 msgid "Install new plugin"
-msgstr "安裝新插件"
+msgstr "安裝新外掛"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:55
 msgctxt "@label"
 msgid "You will need to restart the application before changes in plugins have effect."
-msgstr "在插件發生變化之前，您需要重新啟動應用程序。"
+msgstr "在外掛發生變化之前，你需要重新啟動應用程式。"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:93
 msgctxt "@label"
 msgid "This plugin is required for the application to run."
-msgstr "該插件為程序運行必備插件。"
+msgstr "該外掛為程式運行必備外掛。"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:110
 msgctxt "@label"
@@ -383,12 +383,12 @@ msgstr "信息..."
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:128
 msgctxt "@window:title"
 msgid "Install Plugin"
-msgstr "安裝插件"
+msgstr "安裝外掛"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:137
 msgctxt "@title:window"
 msgid "Open file(s)"
-msgstr "打開檔案"
+msgstr "開啟檔案"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:171
 msgctxt "@label"
@@ -424,7 +424,7 @@ msgstr "偏好設定"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PreferencesDialog.qml:106
 msgctxt "@action:button"
 msgid "Defaults"
-msgstr "默認"
+msgstr "預設"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PreferencesDialog.qml:146
 msgctxt "@title:tab"
@@ -439,7 +439,7 @@ msgstr "設定"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/RenameDialog.qml:19
 msgctxt "@title:window"
 msgid "Rename"
-msgstr "重命名"
+msgstr "重新命名"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/RenameDialog.qml:56
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Wizard.qml:241
@@ -496,7 +496,7 @@ msgstr "確認刪除"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ConfirmRemoveDialog.qml:17
 msgctxt "@label (%1 is object name)"
 msgid "Are you sure you wish to remove %1? This cannot be undone!"
-msgstr "您確認要刪除 %1？該操作無法恢復！"
+msgstr "你確認要刪除 %1？該操作無法恢復！"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:14
 msgctxt "@title:tab"
@@ -526,7 +526,7 @@ msgstr "升級配置檔案"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:92
 msgctxt "@action:button"
 msgid "Discard current changes"
-msgstr "捨棄當前更改"
+msgstr "捨棄目前更改"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:93
 msgctxt "@action:button"
@@ -606,7 +606,7 @@ msgstr "簡單視圖"
 #: FileLogger/plugin.json
 msgctxt "description"
 msgid "Outputs log information to a file in your settings folder."
-msgstr "將日誌信息輸出到設定檔案夾中的一個檔案。"
+msgstr "將日誌資訊輸出到設定資料夾中的一個檔案。"
 
 #: FileLogger/plugin.json
 msgctxt "name"
@@ -616,47 +616,47 @@ msgstr "檔案日誌記錄"
 #: FileHandlers/STLReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading STL files."
-msgstr "提供對讀取 STL 檔案的支援。"
+msgstr "支援讀取 STL 檔。"
 
 #: FileHandlers/STLReader/plugin.json
 msgctxt "name"
 msgid "STL Reader"
-msgstr "STL 檔案讀取器"
+msgstr "STL 檔閱讀器"
 
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "description"
 msgid "Makes it possible to read Wavefront OBJ files."
-msgstr "提供對讀取 Wavefront OBJ 檔案的支援。"
+msgstr "支援讀取 Wavefront OBJ 檔。"
 
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Reader"
-msgstr "Wavefront OBJ 檔案讀取器"
+msgstr "Wavefront OBJ 檔閱讀器"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "description"
 msgid "Makes it possible to write Wavefront OBJ files."
-msgstr "提供對寫入 Wavefront OBJ 檔案的支援。"
+msgstr "支援寫入 Wavefront OBJ 檔。"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Writer"
-msgstr "Wavefront OBJ 檔案寫入器"
+msgstr "Wavefront OBJ 檔編輯器"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing STL files."
-msgstr "提供對寫入 STL 檔案的支援。"
+msgstr "支援寫入 STL 檔。"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "name"
 msgid "STL Writer"
-msgstr "STL 檔案寫入器"
+msgstr "STL 檔編輯器"
 
 #: ConsoleLogger/plugin.json
 msgctxt "description"
 msgid "Outputs log information to the console."
-msgstr "輸出日誌信息至控制台。"
+msgstr "輸出日誌資訊至控制台。"
 
 #: ConsoleLogger/plugin.json
 msgctxt "name"
@@ -671,17 +671,17 @@ msgstr "檢查軟體更新。"
 #: UpdateChecker/plugin.json
 msgctxt "name"
 msgid "Update Checker"
-msgstr "固件更新檢查"
+msgstr "韌體更新檢查"
 
 #: LocalFileOutputDevice/plugin.json
 msgctxt "description"
 msgid "Enables saving to local files."
-msgstr "開啟儲存到本地檔案的功能。"
+msgstr "啟用儲存到本地檔案的功能。"
 
 #: LocalFileOutputDevice/plugin.json
 msgctxt "name"
 msgid "Local File Output Device"
-msgstr "本地檔案輸出設備"
+msgstr "本地檔案輸出裝置"
 
 #: Tools/ScaleTool/plugin.json
 msgctxt "description"
@@ -742,135 +742,3 @@ msgstr "提供鏡像工具。"
 msgctxt "name"
 msgid "Mirror Tool"
 msgstr "鏡像工具"
-
-#~ msgctxt "@label"
-#~ msgid "Simple View"
-#~ msgstr "簡單視圖"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides a simple solid mesh view."
-#~ msgstr "提供簡單實體網格視圖。"
-
-#~ msgctxt "@label"
-#~ msgid "File Logger"
-#~ msgstr "檔案日誌記錄"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Outputs log information to a file in your settings folder."
-#~ msgstr "將日誌信息輸出到設定檔案夾中的一個檔案。"
-
-#~ msgctxt "@label"
-#~ msgid "STL Reader"
-#~ msgstr "STL 檔案讀取器"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides support for reading STL files."
-#~ msgstr "提供對讀取 STL 檔案的支援。"
-
-#~ msgctxt "@label"
-#~ msgid "Wavefront OBJ Reader"
-#~ msgstr "Wavefront OBJ 檔案讀取器"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Makes it possbile to read Wavefront OBJ files."
-#~ msgstr "提供對讀取 Wavefront OBJ 檔案的支援。"
-
-#~ msgctxt "@label"
-#~ msgid "Wavefront OBJ Writer"
-#~ msgstr "Wavefront OBJ 檔案寫入器"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Makes it possbile to write Wavefront OBJ files."
-#~ msgstr "提供對寫入 Wavefront OBJ 檔案的支援。"
-
-#~ msgctxt "@label"
-#~ msgid "STL Writer"
-#~ msgstr "STL 檔案寫入器"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides support for writing STL files."
-#~ msgstr "提供對寫入 STL 檔案的支援。"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "STL File (Ascii)"
-#~ msgstr "STL 檔案 (Ascii)"
-
-#~ msgctxt "@label"
-#~ msgid "Console Logger"
-#~ msgstr "控制台日誌記錄"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Outputs log information to the console."
-#~ msgstr "輸出日誌信息至控制台。"
-
-#~ msgctxt "@label"
-#~ msgid "Update Checker"
-#~ msgstr "固件更新檢查"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Checks for updates of the software."
-#~ msgstr "檢查軟體更新。"
-
-#~ msgctxt "@label"
-#~ msgid "Local File Output Device"
-#~ msgstr "本地檔案輸出設備"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Enables saving to local files."
-#~ msgstr "開啟儲存到本地檔案的功能。"
-
-#~ msgctxt "@label"
-#~ msgid "Scale Tool"
-#~ msgstr "縮放工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the Scale tool."
-#~ msgstr "提供縮放工具。"
-
-#~ msgctxt "@label"
-#~ msgid "Selection Tool"
-#~ msgstr "選擇工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the Selection tool."
-#~ msgstr "提供選擇工具。"
-
-#~ msgctxt "@label"
-#~ msgid "Translate Tool"
-#~ msgstr "翻譯工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the Translate tool."
-#~ msgstr "提供翻譯工具。"
-
-#~ msgctxt "@label"
-#~ msgid "Camera Tool"
-#~ msgstr "視角工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the tool to manipulate the camera."
-#~ msgstr "提供變換視角功能。"
-
-#~ msgctxt "@label"
-#~ msgid "Rotate Tool"
-#~ msgstr "旋轉工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the Rotate tool."
-#~ msgstr "提供旋轉工具。"
-
-#~ msgctxt "@label"
-#~ msgid "Mirror Tool"
-#~ msgstr "鏡像工具"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Provides the Mirror tool."
-#~ msgstr "提供鏡像工具。"
-
-#~ msgctxt "@info:status"
-#~ msgid ""
-#~ "The plugin has been installed.\n"
-#~ " Please re-start the application to active the plugin."
-#~ msgstr ""
-#~ "所選插件已安裝。\n"
-#~ "請重啟程序以啟用該插件。"
