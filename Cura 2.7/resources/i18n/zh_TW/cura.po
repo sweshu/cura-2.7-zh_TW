@@ -1667,7 +1667,7 @@ msgstr "升級韌體"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:38
 msgctxt "@label"
 msgid "Firmware is the piece of software running directly on your 3D printer. This firmware controls the step motors, regulates the temperature and ultimately makes your printer work."
-msgstr "韌體是直接在 3D 列印機上運行的一個軟體。此韌體控制步進電機，調節溫度讓列印機正常運作。"
+msgstr "韌體是直接在 3D 列印機上運行的一個軟體。此韌體控制步進馬達，調節溫度讓列印機正常運作。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:48
 msgctxt "@label"

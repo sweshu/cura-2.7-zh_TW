@@ -458,7 +458,7 @@ msgstr "X 軸最大速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_x description"
 msgid "The maximum speed for the motor of the X-direction."
-msgstr "X 軸方向電機的最大速度。"
+msgstr "X 軸方向馬達的最大速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_y label"
@@ -468,7 +468,7 @@ msgstr "Y 軸最大速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_y description"
 msgid "The maximum speed for the motor of the Y-direction."
-msgstr "Y 軸方向電機的最大速度。"
+msgstr "Y 軸方向馬達的最大速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_z label"
@@ -478,7 +478,7 @@ msgstr "Z 軸最大速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_z description"
 msgid "The maximum speed for the motor of the Z-direction."
-msgstr "Z 軸方向電機的最大速度。"
+msgstr "Z 軸方向馬達的最大速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_e label"
@@ -498,7 +498,7 @@ msgstr "X 軸最大加速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_x description"
 msgid "Maximum acceleration for the motor of the X-direction"
-msgstr "X 軸方向電機的最大加速度"
+msgstr "X 軸方向馬達的最大加速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_y label"
@@ -508,7 +508,7 @@ msgstr "Y 軸最大加速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_y description"
 msgid "Maximum acceleration for the motor of the Y-direction."
-msgstr "Y 軸方向電機的最大加速度。"
+msgstr "Y 軸方向馬達的最大加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_z label"
@@ -518,17 +518,17 @@ msgstr "Z 軸最大加速度"
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_z description"
 msgid "Maximum acceleration for the motor of the Z-direction."
-msgstr "Z 軸方向電機的最大加速度。"
+msgstr "Z 軸方向馬達的最大加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_e label"
 msgid "Maximum Filament Acceleration"
-msgstr "擠出電機最大加速度"
+msgstr "擠出馬達最大加速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_acceleration_e description"
 msgid "Maximum acceleration for the motor of the filament."
-msgstr "耗材電機的最大加速度。"
+msgstr "擠出馬達的最大加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_acceleration label"
@@ -558,17 +558,17 @@ msgstr "預設 Z 軸瞬動速度（Jerk）"
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_z description"
 msgid "Default jerk for the motor of the Z-direction."
-msgstr "Z 軸方向電機的預設瞬動速度。"
+msgstr "Z 軸方向馬達的預設瞬動速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_e label"
 msgid "Default Filament Jerk"
-msgstr "預設擠出電機瞬動速度"
+msgstr "預設擠出馬達瞬動速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_e description"
 msgid "Default jerk for the motor of the filament."
-msgstr "耗材電機的預設瞬動速度。"
+msgstr "擠出馬達的預設瞬動速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_minimum_feedrate label"
