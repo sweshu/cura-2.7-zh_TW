@@ -4067,7 +4067,7 @@ msgstr "平滑螺旋輪廓"
 #: fdmprinter.def.json
 msgctxt "smooth_spiralized_contours description"
 msgid "Smooth the spiralized contours to reduce the visibility of the Z seam (the Z-seam should be barely visible on the print but will still be visible in the layer view). Note that smoothing will tend to blur fine surface details."
-msgstr "平滑螺旋輪廓以減少 Z 縫的可見性（Z 縫應在列印品上幾乎看不到，但在層視圖中仍然可見）。請注意，平滑操作將傾向於模糊精細的表面細節。"
+msgstr "平滑螺旋輪廓以減少 Z 縫的可見性（Z 縫應在列印品上幾乎看不到，但在分層檢視中仍然可見）。請注意，平滑操作將傾向於模糊精細的表面細節。"
 
 #: fdmprinter.def.json
 msgctxt "experimental label"

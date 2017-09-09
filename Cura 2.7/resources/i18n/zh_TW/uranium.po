@@ -596,12 +596,12 @@ msgstr "下一步"
 #: Views/SimpleView/plugin.json
 msgctxt "description"
 msgid "Provides a simple solid mesh view."
-msgstr "提供簡單實體網格視圖。"
+msgstr "提供簡單實體網格檢視。"
 
 #: Views/SimpleView/plugin.json
 msgctxt "name"
 msgid "Simple View"
-msgstr "簡單視圖"
+msgstr "簡單檢視"
 
 #: FileLogger/plugin.json
 msgctxt "description"

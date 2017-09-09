@@ -1065,7 +1065,7 @@ msgstr "關閉"
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:22
 msgctxt "@title:window"
 msgid "Firmware Update"
-msgstr "韌體升級"
+msgstr "韌體更新"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:42
 msgctxt "@label"
@@ -1090,17 +1090,17 @@ msgstr "由於未知錯誤，韌體更新失敗。"
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:64
 msgctxt "@label"
 msgid "Firmware update failed due to an communication error."
-msgstr "由於通信錯誤，導致韌體升級失敗。"
+msgstr "由於通訊錯誤，導致韌體更新失敗。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:67
 msgctxt "@label"
 msgid "Firmware update failed due to an input/output error."
-msgstr "由於輸入/輸出錯誤，導致韌體升級失敗。"
+msgstr "由於輸入/輸出錯誤，導致韌體更新失敗。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:70
 msgctxt "@label"
 msgid "Firmware update failed due to missing firmware."
-msgstr "由於韌體遺失，導致韌體升級失敗。"
+msgstr "由於韌體遺失，導致韌體更新失敗。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:73
 msgctxt "@label"
@@ -1119,7 +1119,7 @@ msgid ""
 "\n"
 "Select your printer from the list below:"
 msgstr ""
-"要透過網路向列印機發送列印請求，請確保你的列印機已透過網線或 WIFI 連接到網路。若你不能連接 Cura 與列印機，你仍然可以使用 USB 設備將 G-code 檔案傳輸到列印機。\n"
+"要透過網路列印，請確認你的列印機已透過網路線或 WIFI 連接到網路。若你無法讓 Cura 與列印機連線，你仍然可以使用 USB 裝置將 G-code 檔案傳輸到列印機。\n"
 "\n"
 "從以下列表中選擇你的列印機："
 
@@ -1140,7 +1140,7 @@ msgstr "編輯"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:190
 msgctxt "@action:button"
 msgid "Remove"
-msgstr "刪除"
+msgstr "移除"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:104
 #: /home/ruben/Projects/Cura/plugins/PluginBrowser/PluginBrowser.qml:33
@@ -1151,7 +1151,7 @@ msgstr "刷新"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:196
 msgctxt "@label"
 msgid "If your printer is not listed, read the <a href='%1'>network printing troubleshooting guide</a>"
-msgstr "如果你的列印機未列出，請閱讀<a href='%1'>網路列印故障排除指南</a>"
+msgstr "如果你的列印機未被列出，請閱讀<a href='%1'>網路列印故障排除指南</a>"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qml:223
 msgctxt "@label"
@@ -1232,7 +1232,7 @@ msgstr "Cura SolidWorks 外掛設定"
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/ConfigDialog.qml:44
 msgctxt "@action:label"
 msgid "Default quality of the exported STL:"
-msgstr "匯出 STL 的預設品質："
+msgstr "預設的匯出 STL 品質："
 
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/ConfigDialog.qml:79
 msgctxt "@option:curaSolidworksStlQuality"
@@ -1315,7 +1315,7 @@ msgstr "更改目前啟用的後處理腳本"
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:71
 msgctxt "@label"
 msgid "View Mode: Layers"
-msgstr "視圖模式：分層"
+msgstr "檢視模式：分層"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.qml:88
 msgctxt "@label"
@@ -1425,17 +1425,17 @@ msgstr "深度 (mm)"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:126
 msgctxt "@info:tooltip"
 msgid "By default, white pixels represent high points on the mesh and black pixels represent low points on the mesh. Change this option to reverse the behavior such that black pixels represent high points on the mesh and white pixels represent low points on the mesh."
-msgstr "預設情況下，白色像素表示網格上的高點，黑色像素表示網格上的低點。若更改此選項將反其道而行之，相當於圖片編輯軟體中的「反相」操作。"
+msgstr "預設情況下，白色像素表示網格上的高點，黑色像素表示網格上的低點。更改此選項將以相反方式呈現，黑色像素表示網格上的高點，白色像素表示網格上的低點。"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:139
 msgctxt "@item:inlistbox"
 msgid "Lighter is higher"
-msgstr "顏色越淺厚度越大"
+msgstr "顏色越淺高度越高"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:139
 msgctxt "@item:inlistbox"
 msgid "Darker is higher"
-msgstr "顏色越深厚度越大"
+msgstr "顏色越深高度越高"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:149
 msgctxt "@info:tooltip"
@@ -2162,12 +2162,12 @@ msgstr "G-code 讀取器中的警告資訊"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:423
 msgctxt "@info:tooltip"
 msgid "Should layer be forced into compatibility mode?"
-msgstr "層視圖要強制進入相容模式嗎？"
+msgstr "分層檢視要強制進入相容模式嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:428
 msgctxt "@option:check"
 msgid "Force layer view compatibility mode (restart required)"
-msgstr "強制層視圖相容模式（需要重新啟動）"
+msgstr "強制分層檢視相容模式（需要重新啟動）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:444
 msgctxt "@label"
@@ -2598,7 +2598,7 @@ msgstr "GCode 生成器"
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:121
 msgctxt "@label"
 msgid "Interprocess communication library"
-msgstr "進程間通信交互使用庫"
+msgstr "進程間通訊交互使用庫"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:123
 msgctxt "@label"
@@ -2785,7 +2785,7 @@ msgstr "自動：%1"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ViewMenu.qml:12
 msgctxt "@title:menu menubar:toplevel"
 msgid "&View"
-msgstr "視圖(&V)"
+msgstr "檢視(&V)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/NozzleMenu.qml:26
 msgctxt "@title:menuitem %1 is the nozzle currently loaded in the printer"
@@ -3451,12 +3451,12 @@ msgstr "列印機設定操作"
 #: XRayView/plugin.json
 msgctxt "description"
 msgid "Provides the X-Ray view."
-msgstr "提供透視視圖。"
+msgstr "提供透視檢視。"
 
 #: XRayView/plugin.json
 msgctxt "name"
 msgid "X-Ray View"
-msgstr "透視視圖"
+msgstr "透視檢視"
 
 #: X3DReader/plugin.json
 msgctxt "description"
@@ -3621,12 +3621,12 @@ msgstr "GCode 列印參數讀取器"
 #: LayerView/plugin.json
 msgctxt "description"
 msgid "Provides the Layer view."
-msgstr "提供分層視圖。"
+msgstr "提供分層檢視。"
 
 #: LayerView/plugin.json
 msgctxt "name"
 msgid "Layer View"
-msgstr "分層視圖"
+msgstr "分層檢視"
 
 #: VersionUpgrade/VersionUpgrade25to26/plugin.json
 msgctxt "description"
@@ -3726,7 +3726,7 @@ msgstr "提供一個基本的實體網格檢視。"
 #: SolidView/plugin.json
 msgctxt "name"
 msgid "Solid View"
-msgstr "實體視圖"
+msgstr "實體檢視"
 
 #: GCodeReader/plugin.json
 msgctxt "description"
