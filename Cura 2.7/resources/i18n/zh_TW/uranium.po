@@ -320,7 +320,7 @@ msgstr "無法開啟檔案類型 <filename>{0}</filename>"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to load <filename>{0}</filename>"
-msgstr "無法加載 <filename>{0}</filename>"
+msgstr "無法載入 <filename>{0}</filename>"
 
 #: /home/ruben/Projects/Uranium/UM/FileHandler/ReadFileJob.py:53
 #, python-brace-format

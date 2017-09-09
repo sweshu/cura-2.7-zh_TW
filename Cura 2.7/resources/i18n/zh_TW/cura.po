@@ -116,7 +116,7 @@ msgstr "無法啟動新作業，因為列印機處於忙碌狀態或未連接。
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:456
 msgctxt "@info:status"
 msgid "This printer does not support USB printing because it uses UltiGCode flavor."
-msgstr "此列印機不支援透過 USB 列印，因為其使用 UltiGCode 類型的 G-code 檔案。"
+msgstr "此列印機不支援透過 USB 連線列印，因為其使用 UltiGCode 類型的 G-code 檔案。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:460
 msgctxt "@info:status"
@@ -190,13 +190,13 @@ msgstr "無法儲存到行動裝置 {0}：{1}"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
-msgstr "已卸載 {0}。現在你可以安全地拔出行動裝置。"
+msgstr "已卸載 {0}。現在你可以安全地移除行動裝置。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:150
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
-msgstr "無法卸載 {0}，另一個程式可能正在使用行動裝置。"
+msgstr "無法卸載 {0}，可能有其它程式正在使用行動裝置。"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/WindowsRemovableDrivePlugin.py:68
 msgctxt "@item:intext"
@@ -302,13 +302,13 @@ msgstr "列印機無法啟動新的列印作業，目前的列印機狀態為 %s
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Unable to start a new print job. No Printcore loaded in slot {0}"
-msgstr "無法啟動新的列印作業。插槽 {0} 中未加載列印頭。"
+msgstr "無法啟動新的列印作業。插槽 {0} 中未載入列印頭。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:661
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Unable to start a new print job. No material loaded in slot {0}"
-msgstr "無法啟動新的列印作業。插槽 {0} 中未加載耗材。"
+msgstr "無法啟動新的列印作業。插槽 {0} 中未載入耗材。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:670
 #, python-brace-format
@@ -332,7 +332,7 @@ msgstr "你為擠出機 {2} 選擇了不同的耗材（Cura：{0}，列印機：
 #, python-brace-format
 msgctxt "@label"
 msgid "PrintCore {0} is not properly calibrated. XY calibration needs to be performed on the printer."
-msgstr "列印頭 {0} 未正確校準。 需要在列印機上執行 XY 校準。"
+msgstr "列印頭 {0} 未正確校準。需要在列印機上執行 XY 校準。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:707
 msgctxt "@label"
@@ -408,7 +408,7 @@ msgstr "你想在 Cura 中使用目前的列印機設定嗎？"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1179
 msgctxt "@label"
 msgid "The PrintCores and/or materials on your printer differ from those within your current project. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "列印機上的列印頭和/或耗材與目前專案中的不同。 為獲得最佳列印效果，請使用目前列印機列印頭和耗材的設定進行切片。"
+msgstr "列印機上的列印頭和/或耗材與目前專案中的不同。為獲得最佳列印效果，請使用目前列印機列印頭和耗材的設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.py:19
 msgctxt "@action"
@@ -452,7 +452,7 @@ msgstr "修改 G-Code 檔案"
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:43
 msgctxt "@info"
 msgid "Cura collects anonymised slicing statistics. You can disable this in the preferences."
-msgstr "Cura 收集匿名切片統計資料。 你可以在偏好設定中關閉此選項。"
+msgstr "Cura 收集匿名切片統計資料。你可以在偏好設定中關閉此選項。"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:44
 msgctxt "@action:button"
@@ -642,7 +642,7 @@ msgstr "預切片檔案 {0}"
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:440
 msgctxt "@item:material"
 msgid "No material loaded"
-msgstr "未裝載耗材"
+msgstr "未載入耗材"
 
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:447
 msgctxt "@item:material"
@@ -810,13 +810,13 @@ msgstr "%(width).1f x %(depth).1f x %(height).1f mm"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Only one G-code file can be loaded at a time. Skipped importing {0}"
-msgstr "一次只能加載一個 G-code 檔案。{0} 已跳過匯入"
+msgstr "一次只能載入一個 G-code 檔案。{0} 已跳過匯入"
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:1294
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Can't open any other file if G-code is loading. Skipped importing {0}"
-msgstr "如果加載 G-code，則無法開啟其他任何檔案。{0} 已跳過匯入"
+msgstr "如果載入 G-code，則無法開啟其他任何檔案。{0} 已跳過匯入"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:59
 msgctxt "@title"
@@ -895,7 +895,7 @@ msgstr "X 最小值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:191
 msgctxt "@tooltip"
 msgid "Distance from the left of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭左側至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭左側至噴頭中心的距離。用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:200
 msgctxt "@label"
@@ -905,7 +905,7 @@ msgstr "Y 最小值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:201
 msgctxt "@tooltip"
 msgid "Distance from the front of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭前端至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭前端至噴頭中心的距離。用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:210
 msgctxt "@label"
@@ -915,7 +915,7 @@ msgstr "X 最大值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:211
 msgctxt "@tooltip"
 msgid "Distance from the right of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭右側至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭右側至噴頭中心的距離。用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:220
 msgctxt "@label"
@@ -925,7 +925,7 @@ msgstr "Y 最大值"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:221
 msgctxt "@tooltip"
 msgid "Distance from the rear of the printhead to the center of the nozzle. Used to prevent colissions between previous prints and the printhead when printing \"One at a Time\"."
-msgstr "列印頭後部至噴頭中心的距離。 用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
+msgstr "列印頭後部至噴頭中心的距離。用於防止「排隊列印」時之前的列印品與列印頭發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:233
 msgctxt "@label"
@@ -935,7 +935,7 @@ msgstr "龍門高度"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:235
 msgctxt "@tooltip"
 msgid "The height difference between the tip of the nozzle and the gantry system (X and Y axes). Used to prevent collisions between previous prints and the gantry when printing \"One at a Time\"."
-msgstr "噴頭尖端與龍門系統（X 軸和 Y 軸）之間的高度差。 用於防止「排隊列印」時之前的列印品與龍門發生碰撞。"
+msgstr "噴頭尖端與龍門系統（X 軸和 Y 軸）之間的高度差。用於防止「排隊列印」時之前的列印品與龍門發生碰撞。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:253
 msgctxt "@label"
@@ -945,7 +945,7 @@ msgstr "擠出機數目"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:287
 msgctxt "@tooltip"
 msgid "The nominal diameter of filament supported by the printer. The exact diameter will be overridden by the material and/or the profile."
-msgstr "列印機所支援耗材的標示直徑。 耗材和/或列印參數將覆蓋精確直徑。"
+msgstr "列印機所支援耗材的標示直徑。耗材和/或列印參數將覆蓋精確直徑。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:289
 msgctxt "@label"
@@ -1217,7 +1217,7 @@ msgstr "連接到列印機"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:116
 msgctxt "@info:tooltip"
 msgid "Load the configuration of the printer into Cura"
-msgstr "將列印機設定匯入 Cura"
+msgstr "將列印機設定載入 Cura"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qml:117
 msgctxt "@action:button"
@@ -3551,7 +3551,7 @@ msgstr "UM3 網路連接"
 #: CuraSolidWorksPlugin/plugin.json
 msgctxt "description"
 msgid "Gives you the possibility to open certain files via SolidWorks itself. These are then converted and loaded into Cura"
-msgstr "讓你可以透過 SolidWorks 自身開啟特定檔案。 隨後會將這些檔案進行轉換並載入 Cura"
+msgstr "讓你可以透過 SolidWorks 自身開啟特定檔案。隨後會將這些檔案進行轉換並載入 Cura"
 
 #: CuraSolidWorksPlugin/plugin.json
 msgctxt "name"
