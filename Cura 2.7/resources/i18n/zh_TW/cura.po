@@ -86,7 +86,7 @@ msgstr "合併有效設定"
 #: /home/ruben/Projects/Cura/plugins/ProfileFlattener/ProfileFlattener.py:32
 msgctxt "@info:status"
 msgid "Profile has been flattened & activated."
-msgstr "設定檔案已被合併並啟用。"
+msgstr "列印參數已被合併並啟用。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:26
 msgctxt "@item:inmenu"
@@ -462,7 +462,7 @@ msgstr "關閉此通知"
 #: /home/ruben/Projects/Cura/plugins/LegacyProfileReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "Cura 15.04 profiles"
-msgstr "Cura 15.04 設定檔案"
+msgstr "Cura 15.04 列印參數"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeProfileReader/__init__.py:14
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/__init__.py:14
@@ -600,7 +600,7 @@ msgstr "發送檔案之前，請確保 G-code 適用於目前列印機和列印�
 #: /home/ruben/Projects/Cura/plugins/CuraProfileReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "Cura Profile"
-msgstr "Cura 設定檔案"
+msgstr "Cura 列印參數"
 
 #: /home/ruben/Projects/Cura/plugins/3MFWriter/__init__.py:30
 msgctxt "@item:inlistbox"
@@ -702,19 +702,19 @@ msgstr "撤銷更改耗材直徑。"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to export profile to <filename>{0}</filename>: <message>{1}</message>"
-msgstr "無法將設定檔案匯出至<filename> {0} </filename>：<message> {1} </ message>"
+msgstr "無法將列印參數匯出至<filename> {0} </filename>：<message> {1} </ message>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:148
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to export profile to <filename>{0}</filename>: Writer plugin reported failure."
-msgstr "無法將設定檔案匯出至<filename> {0} </filename>：寫入器外掛報告故障。"
+msgstr "無法將列印參數匯出至<filename> {0} </filename>：寫入器外掛報告故障。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:151
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Exported profile to <filename>{0}</filename>"
-msgstr "設定檔案已匯出至：<filename> {0} </filename>"
+msgstr "列印參數已匯出至：<filename> {0} </filename>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:177
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:199
@@ -723,30 +723,30 @@ msgstr "設定檔案已匯出至：<filename> {0} </filename>"
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to import profile from <filename>{0}</filename>: <message>{1}</message>"
-msgstr "無法從 <filename> {0} </filename> 匯入設定檔：<message> {1} </message>"
+msgstr "無法從 <filename> {0} </filename> 匯入列印參數：<message> {1} </message>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:210
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:246
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Successfully imported profile {0}"
-msgstr "已成功匯入設定檔案 {0}"
+msgstr "已成功匯入列印參數 {0}"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:249
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Profile {0} has an unknown file type or is corrupted."
-msgstr "設定 {0} 檔案類型未知或已損壞。"
+msgstr "列印參數 {0} 檔案類型未知或已損壞。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:267
 msgctxt "@label"
 msgid "Custom profile"
-msgstr "自訂設定檔案"
+msgstr "自訂列印參數"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:278
 msgctxt "@info:status"
 msgid "Profile is missing a quality type."
-msgstr "設定檔案缺少列印品質類型定義。"
+msgstr "列印參數缺少列印品質類型定義。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:300
 #, python-brace-format
@@ -945,7 +945,7 @@ msgstr "擠出機數目"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:287
 msgctxt "@tooltip"
 msgid "The nominal diameter of filament supported by the printer. The exact diameter will be overridden by the material and/or the profile."
-msgstr "列印機所支援耗材的標示直徑。 耗材和/或設定檔案將覆蓋精確直徑。"
+msgstr "列印機所支援耗材的標示直徑。 耗材和/或列印參數將覆蓋精確直徑。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:289
 msgctxt "@label"
@@ -1519,18 +1519,18 @@ msgstr "名稱"
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:164
 msgctxt "@action:label"
 msgid "Profile settings"
-msgstr "設定檔案設定"
+msgstr "列印參數設定"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:177
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the profile be resolved?"
-msgstr "如何解决設定檔中的設定衝突？"
+msgstr "如何解决列印參數中的設定衝突？"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:212
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:172
 msgctxt "@action:label"
 msgid "Not in profile"
-msgstr "不在設定檔案中"
+msgstr "不在列印參數中"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:217
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:177
@@ -1872,13 +1872,13 @@ msgid ""
 "You have customized some profile settings.\n"
 "Would you like to keep or discard those settings?"
 msgstr ""
-"你已自訂某些設定檔案設定。\n"
+"你已自訂某些列印參數設定。\n"
 "你想保留或捨棄這些設定嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:110
 msgctxt "@title:column"
 msgid "Profile settings"
-msgstr "設定檔案設定"
+msgstr "列印參數設定"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:117
 msgctxt "@title:column"
@@ -1921,7 +1921,7 @@ msgstr "保留"
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:222
 msgctxt "@action:button"
 msgid "Create New Profile"
-msgstr "創建新設定檔案"
+msgstr "創建新列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:44
 msgctxt "@title"
@@ -2031,7 +2031,7 @@ msgstr "設定"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:60
 msgctxt "@title:column"
 msgid "Profile"
-msgstr "設定檔案"
+msgstr "列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:67
 msgctxt "@title:column"
@@ -2242,12 +2242,12 @@ msgstr "始終匯入模型"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:564
 msgctxt "@info:tooltip"
 msgid "When you have made changes to a profile and switched to a different one, a dialog will be shown asking whether you want to keep your modifications or not, or you can choose a default behaviour and never show that dialog again."
-msgstr "當你對設定檔案進行更改並切換到其他設定檔案時將顯示一個對話框，詢問你是否要保留修改。你也可以選擇一個預設行為並令其不再顯示該對話框。"
+msgstr "當你對列印參數進行更改並切換到其他列印參數時將顯示一個對話框，詢問你是否要保留修改。你也可以選擇一個預設行為並令其不再顯示該對話框。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:573
 msgctxt "@label"
 msgid "Override Profile"
-msgstr "覆寫設定檔案"
+msgstr "覆寫列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:622
 msgctxt "@label"
@@ -2328,17 +2328,17 @@ msgstr "等待列印作業"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:501
 msgctxt "@title:tab"
 msgid "Profiles"
-msgstr "設定檔案"
+msgstr "列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Protected profiles"
-msgstr "受保護的設定檔案"
+msgstr "受保護的列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Custom profiles"
-msgstr "自訂義設定檔案"
+msgstr "自訂義列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:64
 msgctxt "@label"
@@ -2370,7 +2370,7 @@ msgstr "列印機：%1"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:165
 msgctxt "@action:button"
 msgid "Update profile with current settings/overrides"
-msgstr "使用目前設定 / 覆寫值更新設定檔案"
+msgstr "使用目前設定 / 覆寫值更新列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:173
 msgctxt "@action:button"
@@ -2380,12 +2380,12 @@ msgstr "捨棄目前更改"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:190
 msgctxt "@action:label"
 msgid "This profile uses the defaults specified by the printer, so it has no settings/overrides in the list below."
-msgstr "此設定檔案使用列印機指定的預設值，因此在下面的列表中沒有此設定項。"
+msgstr "此列印參數使用列印機指定的預設值，因此在下面的列表中沒有此設定項。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:197
 msgctxt "@action:label"
 msgid "Your current settings match the selected profile."
-msgstr "你目前的設定與選定的設定檔案相匹配。"
+msgstr "你目前的設定與選定的列印參數相匹配。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:215
 msgctxt "@title:tab"
@@ -2395,32 +2395,32 @@ msgstr "全局設定"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:258
 msgctxt "@title:window"
 msgid "Rename Profile"
-msgstr "重命名設定檔案"
+msgstr "重命名列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:271
 msgctxt "@title:window"
 msgid "Create Profile"
-msgstr "創建設定檔案"
+msgstr "創建列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:285
 msgctxt "@title:window"
 msgid "Duplicate Profile"
-msgstr "複製設定檔案"
+msgstr "複製列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:299
 msgctxt "@window:title"
 msgid "Import Profile"
-msgstr "匯入設定檔案"
+msgstr "匯入列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:307
 msgctxt "@title:window"
 msgid "Import Profile"
-msgstr "匯入設定檔案"
+msgstr "匯入列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:335
 msgctxt "@title:window"
 msgid "Export Profile"
-msgstr "匯出設定檔案"
+msgstr "匯出列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialsPage.qml:15
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:499
@@ -2738,9 +2738,9 @@ msgid ""
 "\n"
 "Click to restore the value of the profile."
 msgstr ""
-"此設定的值與設定檔案不同。\n"
+"此設定的值與列印參數不同。\n"
 "\n"
-"單擊以復原設定檔案的值。"
+"單擊以復原列印參數的值。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:284
 msgctxt "@label"
@@ -2942,7 +2942,7 @@ msgstr "管理耗材…"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:130
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Update profile with current settings/overrides"
-msgstr "使用目前設定 / 覆寫更新設定檔案（&U）"
+msgstr "使用目前設定 / 覆寫更新列印參數（&U）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:138
 msgctxt "@action:inmenu menubar:profile"
@@ -2952,12 +2952,12 @@ msgstr "捨棄目前更改（&D）"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:150
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Create profile from current settings/overrides..."
-msgstr "從目前設定 / 覆寫值創建設定檔案（&C）…"
+msgstr "從目前設定 / 覆寫值創建列印參數（&C）…"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:156
 msgctxt "@action:inmenu menubar:profile"
 msgid "Manage Profiles..."
-msgstr "管理設定檔案.."
+msgstr "管理列印參數.."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:163
 msgctxt "@action:inmenu menubar:help"
@@ -3198,7 +3198,7 @@ msgstr "耗材（&M）"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:192
 msgctxt "@title:menu"
 msgid "&Profile"
-msgstr "設定檔案（&P）"
+msgstr "列印參數（&P）"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:184
 msgctxt "@action:inmenu"
@@ -3425,7 +3425,7 @@ msgstr "點擊查看 Ultimaker.com 上的耗材相容性。"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:325
 msgctxt "@label"
 msgid "Profile:"
-msgstr "設定檔案："
+msgstr "列印參數："
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:376
 msgctxt "@tooltip"
@@ -3434,9 +3434,9 @@ msgid ""
 "\n"
 "Click to open the profile manager."
 msgstr ""
-"某些設定/覆寫值與存儲在設定檔案中的值不同。\n"
+"某些設定/覆寫值與存儲在列印參數中的值不同。\n"
 "\n"
-"點擊開啟設定檔案管理器。"
+"點擊開啟列印參數管理器。"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"
@@ -3501,12 +3501,12 @@ msgstr "更新日誌"
 #: ProfileFlattener/plugin.json
 msgctxt "description"
 msgid "Create a flattend quality changes profile."
-msgstr "創建一份合併品質變化設定檔案。"
+msgstr "創建一份合併品質變化列印參數。"
 
 #: ProfileFlattener/plugin.json
 msgctxt "name"
 msgid "Profile flatener"
-msgstr "設定檔案合併器"
+msgstr "列印參數合併器"
 
 #: USBPrinting/plugin.json
 msgctxt "description"
@@ -3571,7 +3571,7 @@ msgstr "後處理"
 #: AutoSave/plugin.json
 msgctxt "description"
 msgid "Automatically saves Preferences, Machines and Profiles after changes."
-msgstr "偏好設定、機器設定和設定檔案修改後自動儲存。"
+msgstr "偏好設定、機器設定和列印參數修改後自動儲存。"
 
 #: AutoSave/plugin.json
 msgctxt "name"
@@ -3591,32 +3591,32 @@ msgstr "切片資訊"
 #: XmlMaterialProfile/plugin.json
 msgctxt "description"
 msgid "Provides capabilities to read and write XML-based material profiles."
-msgstr "提供讀取和寫入 XML 格式的耗材設定檔案的功能。"
+msgstr "提供讀取和寫入 XML 格式的耗材列印參數的功能。"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "name"
 msgid "Material Profiles"
-msgstr "耗材設定檔案"
+msgstr "耗材參數"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from legacy Cura versions."
-msgstr "支援從 Cura 舊版本匯入設定檔案。"
+msgstr "支援從 Cura 舊版本匯入列印參數。"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "name"
 msgid "Legacy Cura Profile Reader"
-msgstr "舊版 Cura 設定檔案讀取器"
+msgstr "舊版 Cura 列印參數讀取器"
 
 #: GCodeProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from g-code files."
-msgstr "提供了從 GCode 檔案中匯入設定檔案的支援。"
+msgstr "提供了從 GCode 檔案中匯入列印參數的支援。"
 
 #: GCodeProfileReader/plugin.json
 msgctxt "name"
 msgid "GCode Profile Reader"
-msgstr "GCode 設定檔案讀取器"
+msgstr "GCode 列印參數讀取器"
 
 #: LayerView/plugin.json
 msgctxt "description"
@@ -3741,12 +3741,12 @@ msgstr "G-code 讀取器"
 #: CuraProfileWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for exporting Cura profiles."
-msgstr "提供了對匯出 Cura 設定檔案的支援。"
+msgstr "提供了對匯出 Cura 列印參數的支援。"
 
 #: CuraProfileWriter/plugin.json
 msgctxt "name"
 msgid "Cura Profile Writer"
-msgstr "Cura 設定檔案寫入器"
+msgstr "Cura 列印參數寫入器"
 
 #: 3MFWriter/plugin.json
 msgctxt "description"
@@ -3771,9 +3771,9 @@ msgstr "Ultimaker 列印機操作"
 #: CuraProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing Cura profiles."
-msgstr "提供了對匯入 Cura 設定檔案的支援。"
+msgstr "提供了對匯入 Cura 列印參數的支援。"
 
 #: CuraProfileReader/plugin.json
 msgctxt "name"
 msgid "Cura Profile Reader"
-msgstr "Cura 設定檔案讀取器"
+msgstr "Cura 列印參數讀取器"

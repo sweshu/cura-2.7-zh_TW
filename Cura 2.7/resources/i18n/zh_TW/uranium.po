@@ -501,7 +501,7 @@ msgstr "你確認要刪除 %1？該操作無法恢復！"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:14
 msgctxt "@title:tab"
 msgid "Profiles"
-msgstr "配置檔案"
+msgstr "列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:15
 msgctxt "@label"
@@ -521,7 +521,7 @@ msgstr "升級 \"%1\""
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:84
 msgctxt "@action:button"
 msgid "Update profile"
-msgstr "升級配置檔案"
+msgstr "列印參數檔案"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:92
 msgctxt "@action:button"
@@ -531,7 +531,7 @@ msgstr "捨棄目前更改"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:93
 msgctxt "@action:button"
 msgid "Reload profile"
-msgstr "重新載入配置檔案"
+msgstr "重新載入列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:107
 msgctxt "@label"
@@ -541,17 +541,17 @@ msgstr "基於"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:107
 msgctxt "@label"
 msgid "Profile type"
-msgstr "配置檔案類型"
+msgstr "列印參數類型"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:112
 msgctxt "@label"
 msgid "Protected profile"
-msgstr "受保護的配置檔案"
+msgstr "受保護的列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:112
 msgctxt "@label"
 msgid "Custom profile"
-msgstr "自定義配置檔案"
+msgstr "自定義列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:139
 msgctxt "@action:button"
@@ -566,17 +566,17 @@ msgstr "匯出"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:184
 msgctxt "@window:title"
 msgid "Import Profile"
-msgstr "匯入配置檔案"
+msgstr "匯入列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:192
 msgctxt "@title:window"
 msgid "Import Profile"
-msgstr "匯入配置檔案"
+msgstr "匯入列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:219
 msgctxt "@title:window"
 msgid "Export Profile"
-msgstr "匯出配置檔案"
+msgstr "匯出列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Wizard.qml:215
 msgctxt "@action:button"
