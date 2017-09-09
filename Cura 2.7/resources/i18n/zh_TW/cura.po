@@ -275,7 +275,7 @@ msgstr "已透過網路連接，但沒有列印機的控制權限。"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:383
 msgctxt "@info:status"
 msgid "Access request was denied on the printer."
-msgstr "存取請求在列印機上被拒絕。"
+msgstr "存取請求被列印機上拒絕。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:386
 msgctxt "@info:status"
@@ -332,7 +332,7 @@ msgstr "你為擠出機 {2} 選擇了不同的耗材（Cura：{0}，列印機：
 #, python-brace-format
 msgctxt "@label"
 msgid "PrintCore {0} is not properly calibrated. XY calibration needs to be performed on the printer."
-msgstr "列印頭 {0} 未正確校準。需要在列印機上執行 XY 校準。"
+msgstr "列印頭 {0} 未正確校準。需要在列印機上執行 XY 校正。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:707
 msgctxt "@label"
@@ -342,7 +342,7 @@ msgstr "你確定要使用所選設定進行列印嗎？"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:708
 msgctxt "@label"
 msgid "There is a mismatch between the configuration or calibration of the printer and Cura. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "列印機的設定或校準與 Cura 之間不匹配。為了獲得最佳列印效果，請使用列印機列印頭和耗材的設定進行切片。"
+msgstr "列印機的設定或校正與 Cura 之間不匹配。為了獲得最佳列印效果，請使用列印機的列印頭和耗材設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:714
 msgctxt "@window:title"
@@ -378,12 +378,12 @@ msgstr "無法向列印機發送資料。請確認是否有另一項列印任務
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:198
 msgctxt "@label:MonitorStatus"
 msgid "Aborting print..."
-msgstr "中止列印..."
+msgstr "中斷列印..."
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1024
 msgctxt "@label:MonitorStatus"
 msgid "Print aborted. Please check the printer"
-msgstr "列印已中止。請檢查列印機"
+msgstr "列印已中斷。請檢查列印機"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1030
 msgctxt "@label:MonitorStatus"
@@ -408,7 +408,7 @@ msgstr "你想在 Cura 中使用目前的列印機設定嗎？"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/NetworkPrinterOutputDevice.py:1179
 msgctxt "@label"
 msgid "The PrintCores and/or materials on your printer differ from those within your current project. For the best result, always slice for the PrintCores and materials that are inserted in your printer."
-msgstr "列印機上的列印頭和/或耗材與目前專案中的不同。為獲得最佳列印效果，請使用目前列印機列印頭和耗材的設定進行切片。"
+msgstr "列印機上的列印頭和/或耗材與目前專案中的不同。為獲得最佳列印效果，請使用目前列印機的列印頭和耗材設定進行切片。"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.py:19
 msgctxt "@action"
@@ -443,7 +443,7 @@ msgstr "啟動 %s 時發生錯誤！"
 #: /home/ruben/Projects/Cura/plugins/CuraSolidWorksPlugin/CommonComReader.py:207
 msgctxt "@info:status"
 msgid "Please keep in mind, that you have to reopen your SolidWorks file manually! Reloading the model won't work!"
-msgstr "請注意，你必須手動重新開啟 SolidWorks 檔案！ 重新載入模型無法正常工作！"
+msgstr "請注意，重新載入模型功能無法運作！你必須手動重新開啟 SolidWorks 檔案！"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.py:24
 msgid "Modify G-Code"
@@ -483,27 +483,27 @@ msgstr "當單線列印（Wire Printing）功能開啟時，Cura 將無法準確
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "JPG Image"
-msgstr "JPG 圖像"
+msgstr "JPG 圖片"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:18
 msgctxt "@item:inlistbox"
 msgid "JPEG Image"
-msgstr "JPEG 圖像"
+msgstr "JPEG 圖片"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:22
 msgctxt "@item:inlistbox"
 msgid "PNG Image"
-msgstr "PNG 圖像"
+msgstr "PNG 圖片"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:26
 msgctxt "@item:inlistbox"
 msgid "BMP Image"
-msgstr "BMP 圖像"
+msgstr "BMP 圖片"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:30
 msgctxt "@item:inlistbox"
 msgid "GIF Image"
-msgstr "GIF 圖像"
+msgstr "GIF 圖片"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:281
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:108
@@ -652,13 +652,13 @@ msgstr "未知耗材"
 #: /home/ruben/Projects/Cura/cura/ArrangeObjectsJob.py:30
 msgctxt "@info:status"
 msgid "Finding new location for objects"
-msgstr "正在為模型尋找新位置"
+msgstr "正在為物件尋找新位置"
 
 #: /home/ruben/Projects/Cura/cura/ArrangeObjectsJob.py:85
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:83
 msgctxt "@info:status"
 msgid "Unable to find a location within the build volume for all objects"
-msgstr "無法在列印範圍內放下全部模型"
+msgstr "無法在列印範圍內放下全部物件"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:417
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:112
@@ -691,12 +691,12 @@ msgstr "所選耗材直徑導致耗材與目前列印機不相容。"
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:25
 msgctxt "@action:button"
 msgid "Undo"
-msgstr "撤銷"
+msgstr "復原"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MaterialManager.py:25
 msgctxt "@action"
 msgid "Undo changing the material diameter."
-msgstr "撤銷更改耗材直徑。"
+msgstr "復原更改耗材直徑。"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:143
 #, python-brace-format
@@ -777,7 +777,7 @@ msgid ""
 "    "
 msgstr ""
 "<p>發生了致命錯誤，我們無法繼續！</p>\n"
-"        <p>請在以下網址中使用下方的信息提交錯誤報告：<a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>\n"
+"        <p>請利用下方資訊回報錯誤到 <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>\n"
 "    "
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:112
@@ -870,7 +870,7 @@ msgstr "列印平台形狀"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:148
 msgctxt "@option:check"
 msgid "Origin at center"
-msgstr "置中"
+msgstr "原點在中心位置"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:156
 msgctxt "@option:check"
@@ -945,7 +945,7 @@ msgstr "擠出機數目"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:287
 msgctxt "@tooltip"
 msgid "The nominal diameter of filament supported by the printer. The exact diameter will be overridden by the material and/or the profile."
-msgstr "列印機所支援耗材的標示直徑。耗材和/或列印參數將覆蓋精確直徑。"
+msgstr "列印機所支援的耗材直徑。實際列印的耗材直徑由耗材和/或列印參數提供。"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:289
 msgctxt "@label"
@@ -1380,7 +1380,7 @@ msgstr "內壁"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:19
 msgctxt "@title:window"
 msgid "Convert Image..."
-msgstr "轉換圖像..."
+msgstr "轉換圖片..."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:33
 msgctxt "@info:tooltip"
@@ -1425,7 +1425,7 @@ msgstr "深度 (mm)"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:126
 msgctxt "@info:tooltip"
 msgid "By default, white pixels represent high points on the mesh and black pixels represent low points on the mesh. Change this option to reverse the behavior such that black pixels represent high points on the mesh and white pixels represent low points on the mesh."
-msgstr "預設情況下，白色像素表示網格上的高點，黑色像素表示網格上的低點。若更改此選項將反其道而行之，相當於圖像編輯軟體中的「反相」操作。"
+msgstr "預設情況下，白色像素表示網格上的高點，黑色像素表示網格上的低點。若更改此選項將反其道而行之，相當於圖片編輯軟體中的「反相」操作。"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:139
 msgctxt "@item:inlistbox"
@@ -1849,17 +1849,17 @@ msgstr "暫停"
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:271
 msgctxt "@label:"
 msgid "Abort Print"
-msgstr "中止列印"
+msgstr "中斷列印"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:281
 msgctxt "@window:title"
 msgid "Abort print"
-msgstr "中止列印"
+msgstr "中斷列印"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:283
 msgctxt "@label"
 msgid "Are you sure you want to abort the print?"
-msgstr "你確定要中止列印嗎？"
+msgstr "你確定要中斷列印嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:15
 msgctxt "@title:window"
@@ -3671,12 +3671,12 @@ msgstr "版本自 2.2 升級到 2.4"
 #: ImageReader/plugin.json
 msgctxt "description"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr "支援從 2D 圖像檔案生成可列印 3D 模型的能力。"
+msgstr "支援從 2D 圖片檔案生成可列印 3D 模型的能力。"
 
 #: ImageReader/plugin.json
 msgctxt "name"
 msgid "Image Reader"
-msgstr "圖像讀取器"
+msgstr "圖片讀取器"
 
 #: CuraEngineBackend/plugin.json
 msgctxt "description"
