@@ -31,12 +31,12 @@ msgstr "透視"
 #: /home/ruben/Projects/Cura/plugins/X3DReader/__init__.py:13
 msgctxt "@item:inlistbox"
 msgid "X3D File"
-msgstr "X3D 檔"
+msgstr "X3D 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeWriter/__init__.py:16
 msgctxt "@item:inlistbox"
 msgid "GCode File"
-msgstr "GCode 檔"
+msgstr "GCode 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/Doodle3D-cura-plugin/__init__.py:13
 msgctxt "@label"
@@ -116,7 +116,7 @@ msgstr "無法啟動新作業，因為列印機處於忙碌狀態或未連接。
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:456
 msgctxt "@info:status"
 msgid "This printer does not support USB printing because it uses UltiGCode flavor."
-msgstr "此列印機不支援透過 USB 列印，因為其使用 UltiGCode 類型的 G-code 檔。"
+msgstr "此列印機不支援透過 USB 列印，因為其使用 UltiGCode 類型的 G-code 檔案。"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterOutputDevice.py:460
 msgctxt "@info:status"
@@ -137,7 +137,7 @@ msgstr "在 %s 無法找到列印機所需的韌體。"
 #: /home/ruben/Projects/Cura/plugins/X3GWriter/__init__.py:14
 msgctxt "X3G Writer File Description"
 msgid "X3G File"
-msgstr "X3G 檔"
+msgstr "X3G 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:23
 msgctxt "@action:button Preceded by 'Ready to'."
@@ -468,7 +468,7 @@ msgstr "Cura 15.04 列印參數"
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "G-code File"
-msgstr "G-code 檔"
+msgstr "G-code 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/__init__.py:13
 msgctxt "@item:inlistbox"
@@ -559,7 +559,7 @@ msgstr "自訂選項"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:36
 msgctxt "@item:inlistbox"
 msgid "3MF File"
-msgstr "3MF 檔"
+msgstr "3MF 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/ThreeMFWorkspaceReader.py:122
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:1050
@@ -584,7 +584,7 @@ msgstr "實體"
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/__init__.py:18
 msgctxt "@item:inlistbox"
 msgid "G File"
-msgstr "G 檔"
+msgstr "G 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeReader/GCodeReader.py:254
 msgctxt "@info:status"
@@ -605,12 +605,12 @@ msgstr "Cura 列印參數"
 #: /home/ruben/Projects/Cura/plugins/3MFWriter/__init__.py:30
 msgctxt "@item:inlistbox"
 msgid "3MF file"
-msgstr "3MF 檔"
+msgstr "3MF 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/3MFWriter/__init__.py:38
 msgctxt "@item:inlistbox"
 msgid "Cura Project 3MF file"
-msgstr "Cura 專案 3MF 檔"
+msgstr "Cura 專案 3MF 檔案"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelection.py:20
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelection.py:20
@@ -637,7 +637,7 @@ msgstr "調平列印平台"
 #, python-brace-format
 msgctxt "@label"
 msgid "Pre-sliced file {0}"
-msgstr "預切片檔 {0}"
+msgstr "預切片檔案 {0}"
 
 #: /home/ruben/Projects/Cura/cura/PrinterOutputDevice.py:440
 msgctxt "@item:material"
@@ -1622,12 +1622,12 @@ msgstr "下載"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:25
 msgctxt "@title"
 msgid "Select Printer Upgrades"
-msgstr "選擇列印機更新檔"
+msgstr "選擇列印機更新檔案"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelectionMachineAction.qml:37
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker 2."
-msgstr "請選擇適用於 Ultimaker 2 的更新檔。"
+msgstr "請選擇適用於 Ultimaker 2 的更新檔案。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UM2UpgradeSelectionMachineAction.qml:45
 msgctxt "@label"
@@ -1692,7 +1692,7 @@ msgstr "選擇自訂韌體"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:37
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker Original"
-msgstr "請選擇適用於 Ultimaker Original 的更新檔"
+msgstr "請選擇適用於 Ultimaker Original 的更新檔案"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:45
 msgctxt "@label"
@@ -2765,7 +2765,7 @@ msgid ""
 "G-code files cannot be modified"
 msgstr ""
 "列印設定已禁用\n"
-"G-code 檔無法被修改"
+"G-code 檔案無法被修改"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:455
 msgctxt "@tooltip"
@@ -3671,7 +3671,7 @@ msgstr "版本自 2.2 升級到 2.4"
 #: ImageReader/plugin.json
 msgctxt "description"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr "支援從 2D 圖像檔生成可列印 3D 模型的能力。"
+msgstr "支援從 2D 圖像檔案生成可列印 3D 模型的能力。"
 
 #: ImageReader/plugin.json
 msgctxt "name"

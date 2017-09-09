@@ -45,7 +45,7 @@ msgstr "顯示印表機型號"
 #: fdmprinter.def.json
 msgctxt "machine_show_variants description"
 msgid "Whether to show the different variants of this machine, which are described in separate json files."
-msgstr "是否顯示這台印表機在不同的 JSON 檔中所描述的型號。"
+msgstr "是否顯示這台印表機在不同的 JSON 檔案中所描述的型號。"
 
 #: fdmprinter.def.json
 msgctxt "machine_start_gcode label"

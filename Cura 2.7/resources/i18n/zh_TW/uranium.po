@@ -28,23 +28,23 @@ msgstr "簡單"
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLReader/__init__.py:14
 msgctxt "@item:inlistbox"
 msgid "STL File"
-msgstr "STL 檔"
+msgstr "STL 檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/OBJReader/__init__.py:15
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/OBJWriter/__init__.py:15
 msgctxt "@item:inlistbox"
 msgid "Wavefront OBJ File"
-msgstr "Wavefront OBJ 檔"
+msgstr "Wavefront OBJ 檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:17
 msgctxt "@item:inlistbox"
 msgid "STL File (ASCII)"
-msgstr "STL 檔 (ASCII)"
+msgstr "STL 檔案 (ASCII)"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:23
 msgctxt "@item:inlistbox"
 msgid "STL File (Binary)"
-msgstr "STL 檔 (二進制)"
+msgstr "STL 檔案 (二進制)"
 
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:51
 msgctxt "@info"
@@ -616,42 +616,42 @@ msgstr "檔案日誌記錄"
 #: FileHandlers/STLReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading STL files."
-msgstr "支援讀取 STL 檔。"
+msgstr "支援讀取 STL 檔案。"
 
 #: FileHandlers/STLReader/plugin.json
 msgctxt "name"
 msgid "STL Reader"
-msgstr "STL 檔閱讀器"
+msgstr "STL 檔案閱讀器"
 
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "description"
 msgid "Makes it possible to read Wavefront OBJ files."
-msgstr "支援讀取 Wavefront OBJ 檔。"
+msgstr "支援讀取 Wavefront OBJ 檔案。"
 
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Reader"
-msgstr "Wavefront OBJ 檔閱讀器"
+msgstr "Wavefront OBJ 檔案閱讀器"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "description"
 msgid "Makes it possible to write Wavefront OBJ files."
-msgstr "支援寫入 Wavefront OBJ 檔。"
+msgstr "支援寫入 Wavefront OBJ 檔案。"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Writer"
-msgstr "Wavefront OBJ 檔編輯器"
+msgstr "Wavefront OBJ 檔案編輯器"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing STL files."
-msgstr "支援寫入 STL 檔。"
+msgstr "支援寫入 STL 檔案。"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "name"
 msgid "STL Writer"
-msgstr "STL 檔編輯器"
+msgstr "STL 檔案編輯器"
 
 #: ConsoleLogger/plugin.json
 msgctxt "description"
