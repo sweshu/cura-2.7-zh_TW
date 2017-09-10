@@ -616,7 +616,7 @@ msgstr "檔案日誌記錄"
 #: FileHandlers/STLReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading STL files."
-msgstr "支援讀取 STL 檔案。"
+msgstr "提供讀取 STL 檔案的支援。"
 
 #: FileHandlers/STLReader/plugin.json
 msgctxt "name"
@@ -646,7 +646,7 @@ msgstr "Wavefront OBJ 檔案編輯器"
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing STL files."
-msgstr "支援寫入 STL 檔案。"
+msgstr "提供寫入 STL 檔案的。"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "name"

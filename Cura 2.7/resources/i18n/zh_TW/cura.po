@@ -2338,7 +2338,7 @@ msgstr "受保護的列印參數"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Custom profiles"
-msgstr "自訂義列印參數"
+msgstr "自訂列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:64
 msgctxt "@label"
@@ -3461,7 +3461,7 @@ msgstr "透視檢視"
 #: X3DReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading X3D files."
-msgstr "支援讀取 X3D 檔案。"
+msgstr "提供讀取 X3D 檔案的支援。"
 
 #: X3DReader/plugin.json
 msgctxt "name"
@@ -3486,12 +3486,12 @@ msgstr "將所有設定內容轉儲至 HTML 檔案。"
 #: cura-god-mode-plugin/src/GodMode/plugin.json
 msgctxt "name"
 msgid "God Mode"
-msgstr "God 模式"
+msgstr "上帝模式"
 
 #: ChangeLogPlugin/plugin.json
 msgctxt "description"
 msgid "Shows changes since latest checked version."
-msgstr "顯示最新版本改動。"
+msgstr "顯示最新版本更動。"
 
 #: ChangeLogPlugin/plugin.json
 msgctxt "name"
@@ -3511,7 +3511,7 @@ msgstr "列印參數合併器"
 #: USBPrinting/plugin.json
 msgctxt "description"
 msgid "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
-msgstr "接受 G-Code 並且傳送到列印機。外掛也可以更新韌體。"
+msgstr "接受 G-Code 並且傳送到列印機。此外掛也可以更新韌體。"
 
 #: USBPrinting/plugin.json
 msgctxt "name"
@@ -3521,7 +3521,7 @@ msgstr "USB 連線列印"
 #: X3GWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing X3G files"
-msgstr "提供對寫入 X3G 檔案的支援"
+msgstr "提供寫入 X3G 檔案的支援"
 
 #: X3GWriter/plugin.json
 msgctxt "name"
@@ -3591,7 +3591,7 @@ msgstr "切片資訊"
 #: XmlMaterialProfile/plugin.json
 msgctxt "description"
 msgid "Provides capabilities to read and write XML-based material profiles."
-msgstr "提供讀取和寫入 XML 格式的耗材列印參數的功能。"
+msgstr "提供讀寫 XML 格式耗材參數的功能。"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "name"
@@ -3601,7 +3601,7 @@ msgstr "耗材參數"
 #: LegacyProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from legacy Cura versions."
-msgstr "支援從 Cura 舊版本匯入列印參數。"
+msgstr "提供匯入 Cura 舊版本列印參數的支援。"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "name"
@@ -3611,12 +3611,12 @@ msgstr "舊版 Cura 列印參數讀取器"
 #: GCodeProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from g-code files."
-msgstr "提供了從 GCode 檔案中匯入列印參數的支援。"
+msgstr "提供匯入 G-code 檔案中列印參數的支援。"
 
 #: GCodeProfileReader/plugin.json
 msgctxt "name"
 msgid "GCode Profile Reader"
-msgstr "GCode 列印參數讀取器"
+msgstr "G-code 列印參數讀取器"
 
 #: LayerView/plugin.json
 msgctxt "description"
@@ -3681,12 +3681,12 @@ msgstr "圖片讀取器"
 #: CuraEngineBackend/plugin.json
 msgctxt "description"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr "提供連結到Cura切片引擎後台。"
+msgstr "提供連結到 Cura 切片引擎後台。"
 
 #: CuraEngineBackend/plugin.json
 msgctxt "name"
 msgid "CuraEngine Backend"
-msgstr "Cura引擎後台"
+msgstr "Cura 引擎後台"
 
 #: PerObjectSettingsTool/plugin.json
 msgctxt "description"
@@ -3701,7 +3701,7 @@ msgstr "單一模型設定工具"
 #: 3MFReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading 3MF files."
-msgstr "提供對讀取 3MF 格式檔案的支援。"
+msgstr "提供讀取 3MF 格式檔案的支援。"
 
 #: 3MFReader/plugin.json
 msgctxt "name"
@@ -3711,7 +3711,7 @@ msgstr "3MF 讀取器"
 #: PluginBrowser/plugin.json
 msgctxt "description"
 msgid "Find, manage and install new plugins."
-msgstr "查找、管理和安裝新外掛。"
+msgstr "尋找、管理和安裝新外掛。"
 
 #: PluginBrowser/plugin.json
 msgctxt "name"
@@ -3741,7 +3741,7 @@ msgstr "G-code 讀取器"
 #: CuraProfileWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for exporting Cura profiles."
-msgstr "提供了對匯出 Cura 列印參數的支援。"
+msgstr "提供匯出 Cura 列印參數的支援。"
 
 #: CuraProfileWriter/plugin.json
 msgctxt "name"
@@ -3751,7 +3751,7 @@ msgstr "Cura 列印參數寫入器"
 #: 3MFWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing 3MF files."
-msgstr "提供對寫入 3MF 檔案的支援。"
+msgstr "提供寫入 3MF 檔案的支援。"
 
 #: 3MFWriter/plugin.json
 msgctxt "name"
@@ -3771,7 +3771,7 @@ msgstr "Ultimaker 列印機操作"
 #: CuraProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing Cura profiles."
-msgstr "提供了對匯入 Cura 列印參數的支援。"
+msgstr "提供匯入 Cura 列印參數的支援。"
 
 #: CuraProfileReader/plugin.json
 msgctxt "name"
