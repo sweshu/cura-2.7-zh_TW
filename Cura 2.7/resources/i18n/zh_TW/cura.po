@@ -478,7 +478,7 @@ msgstr "層"
 #: /home/ruben/Projects/Cura/plugins/LayerView/LayerView.py:93
 msgctxt "@info:status"
 msgid "Cura does not accurately display layers when Wire Printing is enabled"
-msgstr "當單線列印（Wire Printing）功能開啟時，Cura 將無法準確地顯示列印層（Layers）"
+msgstr "當鐵絲網列印（Wire Printing）功能開啟時，Cura 將無法準確地顯示列印層（Layers）"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:14
 msgctxt "@item:inlistbox"
@@ -2524,7 +2524,7 @@ msgstr "支撐填充"
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:171
 msgctxt "@tooltip"
 msgid "Support Interface"
-msgstr "支撐接觸面"
+msgstr "支撐介面"
 
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:172
 msgctxt "@tooltip"

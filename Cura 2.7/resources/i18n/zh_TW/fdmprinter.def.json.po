@@ -703,7 +703,7 @@ msgstr "單一支撐線寬。"
 #: fdmprinter.def.json
 msgctxt "support_interface_line_width label"
 msgid "Support Interface Line Width"
-msgstr "支撐接觸面線寬"
+msgstr "支撐介面線寬"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_line_width description"
@@ -1693,7 +1693,7 @@ msgstr "噴頭切換回抽距離"
 #: fdmprinter.def.json
 msgctxt "switch_extruder_retraction_amount description"
 msgid "The amount of retraction: Set at 0 for no retraction at all. This should generally be the same as the length of the heat zone."
-msgstr "回抽量： 設為 0，不進行任何回抽。該值通常應與加熱區的長度相同。"
+msgstr "回抽量：設為 0，不進行任何回抽。該值通常應與加熱區的長度相同。"
 
 #: fdmprinter.def.json
 msgctxt "switch_extruder_retraction_speeds label"
@@ -1838,7 +1838,7 @@ msgstr "列印支撐填充的速度。以較低的速度列印填充可改善穩
 #: fdmprinter.def.json
 msgctxt "speed_support_interface label"
 msgid "Support Interface Speed"
-msgstr "支撐接觸面速度"
+msgstr "支撐介面速度"
 
 #: fdmprinter.def.json
 msgctxt "speed_support_interface description"
@@ -2078,7 +2078,7 @@ msgstr "列印支撐填充的加速度。"
 #: fdmprinter.def.json
 msgctxt "acceleration_support_interface label"
 msgid "Support Interface Acceleration"
-msgstr "支撐接觸面加速度"
+msgstr "支撐介面加速度"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_support_interface description"
@@ -2278,7 +2278,7 @@ msgstr "列印支撐填充時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support_interface label"
 msgid "Support Interface Jerk"
-msgstr "支撐接觸面瞬動速度"
+msgstr "支撐介面瞬動速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support_interface description"
@@ -2673,7 +2673,7 @@ msgstr "用於列印支撐填充第一層的擠出機組。用於多重擠出。
 #: fdmprinter.def.json
 msgctxt "support_interface_extruder_nr label"
 msgid "Support Interface Extruder"
-msgstr "支撐接觸面擠出機"
+msgstr "支撐介面擠出機"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_extruder_nr description"
@@ -2898,7 +2898,7 @@ msgstr "支撐階梯高度"
 #: fdmprinter.def.json
 msgctxt "support_bottom_stair_step_height description"
 msgid "The height of the steps of the stair-like bottom of support resting on the model. A low value makes the support harder to remove, but too high values can lead to unstable support structures. Set to zero to turn off the stair-like behaviour."
-msgstr "停留在模型上的支撐階梯狀底部的階梯高度。較低的值會使支撐更難於移除，但過高的值可能導致不穩定的支撐結構。設為零可以關閉階梯狀行為。"
+msgstr "模型上的支撐階梯狀底部的階梯高度。較低的值會使支撐更難於移除，但過高的值可能導致不穩定的支撐結構。設為零可以關閉階梯狀行為。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_stair_step_width label"
@@ -2948,7 +2948,7 @@ msgstr "漸進支撐填充步階"
 #: fdmprinter.def.json
 msgctxt "gradual_support_infill_steps description"
 msgid "Number of times to reduce the support infill density by half when getting further below top surfaces. Areas which are closer to top surfaces get a higher density, up to the Support Infill Density."
-msgstr "在進入頂部以下時，將支撐填充密度減少一半的次數。越靠近頂面的區域密度越高，最高達到支撐填充密度。"
+msgstr "從支撐頂層往下，填充密度減半的次數。越靠近頂層的填充密度越高，最高密度為支撐填充密度。"
 
 #: fdmprinter.def.json
 msgctxt "gradual_support_infill_step_height label"
@@ -2963,12 +2963,12 @@ msgstr "在切換至密度的一半前指定密度的支撐填充高度。"
 #: fdmprinter.def.json
 msgctxt "support_interface_enable label"
 msgid "Enable Support Interface"
-msgstr "啟用支撐接觸面"
+msgstr "啟用支撐介面"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_enable description"
 msgid "Generate a dense interface between the model and the support. This will create a skin at the top of the support on which the model is printed and at the bottom of the support, where it rests on the model."
-msgstr "在模型和支撐之間生成一個密集的接觸面。這會在列印模型所在的支撐頂部和模型停放的支撐底部創造出一個表層。"
+msgstr "在模型和支撐之間生成一個密度較高的介面。這會在列印模型所在的支撐頂部和模型停放的支撐底部創造出一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_enable label"
@@ -2993,12 +2993,12 @@ msgstr "在支撐底部和模型之間生成一個密集的平板。這會在模
 #: fdmprinter.def.json
 msgctxt "support_interface_height label"
 msgid "Support Interface Thickness"
-msgstr "支撐接觸面厚度"
+msgstr "支撐介面厚度"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_height description"
 msgid "The thickness of the interface of the support where it touches with the model on the bottom or the top."
-msgstr "支撐與模型在底部或頂部接觸的接觸面厚度。"
+msgstr "支撐與模型在底部或頂部接觸的介面厚度。"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_height label"
@@ -3023,17 +3023,17 @@ msgstr "支撐底板的厚度。這會控制支撐所停放的模型頂部區域
 #: fdmprinter.def.json
 msgctxt "support_interface_skip_height label"
 msgid "Support Interface Resolution"
-msgstr "支撐接觸面解析度"
+msgstr "支撐介面解析度"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_skip_height description"
 msgid "When checking where there's model above and below the support, take steps of the given height. Lower values will slice slower, while higher values may cause normal support to be printed in some places where there should have been support interface."
-msgstr "在檢查支撐上方或下方是否有模型時，採用指定高度的步階。值越低切片速度越慢，而較高的值會導致在部分應有支撐接觸面的位置列印一般的支撐。"
+msgstr "在檢查支撐上方或下方是否有模型時，所採用步階的高度。值越低切片速度越慢，而較高的值會導致在部分應有支撐介面的位置列印一般的支撐。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_density label"
 msgid "Support Interface Density"
-msgstr "支撐接觸面密度"
+msgstr "支撐介面密度"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_density description"
@@ -3083,12 +3083,12 @@ msgstr "已列印支撐底板線條之間的距離。該設定是通過支撐底
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern label"
 msgid "Support Interface Pattern"
-msgstr "支撐接觸面列印樣式"
+msgstr "支撐介面列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern description"
 msgid "The pattern with which the interface of the support with the model is printed."
-msgstr "支撐與模型之間接觸面的列印樣式。"
+msgstr "支撐與模型之間介面的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern option lines"
@@ -3288,7 +3288,7 @@ msgstr "列印平台附著類型"
 #: fdmprinter.def.json
 msgctxt "adhesion_type description"
 msgid "Different options that help to improve both priming your extrusion and adhesion to the build plate. Brim adds a single layer flat area around the base of your model to prevent warping. Raft adds a thick grid with a roof below the model. Skirt is a line printed around the model, but not connected to the model."
-msgstr "幫助改善擠出裝填以及與列印平台附著的不同選項。Brim 會在模型基座周圍添加單層平面區域，以防止捲翹。Raft 會在模型下添加一個有頂板的厚網格。Skirt 是在模型四周列印的一條線，但並不與模型連接。"
+msgstr "幫助改善擠出裝填以及與列印平台附著的不同選項。Brim 會在模型基座周圍添加單層平面區域，以防止翹曲。Raft 會在模型下添加一個有頂板的厚網格。Skirt 是在模型四周列印的一條線，但並不與模型連接。"
 
 #: fdmprinter.def.json
 msgctxt "adhesion_type option skirt"
@@ -3692,7 +3692,7 @@ msgstr "啟用換料塔"
 #: fdmprinter.def.json
 msgctxt "prime_tower_enable description"
 msgid "Print a tower next to the print which serves to prime the material after each nozzle switch."
-msgstr "在列印件旁邊印一個塔，用在每次噴頭開關後填充耗材。"
+msgstr "在列印件旁邊印一個塔，用在每次切換噴頭後填充耗材。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_size label"
@@ -4087,7 +4087,7 @@ msgstr "啟用防風罩"
 #: fdmprinter.def.json
 msgctxt "draft_shield_enabled description"
 msgid "This will create a wall around the model, which traps (hot) air and shields against exterior airflow. Especially useful for materials which warp easily."
-msgstr "這將在模型周圍創建一個壁，該壁會吸住（熱）空氣並遮住外部氣流。對於容易捲曲的耗材尤為有用。"
+msgstr "這將在模型周圍創建一個壁，該壁會吸住（熱）空氣並遮住外部氣流。對於容易翹曲的耗材尤為有用。"
 
 #: fdmprinter.def.json
 msgctxt "draft_shield_dist label"
@@ -4322,52 +4322,52 @@ msgstr "移除所有填充並讓模型內部可以進行支撐。"
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_enabled label"
 msgid "Fuzzy Skin"
-msgstr "霧狀表層"
+msgstr "絨毛皮膚"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_enabled description"
 msgid "Randomly jitter while printing the outer wall, so that the surface has a rough and fuzzy look."
-msgstr "在列印外牆時隨機瞬動，使表面具有粗糙和模糊的外觀。"
+msgstr "在列印外牆時隨機抖動，使表面具有粗糙和模糊的外觀。"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_thickness label"
 msgid "Fuzzy Skin Thickness"
-msgstr "霧狀表層顆粒厚度"
+msgstr "絨毛皮膚厚度"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_thickness description"
 msgid "The width within which to jitter. It's advised to keep this below the outer wall width, since the inner walls are unaltered."
-msgstr "在其中進行瞬動的寬度。建議讓此值低於外壁寬度，因為內壁不會更改。"
+msgstr "進行抖動的寬度。建議讓此值低於外壁寬度，因為內壁不會更改。"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_point_density label"
 msgid "Fuzzy Skin Density"
-msgstr "霧狀表層顆粒密度"
+msgstr "絨毛皮膚密度"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_point_density description"
 msgid "The average density of points introduced on each polygon in a layer. Note that the original points of the polygon are discarded, so a low density results in a reduction of the resolution."
-msgstr "在一層中的每個多邊形上引入的點的平均密度。注意，多邊形的原始點被捨棄，因此低密度導致解析度降低。"
+msgstr "在每一層中，每個多邊形上改變的點的平均密度。注意，多邊形的原始點會被捨棄，因此低密度導致解析度降低。"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_point_dist label"
 msgid "Fuzzy Skin Point Distance"
-msgstr "霧狀表層顆粒距離"
+msgstr "絨毛皮膚距離"
 
 #: fdmprinter.def.json
 msgctxt "magic_fuzzy_skin_point_dist description"
 msgid "The average distance between the random points introduced on each line segment. Note that the original points of the polygon are discarded, so a high smoothness results in a reduction of the resolution. This value must be higher than half the Fuzzy Skin Thickness."
-msgstr "在每個線條部分引入的隨機點之間的平均距離。注意，多邊形的原始點被捨棄，因此高平滑度導致解析度降低。該值必須大於霧狀表層顆粒厚度的一半。"
+msgstr "在每個線條部分改變的隨機點之間的平均距離。注意，多邊形的原始點會被捨棄，因此高平滑度導致解析度降低。該值必須大於絨毛皮膚厚度的一半。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_enabled label"
 msgid "Wire Printing"
-msgstr "單線列印（以下簡稱 WP）"
+msgstr "鐵絲網列印（以下簡稱 WP）"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_enabled description"
 msgid "Print only the outside surface with a sparse webbed structure, printing 'in thin air'. This is realized by horizontally printing the contours of the model at given Z intervals which are connected via upward and diagonally downward lines."
-msgstr "只列印一個具有稀疏網狀結構的外表面，在“稀薄的空氣中”列印。這是通過在给定的 Z 間隔水平列印模型的輪廓來實現的，這些間隔通過上行線和下行斜線連接。"
+msgstr "只列印一個具有稀疏網狀結構的外表面，在「稀薄的空中」列印。這是在给定的 Z 軸間隔內，通過上行線和下行斜線連接，橫向列印模型的輪廓來實現的。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_height label"
@@ -4377,7 +4377,7 @@ msgstr "WP 連接高度"
 #: fdmprinter.def.json
 msgctxt "wireframe_height description"
 msgid "The height of the upward and diagonally downward lines between two horizontal parts. This determines the overall density of the net structure. Only applies to Wire Printing."
-msgstr "兩個水平部分之間上行線和下行斜線的高度。這决定網結構的整體密度。僅應用於單線列印。"
+msgstr "兩個水平部分之間上行線和下行斜線的高度。這决定網狀結構的整體密度。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_inset label"
@@ -4387,7 +4387,7 @@ msgstr "WP 頂板嵌入距離"
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_inset description"
 msgid "The distance covered when making a connection from a roof outline inward. Only applies to Wire Printing."
-msgstr "在從頂板輪廓向內進行連接時所覆蓋的距離。僅應用於單線列印。"
+msgstr "在從頂板輪廓向內進行連接時所覆蓋的距離。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed label"
@@ -4397,7 +4397,7 @@ msgstr "WP 速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed description"
 msgid "Speed at which the nozzle moves when extruding material. Only applies to Wire Printing."
-msgstr "擠出耗材時噴頭移動的速度。僅應用於單線列印。"
+msgstr "擠出耗材時噴頭移動的速度。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_bottom label"
@@ -4407,7 +4407,7 @@ msgstr "WP 底部列印速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_bottom description"
 msgid "Speed of printing the first layer, which is the only layer touching the build platform. Only applies to Wire Printing."
-msgstr "列印第一層的速度，該層是唯一接觸列印平台的層。僅應用於單線列印。"
+msgstr "列印第一層的速度，該層是唯一接觸列印平台的層。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_up label"
@@ -4417,7 +4417,7 @@ msgstr "WP 上升列印速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_up description"
 msgid "Speed of printing a line upward 'in thin air'. Only applies to Wire Printing."
-msgstr "“在稀薄空氣中”向上列印線條的速度。僅應用於單線列印。"
+msgstr "在「稀薄的空中」向上列印線條的速度。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_down label"
@@ -4427,7 +4427,7 @@ msgstr "WP 下降列印速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_down description"
 msgid "Speed of printing a line diagonally downward. Only applies to Wire Printing."
-msgstr "列印下行斜線的速度。僅應用於單線列印。"
+msgstr "列印下行斜線的速度。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_flat label"
@@ -4437,7 +4437,7 @@ msgstr "WP 水平列印速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_flat description"
 msgid "Speed of printing the horizontal contours of the model. Only applies to Wire Printing."
-msgstr "列印模型水平輪廓的速度。僅應用於單線列印。"
+msgstr "列印模型水平輪廓的速度。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_flow label"
@@ -4447,7 +4447,7 @@ msgstr "WP 列印流量"
 #: fdmprinter.def.json
 msgctxt "wireframe_flow description"
 msgid "Flow compensation: the amount of material extruded is multiplied by this value. Only applies to Wire Printing."
-msgstr "流量補償：擠出的耗材量乘以此值。僅應用於單線列印。"
+msgstr "流量補償：擠出的耗材量乘以此值。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_flow_connection label"
@@ -4457,7 +4457,7 @@ msgstr "WP 連接流量"
 #: fdmprinter.def.json
 msgctxt "wireframe_flow_connection description"
 msgid "Flow compensation when going up or down. Only applies to Wire Printing."
-msgstr "向上或向下時的流量補償。僅應用於單線列印。"
+msgstr "向上或向下時的流量補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_flow_flat label"
@@ -4467,7 +4467,7 @@ msgstr "WP 平面流量"
 #: fdmprinter.def.json
 msgctxt "wireframe_flow_flat description"
 msgid "Flow compensation when printing flat lines. Only applies to Wire Printing."
-msgstr "列印平面線條時的流量補償。僅應用於單線列印。"
+msgstr "列印平面線條時的流量補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_top_delay label"
@@ -4477,7 +4477,7 @@ msgstr "WP 頂部延遲"
 #: fdmprinter.def.json
 msgctxt "wireframe_top_delay description"
 msgid "Delay time after an upward move, so that the upward line can harden. Only applies to Wire Printing."
-msgstr "向上移動後的延遲時間，以便上行線條硬化。僅應用於單線列印。"
+msgstr "向上移動後的延遲時間，以便上行線條硬化。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_bottom_delay label"
@@ -4487,7 +4487,7 @@ msgstr "WP 底部延遲"
 #: fdmprinter.def.json
 msgctxt "wireframe_bottom_delay description"
 msgid "Delay time after a downward move. Only applies to Wire Printing."
-msgstr "向下移動後的延遲時間。僅應用於單線列印。"
+msgstr "向下移動後的延遲時間。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_flat_delay label"
@@ -4497,7 +4497,7 @@ msgstr "WP 平面延遲"
 #: fdmprinter.def.json
 msgctxt "wireframe_flat_delay description"
 msgid "Delay time between two horizontal segments. Introducing such a delay can cause better adhesion to previous layers at the connection points, while too long delays cause sagging. Only applies to Wire Printing."
-msgstr "兩個水平部分之間的延遲時間。引入這樣的延遲可以在連接點處與先前的層產生更好的附著，而太長的延遲會引起下垂。僅應用於單線列印。"
+msgstr "兩個水平部分之間的延遲時間。引入這樣的延遲可以在連接點處與先前的層產生更好的附著，而太長的延遲會引起下垂。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_up_half_speed label"
@@ -4511,7 +4511,7 @@ msgid ""
 "This can cause better adhesion to previous layers, while not heating the material in those layers too much. Only applies to Wire Printing."
 msgstr ""
 "以半速擠出的上行移動的距離。\n"
-"這會與之前的層產生更好的附著，而不會將這些層中的耗材過度加熱。僅應用於單線列印。"
+"這會與之前的層產生更好的附著，而不會將這些層中的耗材過度加熱。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_top_jump label"
@@ -4521,7 +4521,7 @@ msgstr "WP 紐結大小"
 #: fdmprinter.def.json
 msgctxt "wireframe_top_jump description"
 msgid "Creates a small knot at the top of an upward line, so that the consecutive horizontal layer has a better chance to connect to it. Only applies to Wire Printing."
-msgstr "在上行線條的頂部創建一個小紐結，使連續的水平層有更好的機會與其連接。僅應用於單線列印。"
+msgstr "在上行線條的頂部創建一個小紐結，使連續的水平層有更好的機會與其連接。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_fall_down label"
@@ -4531,7 +4531,7 @@ msgstr "WP 倒塌"
 #: fdmprinter.def.json
 msgctxt "wireframe_fall_down description"
 msgid "Distance with which the material falls down after an upward extrusion. This distance is compensated for. Only applies to Wire Printing."
-msgstr "耗材在向上擠出後倒塌的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "耗材在向上擠出後倒塌的距離。將對此距離進行補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_drag_along label"
@@ -4541,7 +4541,7 @@ msgstr "WP 拖行"
 #: fdmprinter.def.json
 msgctxt "wireframe_drag_along description"
 msgid "Distance with which the material of an upward extrusion is dragged along with the diagonally downward extrusion. This distance is compensated for. Only applies to Wire Printing."
-msgstr "向上擠出耗材與斜向下擠出一起拖動的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "向上擠出耗材與斜向下擠出一起拖動的距離。將對此距離進行補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_strategy label"
@@ -4576,7 +4576,7 @@ msgstr "WP 拉直下行線條"
 #: fdmprinter.def.json
 msgctxt "wireframe_straight_before_down description"
 msgid "Percentage of a diagonally downward line which is covered by a horizontal line piece. This can prevent sagging of the top most point of upward lines. Only applies to Wire Printing."
-msgstr "水平線條部分所覆蓋的斜下行線條的百分比。這可以防止上行線最頂端點下垂。僅應用於單線列印。"
+msgstr "水平線條部分所覆蓋的斜下行線條的百分比。這可以防止上行線最頂端點下垂。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_fall_down label"
@@ -4586,7 +4586,7 @@ msgstr "WP 頂板倒塌"
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_fall_down description"
 msgid "The distance which horizontal roof lines printed 'in thin air' fall down when being printed. This distance is compensated for. Only applies to Wire Printing."
-msgstr "列印時，在“稀薄空氣中”列印的水平頂板線條倒塌的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "列印時，在「稀薄的空中」列印的水平頂板線條倒塌的距離。將對此距離進行補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_drag_along label"
@@ -4596,7 +4596,7 @@ msgstr "WP 頂板拖行"
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_drag_along description"
 msgid "The distance of the end piece of an inward line which gets dragged along when going back to the outer outline of the roof. This distance is compensated for. Only applies to Wire Printing."
-msgstr "向內線的端部在返回至頂板外部輪廓時被拖行的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "向內線的端部在返回至頂板外部輪廓時被拖行的距離。將對此距離進行補償。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_outer_delay label"
@@ -4606,7 +4606,7 @@ msgstr "WP 頂板外部延遲"
 #: fdmprinter.def.json
 msgctxt "wireframe_roof_outer_delay description"
 msgid "Time spent at the outer perimeters of hole which is to become a roof. Longer times can ensure a better connection. Only applies to Wire Printing."
-msgstr "在成為頂板的孔的外圍花費的時間。較長的時間可確保更好的連接。僅應用於單線列印。"
+msgstr "在成為頂板的孔的外圍花費的時間。較長的時間可確保更好的連接。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_nozzle_clearance label"
@@ -4616,7 +4616,7 @@ msgstr "WP 噴頭間隙"
 #: fdmprinter.def.json
 msgctxt "wireframe_nozzle_clearance description"
 msgid "Distance between the nozzle and horizontally downward lines. Larger clearance results in diagonally downward lines with a less steep angle, which in turn results in less upward connections with the next layer. Only applies to Wire Printing."
-msgstr "噴頭和水平下行線之間的距離。較大的間隙會讓斜下行線角度較平緩，進而使第二層的上行連接較少。僅應用於單線列印。"
+msgstr "噴頭和水平下行線之間的距離。較大的間隙會讓斜下行線角度較平緩，進而使第二層的上行連接較少。僅應用於鐵絲網列印。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_enabled label"
@@ -4691,7 +4691,7 @@ msgstr "未從 Cura 前端調用 CuraEngine 時使用的設定。"
 #: fdmprinter.def.json
 msgctxt "center_object label"
 msgid "Center object"
-msgstr "中心模型"
+msgstr "模型置中"
 
 #: fdmprinter.def.json
 msgctxt "center_object description"
