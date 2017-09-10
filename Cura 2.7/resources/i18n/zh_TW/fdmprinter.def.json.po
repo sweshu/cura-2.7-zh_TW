@@ -2198,12 +2198,12 @@ msgstr "列印填充時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_wall label"
 msgid "Wall Jerk"
-msgstr "壁瞬動速度"
+msgstr "牆壁瞬動速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_wall description"
 msgid "The maximum instantaneous velocity change with which the walls are printed."
-msgstr "列印壁時的最大瞬時速度變化。"
+msgstr "列印牆壁時的最大瞬時速度變化。"
 
 #: fdmprinter.def.json
 msgctxt "jerk_wall_0 label"
@@ -2478,7 +2478,7 @@ msgstr "僅在已列印部分上 Z 抬升"
 #: fdmprinter.def.json
 msgctxt "retraction_hop_only_when_collides description"
 msgid "Only perform a Z Hop when moving over printed parts which cannot be avoided by horizontal motion by Avoid Printed Parts when Traveling."
-msgstr "僅在移動到無法通過“空跑時避開已列印部分”選項的水平操作避開的已列印部分上方時執行 Z 抬升。"
+msgstr "僅在移動到無法通過「空跑時避開已列印部分」選項的水平操作避開的已列印部分上方時執行 Z 抬升。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_hop label"
@@ -2593,7 +2593,7 @@ msgstr "哪一層要使用一般風扇轉速。如果一般風扇轉速高度已
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time label"
 msgid "Minimum Layer Time"
-msgstr "每層至少列印時間"
+msgstr "每層最少列印時間"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time description"
@@ -2613,12 +2613,12 @@ msgstr "最低列印速度，排除因最短層時間而減速。當列印機減
 #: fdmprinter.def.json
 msgctxt "cool_lift_head label"
 msgid "Lift Head"
-msgstr "列印頭提升"
+msgstr "列印頭抬高"
 
 #: fdmprinter.def.json
 msgctxt "cool_lift_head description"
 msgid "When the minimum speed is hit because of minimum layer time, lift the head away from the print and wait the extra time until the minimum layer time is reached."
-msgstr "當因最低層時間達到最低速度時，將列印頭從列印品上提升，並等候達到最低層時間。"
+msgstr "當因最低層時間達到最低速度時，將列印頭從列印品上抬高，並等候達到最低層時間。"
 
 #: fdmprinter.def.json
 msgctxt "support label"
@@ -2813,7 +2813,7 @@ msgstr "調整支撐結構的密度。較高的值會實現更好的懸垂，但
 #: fdmprinter.def.json
 msgctxt "support_line_distance label"
 msgid "Support Line Distance"
-msgstr "支撐線條距離"
+msgstr "支撐線條間距"
 
 #: fdmprinter.def.json
 msgctxt "support_line_distance description"
@@ -2823,7 +2823,7 @@ msgstr "已列印支撐結構線條之間的距離。該設定通過支撐密度
 #: fdmprinter.def.json
 msgctxt "support_z_distance label"
 msgid "Support Z Distance"
-msgstr "支撐 Z 距離"
+msgstr "支撐 Z 間距"
 
 #: fdmprinter.def.json
 msgctxt "support_z_distance description"
@@ -2833,7 +2833,7 @@ msgstr "支撐結構距離模型頂部/底部的距離。這一個小的差距�
 #: fdmprinter.def.json
 msgctxt "support_top_distance label"
 msgid "Support Top Distance"
-msgstr "支撐頂部距離"
+msgstr "支撐頂部間距"
 
 #: fdmprinter.def.json
 msgctxt "support_top_distance description"
@@ -2843,7 +2843,7 @@ msgstr "從支撐頂部到列印品的距離。"
 #: fdmprinter.def.json
 msgctxt "support_bottom_distance label"
 msgid "Support Bottom Distance"
-msgstr "支撐底部距離"
+msgstr "支撐底部間距"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_distance description"
@@ -2853,7 +2853,7 @@ msgstr "從列印品到支撐底部的距離。"
 #: fdmprinter.def.json
 msgctxt "support_xy_distance label"
 msgid "Support X/Y Distance"
-msgstr "支撐 X/Y 距離"
+msgstr "支撐 X/Y 間距"
 
 #: fdmprinter.def.json
 msgctxt "support_xy_distance description"
@@ -2863,12 +2863,12 @@ msgstr "支撐結構在 X/Y 方向距列印品的距離。"
 #: fdmprinter.def.json
 msgctxt "support_xy_overrides_z label"
 msgid "Support Distance Priority"
-msgstr "支撐距離優先級"
+msgstr "支撐間距優先級"
 
 #: fdmprinter.def.json
 msgctxt "support_xy_overrides_z description"
 msgid "Whether the Support X/Y Distance overrides the Support Z Distance or vice versa. When X/Y overrides Z the X/Y distance can push away the support from the model, influencing the actual Z distance to the overhang. We can disable this by not applying the X/Y distance around overhangs."
-msgstr "支撐 X/Y 距離是否覆蓋支撐 Z 距離或反之。當 X/Y 覆蓋 Z 時，X/Y 距離可將支撐從模型上推離，影響與懸垂之間的實際 Z 距離。我們可以通過不在懸垂周圍應用 X/Y 距離來關閉此選項。"
+msgstr "支撐 X/Y 間距是否覆蓋支撐 Z 間距或反之。當 X/Y 覆蓋 Z 時，X/Y 間距可將支撐從模型上推離，影響與懸垂之間的實際 Z 間距。我們可以通過不在懸垂周圍應用 X/Y 間距來關閉此選項。"
 
 #: fdmprinter.def.json
 msgctxt "support_xy_overrides_z option xy_overrides_z"
@@ -2883,12 +2883,12 @@ msgstr "Z 覆蓋 X/Y"
 #: fdmprinter.def.json
 msgctxt "support_xy_distance_overhang label"
 msgid "Minimum Support X/Y Distance"
-msgstr "最小支撐 X/Y 距離"
+msgstr "最小支撐 X/Y 間距"
 
 #: fdmprinter.def.json
 msgctxt "support_xy_distance_overhang description"
 msgid "Distance of the support structure from the overhang in the X/Y directions. "
-msgstr "支撐結構在 X/Y 方向距懸垂的距離。"
+msgstr "支撐結構在 X/Y 方向與懸垂的間距。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_stair_step_height label"
@@ -2978,7 +2978,7 @@ msgstr "啟用支撐頂板"
 #: fdmprinter.def.json
 msgctxt "support_roof_enable description"
 msgid "Generate a dense slab of material between the top of support and the model. This will create a skin between the model and support."
-msgstr "在支撐頂部和模型之間生成一個密集的耗材板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐頂部和模型之間生成一個密集的平板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable label"
@@ -2988,7 +2988,7 @@ msgstr "啟用支撐底板"
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable description"
 msgid "Generate a dense slab of material between the bottom of the support and the model. This will create a skin between the model and support."
-msgstr "在支撐底部和模型之間生成一個密集的耗材板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐底部和模型之間生成一個密集的平板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_height label"
