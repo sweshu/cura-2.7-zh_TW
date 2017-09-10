@@ -50,7 +50,7 @@ msgstr "是否顯示這台印表機在不同的 JSON 檔案中所描述的型號
 #: fdmprinter.def.json
 msgctxt "machine_start_gcode label"
 msgid "Start GCode"
-msgstr "起始 GCode"
+msgstr "起始 G-code"
 
 #: fdmprinter.def.json
 msgctxt "machine_start_gcode description"
@@ -64,7 +64,7 @@ msgstr ""
 #: fdmprinter.def.json
 msgctxt "machine_end_gcode label"
 msgid "End GCode"
-msgstr "結束 Gcode"
+msgstr "結束 G-code"
 
 #: fdmprinter.def.json
 msgctxt "machine_end_gcode description"
@@ -78,12 +78,12 @@ msgstr ""
 #: fdmprinter.def.json
 msgctxt "material_guid label"
 msgid "Material GUID"
-msgstr "材料 GUID"
+msgstr "耗材 GUID"
 
 #: fdmprinter.def.json
 msgctxt "material_guid description"
 msgid "GUID of the material. This is set automatically. "
-msgstr "材料 GUID，此項為自動設定。"
+msgstr "耗材 GUID，此項為自動設定。"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_wait label"
@@ -93,7 +93,7 @@ msgstr "等待列印平台加熱"
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_wait description"
 msgid "Whether to insert a command to wait until the build plate temperature is reached at the start."
-msgstr "是否插入一條命令，等待開始時達到列印平台溫度。"
+msgstr "是否插入一條命令，在開始時等待列印平台達到設定溫度。"
 
 #: fdmprinter.def.json
 msgctxt "material_print_temp_wait label"
@@ -103,27 +103,27 @@ msgstr "等待噴頭加熱"
 #: fdmprinter.def.json
 msgctxt "material_print_temp_wait description"
 msgid "Whether to wait until the nozzle temperature is reached at the start."
-msgstr "是否等待開始時達到噴頭溫度。"
+msgstr "是否在開始時等待噴頭達到設定溫度。"
 
 #: fdmprinter.def.json
 msgctxt "material_print_temp_prepend label"
 msgid "Include Material Temperatures"
-msgstr "包含材料溫度"
+msgstr "插入耗材溫度"
 
 #: fdmprinter.def.json
 msgctxt "material_print_temp_prepend description"
 msgid "Whether to include nozzle temperature commands at the start of the gcode. When the start_gcode already contains nozzle temperature commands Cura frontend will automatically disable this setting."
-msgstr "是否在 gcode 開始部分包含噴頭溫度命令。當 start_gcode 已包含噴頭溫度命令時，Cura 前端將自動禁用此設定。"
+msgstr "是否在 G-code 開始部分插入噴頭溫度命令。當起始 G-code 已包含噴頭溫度命令時，Cura 前端將自動關閉此設定。"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_prepend label"
 msgid "Include Build Plate Temperature"
-msgstr "包含列印平台溫度"
+msgstr "插入熱床溫度"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_prepend description"
 msgid "Whether to include build plate temperature commands at the start of the gcode. When the start_gcode already contains build plate temperature commands Cura frontend will automatically disable this setting."
-msgstr "是否需要在 G-code 開始部分包含檢查熱床溫度的命令。當 start_gcode 包含熱床溫度命令時，Cura 前端將自動禁用此設定。"
+msgstr "是否需要在 G-code 開始部分插入熱床溫度的命令。當起始 G-code 包含熱床溫度命令時，Cura 前端將自動關閉此設定。"
 
 #: fdmprinter.def.json
 msgctxt "machine_width label"
@@ -188,12 +188,12 @@ msgstr "機器是否有熱床。"
 #: fdmprinter.def.json
 msgctxt "machine_center_is_zero label"
 msgid "Is Center Origin"
-msgstr "位於中心"
+msgstr "原點是否位於中心"
 
 #: fdmprinter.def.json
 msgctxt "machine_center_is_zero description"
 msgid "Whether the X/Y coordinates of the zero position of the printer is at the center of the printable area."
-msgstr "印表機的 X/Y 座標原點是否位於可列印區域的中心。"
+msgstr "列印機的 X/Y 座標原點是否位於可列印區域的中心。"
 
 #: fdmprinter.def.json
 msgctxt "machine_extruder_count label"
@@ -293,7 +293,7 @@ msgstr "待機溫度最短時間"
 #: fdmprinter.def.json
 msgctxt "machine_min_cool_heat_time_window description"
 msgid "The minimal time an extruder has to be inactive before the nozzle is cooled. Only when an extruder is not used for longer than this time will it be allowed to cool down to the standby temperature."
-msgstr "擠出機必須保持不活動以便噴頭冷卻的最短時間。擠出機必須不使用此時間以上，才可以冷卻到待機溫度。"
+msgstr "擠出機必須保持不活動以便噴頭冷卻的最短時間。擠出機必須停用超過此時間，才可以冷卻到待機溫度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_gcode_flavor label"
@@ -368,7 +368,7 @@ msgstr "噴頭不允許區域"
 #: fdmprinter.def.json
 msgctxt "nozzle_disallowed_areas description"
 msgid "A list of polygons with areas the nozzle is not allowed to enter."
-msgstr "包含不允許噴頭進入區域的多邊形列表。"
+msgstr "不允許噴頭進入區域的多邊形列表。"
 
 #: fdmprinter.def.json
 msgctxt "machine_head_polygon label"
@@ -393,12 +393,12 @@ msgstr "列印頭 2D 輪廓圖（包含風扇蓋）。"
 #: fdmprinter.def.json
 msgctxt "gantry_height label"
 msgid "Gantry height"
-msgstr "十字軸高度"
+msgstr "龍門高度"
 
 #: fdmprinter.def.json
 msgctxt "gantry_height description"
 msgid "The height difference between the tip of the nozzle and the gantry system (X and Y axes)."
-msgstr "噴頭尖端與十字軸系統（X 軸和 Y 軸）之間的高度差。"
+msgstr "噴頭尖端與龍門系統（X 軸和 Y 軸）之間的高度差。"
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_id label"
@@ -443,12 +443,12 @@ msgstr "列印開始時，噴頭在 Z 軸座標上的起始位置."
 #: fdmprinter.def.json
 msgctxt "extruder_prime_pos_abs label"
 msgid "Absolute Extruder Prime Position"
-msgstr "絕對擠出機主要位置"
+msgstr "擠出機位置設為絕對值模式"
 
 #: fdmprinter.def.json
 msgctxt "extruder_prime_pos_abs description"
 msgid "Make the extruder prime position absolute rather than relative to the last-known location of the head."
-msgstr "使擠出機主要位置為絕對值，而不是與上一已知列印頭位置的相對值。"
+msgstr "讓擠出機位置為絕對值，而不是與前次位置的相對值。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_feedrate_x label"
@@ -608,7 +608,7 @@ msgstr "起始層高"
 #: fdmprinter.def.json
 msgctxt "layer_height_0 description"
 msgid "The height of the initial layer in mm. A thicker initial layer makes adhesion to the build plate easier."
-msgstr "起始層高（以毫米為單位）。起始層越厚，與列印平台的黏著越輕鬆。"
+msgstr "起始層高（以毫米為單位）。起始層越厚，與列印平台的附著越輕鬆。"
 
 #: fdmprinter.def.json
 msgctxt "line_width label"
@@ -638,7 +638,7 @@ msgstr "線寬（外壁）"
 #: fdmprinter.def.json
 msgctxt "wall_line_width_0 description"
 msgid "Width of the outermost wall line. By lowering this value, higher levels of detail can be printed."
-msgstr "最外壁線寬度。降低此值，可列印出更高水準的細節。"
+msgstr "最外側牆壁的線寬。降低此值，可列印出更高水準的細節。"
 
 #: fdmprinter.def.json
 msgctxt "wall_line_width_x label"
@@ -648,12 +648,12 @@ msgstr "內壁線寬"
 #: fdmprinter.def.json
 msgctxt "wall_line_width_x description"
 msgid "Width of a single wall line for all wall lines except the outermost one."
-msgstr "除了外壁以外的牆壁線條都使用這個寬度來列印。"
+msgstr "除了外壁以外牆壁的線寬。"
 
 #: fdmprinter.def.json
 msgctxt "roofing_line_width label"
 msgid "Top Surface Skin Line Width"
-msgstr "頂部表皮線寬"
+msgstr "頂部表層線寬"
 
 #: fdmprinter.def.json
 msgctxt "roofing_line_width description"
@@ -748,7 +748,7 @@ msgstr "起始層線寬"
 #: fdmprinter.def.json
 msgctxt "initial_layer_line_width_factor description"
 msgid "Multiplier of the line width on the first layer. Increasing this could improve bed adhesion."
-msgstr "第一層線寬乘數。增大此乘數可改善熱床黏著。"
+msgstr "第一層線寬乘數。增大此乘數可改善熱床附著。"
 
 #: fdmprinter.def.json
 msgctxt "shell label"
@@ -763,7 +763,7 @@ msgstr "外殼"
 #: fdmprinter.def.json
 msgctxt "wall_extruder_nr label"
 msgid "Wall Extruder"
-msgstr "壁擠出機"
+msgstr "牆壁擠出機"
 
 #: fdmprinter.def.json
 msgctxt "wall_extruder_nr description"
@@ -818,7 +818,7 @@ msgstr "外壁擦拭噴頭長度"
 #: fdmprinter.def.json
 msgctxt "wall_0_wipe_dist description"
 msgid "Distance of a travel move inserted after the outer wall, to hide the Z seam better."
-msgstr "插入外壁後的空跑距離，以便消除隱藏 Z 縫的銜接痕跡。"
+msgstr "在列印外壁後插入的空跑距離，以便消除隱藏 Z 縫的銜接痕跡。"
 
 #: fdmprinter.def.json
 msgctxt "roofing_extruder_nr label"
@@ -843,12 +843,12 @@ msgstr "最頂部表層層數。通常只需一層最頂部就足以生成較高
 #: fdmprinter.def.json
 msgctxt "roofing_pattern label"
 msgid "Top Surface Skin Pattern"
-msgstr "頂部表層列印模式"
+msgstr "頂部表層列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "roofing_pattern description"
 msgid "The pattern of the top most layers."
-msgstr "最頂部列印模式。"
+msgstr "最頂部列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "roofing_pattern option lines"
@@ -873,7 +873,7 @@ msgstr "頂部表層線條方向"
 #: fdmprinter.def.json
 msgctxt "roofing_angles description"
 msgid "A list of integer line directions to use when the top surface skin layers use the lines or zig zag pattern. Elements from the list are used sequentially as the layers progress and when the end of the list is reached, it starts at the beginning again. The list items are separated by commas and the whole list is contained in square brackets. Default is an empty list which means use the traditional default angles (45 and 135 degrees)."
-msgstr "當頂部表層採用線條或鋸齒狀的列印模式時使用的整數線條方向的列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（45 和 135 度）。"
+msgstr "當頂部表層採用線條或鋸齒狀的列印樣式時使用的整數線條方向的列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（45 和 135 度）。"
 
 #: fdmprinter.def.json
 msgctxt "top_bottom_extruder_nr label"
@@ -893,7 +893,7 @@ msgstr "頂部 / 底部厚度"
 #: fdmprinter.def.json
 msgctxt "top_bottom_thickness description"
 msgid "The thickness of the top/bottom layers in the print. This value divided by the layer height defines the number of top/bottom layers."
-msgstr "列印品中頂部/底部的厚度。該值除以層高定義頂部/底部的數量。"
+msgstr "列印模型中頂部/底部的厚度。該值除以層高決定頂部/底部的層數。"
 
 #: fdmprinter.def.json
 msgctxt "top_thickness label"
@@ -903,7 +903,7 @@ msgstr "頂部厚度"
 #: fdmprinter.def.json
 msgctxt "top_thickness description"
 msgid "The thickness of the top layers in the print. This value divided by the layer height defines the number of top layers."
-msgstr "列印品中頂部的厚度。該值除以層高定義頂部的數量。"
+msgstr "列印模型中頂部的厚度。該值除以層高決定頂部的層數。"
 
 #: fdmprinter.def.json
 msgctxt "top_layers label"
@@ -923,7 +923,7 @@ msgstr "底部厚度"
 #: fdmprinter.def.json
 msgctxt "bottom_thickness description"
 msgid "The thickness of the bottom layers in the print. This value divided by the layer height defines the number of bottom layers."
-msgstr "列印品中底部的厚度。此值除以層高定義底部數量。"
+msgstr "列印模型中底部的厚度。此值除以層高決定底部的層數。"
 
 #: fdmprinter.def.json
 msgctxt "bottom_layers label"
@@ -938,12 +938,12 @@ msgstr "底部列印層數，當由底部厚度來計算時層數時，會四捨
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern label"
 msgid "Top/Bottom Pattern"
-msgstr "頂部/底部填充模式"
+msgstr "頂部/底部填充樣式"
 
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern description"
 msgid "The pattern of the top/bottom layers."
-msgstr "頂部/底部的列印模式。"
+msgstr "頂部/底部的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern option lines"
@@ -963,12 +963,12 @@ msgstr "鋸齒狀"
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern_0 label"
 msgid "Bottom Pattern Initial Layer"
-msgstr "初始層列印模式"
+msgstr "初始層列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern_0 description"
 msgid "The pattern on the bottom of the print on the first layer."
-msgstr "列印件底部第一層的列印模式"
+msgstr "列印件底部第一層的列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "top_bottom_pattern_0 option lines"
@@ -993,7 +993,7 @@ msgstr "頂部/底部線條方向"
 #: fdmprinter.def.json
 msgctxt "skin_angles description"
 msgid "A list of integer line directions to use when the top/bottom layers use the lines or zig zag pattern. Elements from the list are used sequentially as the layers progress and when the end of the list is reached, it starts at the beginning again. The list items are separated by commas and the whole list is contained in square brackets. Default is an empty list which means use the traditional default angles (45 and 135 degrees)."
-msgstr "當頂部/底部採用線條或鋸齒狀的列印模式時使用的整數線條方向的列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（45 和 135 度）。"
+msgstr "當頂部/底部採用線條或鋸齒狀的列印樣式時使用的整數線條方向的列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（45 和 135 度）。"
 
 #: fdmprinter.def.json
 msgctxt "wall_0_inset label"
@@ -1158,7 +1158,7 @@ msgstr "Z 縫相對"
 #: fdmprinter.def.json
 msgctxt "z_seam_relative description"
 msgid "When enabled, the z seam coordinates are relative to each part's centre. When disabled, the coordinates define an absolute position on the build plate."
-msgstr "啟用時，Z 縫座標為相對於各個部分中心的值。禁用時，座標定義列印平台上的一個絕對位置。"
+msgstr "啟用時，Z 縫座標為相對於各個部分中心的值。關閉時，座標定義列印平台上的一個絕對位置。"
 
 #: fdmprinter.def.json
 msgctxt "skin_no_small_gaps_heuristic label"
@@ -1213,12 +1213,12 @@ msgstr "列印填充線條之間的距離。該設定是通過填充密度和填
 #: fdmprinter.def.json
 msgctxt "infill_pattern label"
 msgid "Infill Pattern"
-msgstr "填充列印模式"
+msgstr "填充列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "infill_pattern description"
 msgid "The pattern of the infill material of the print. The line and zig zag infill swap direction on alternate layers, reducing material cost. The grid, triangle, cubic, tetrahedral and concentric patterns are fully printed every layer. Cubic and tetrahedral infill change with every layer to provide a more equal distribution of strength over each direction."
-msgstr "列印填充材料的列印模式。線條和鋸齒狀填充在交替層上的交換方向，從而降低材料成本。網格、三角形、立方體、四面體和同心的列印模式在每層完整列印。立方體和四面體填充隨每層變化，以在各個方向提供更均衡的强度分布。"
+msgstr "列印填充耗材的列印樣式。線條和鋸齒狀填充在交替層上的交換方向，從而降低耗材成本。網格、三角形、立方體、四面體和同心的列印樣式在每層完整列印。立方體和四面體填充隨每層變化，以在各個方向提供更均衡的强度分布。"
 
 #: fdmprinter.def.json
 msgctxt "infill_pattern option grid"
@@ -1273,7 +1273,7 @@ msgstr "填充線條方向"
 #: fdmprinter.def.json
 msgctxt "infill_angles description"
 msgid "A list of integer line directions to use. Elements from the list are used sequentially as the layers progress and when the end of the list is reached, it starts at the beginning again. The list items are separated by commas and the whole list is contained in square brackets. Default is an empty list which means use the traditional default angles (45 and 135 degrees for the lines and zig zag patterns and 45 degrees for all other patterns)."
-msgstr "要使用的整數線條方向列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（線條和鋸齒狀的列印模式為 45 和 135 度，其他所有的列印模式為 45 度）。"
+msgstr "要使用的整數線條方向列表。列表中的元素隨層的進度依次使用，當達到列表末尾時，它將從頭開始。列表項以逗號分隔，整個列表包含在方括號中。預設使用傳統的預設角度（線條和鋸齒狀的列印樣式為 45 和 135 度，其他所有的列印樣式為 45 度）。"
 
 #: fdmprinter.def.json
 msgctxt "sub_div_rad_add label"
@@ -1333,7 +1333,7 @@ msgstr "填充擦拭距離"
 #: fdmprinter.def.json
 msgctxt "infill_wipe_dist description"
 msgid "Distance of a travel move inserted after every infill line, to make the infill stick to the walls better. This option is similar to infill overlap, but without extrusion and only on one end of the infill line."
-msgstr "每條填充線條後插入的空跑距離，讓填充更好地黏著到壁上。此選項與填充重疊類似，但没有擠出，且僅位於填充線條的一端。"
+msgstr "每條填充線條後插入的空跑距離，讓填充更好地附著到壁上。此選項與填充重疊類似，但没有擠出，且僅位於填充線條的一端。"
 
 #: fdmprinter.def.json
 msgctxt "infill_sparse_thickness label"
@@ -1373,7 +1373,7 @@ msgstr "先印填充再印牆壁"
 #: fdmprinter.def.json
 msgctxt "infill_before_walls description"
 msgid "Print the infill before printing the walls. Printing the walls first may lead to more accurate walls, but overhangs print worse. Printing the infill first leads to sturdier walls, but the infill pattern might sometimes show through the surface."
-msgstr "列印壁前先列印填充。先列印壁可能產生更精確的壁，但懸垂列印品質會較差。先列印填充會產生更牢固的壁，但有時候填充的列印模式會透過表面顯現出來。"
+msgstr "列印壁前先列印填充。先列印壁可能產生更精確的壁，但懸垂列印品質會較差。先列印填充會產生更牢固的壁，但有時候填充的列印樣式會透過表面顯現出來。"
 
 #: fdmprinter.def.json
 msgctxt "min_infill_area label"
@@ -1448,12 +1448,12 @@ msgstr "如果表層區域寬度小於此值，則不會擴展。這會避免擴
 #: fdmprinter.def.json
 msgctxt "material label"
 msgid "Material"
-msgstr "材料"
+msgstr "耗材"
 
 #: fdmprinter.def.json
 msgctxt "material description"
 msgid "Material"
-msgstr "材料"
+msgstr "耗材"
 
 #: fdmprinter.def.json
 msgctxt "material_flow_dependent_temperature label"
@@ -1473,7 +1473,7 @@ msgstr "預設列印溫度"
 #: fdmprinter.def.json
 msgctxt "default_material_print_temperature description"
 msgid "The default temperature used for printing. This should be the \"base\" temperature of a material. All other print temperatures should use offsets based on this value"
-msgstr "用於列印的預設溫度。應為材料的\"基本\"溫度。所有其他列印溫度均應使用基於此值的偏移量"
+msgstr "用於列印的預設溫度。應為耗材的\"基本\"溫度。所有其他列印溫度均應使用基於此值的偏移量"
 
 #: fdmprinter.def.json
 msgctxt "material_print_temperature label"
@@ -1493,7 +1493,7 @@ msgstr "列印溫度起始層"
 #: fdmprinter.def.json
 msgctxt "material_print_temperature_layer_0 description"
 msgid "The temperature used for printing the first layer. Set at 0 to disable special handling of the initial layer."
-msgstr "用於列印第一層的溫度。設為 0 即禁用對起始層的特别處理。"
+msgstr "用於列印第一層的溫度。設為 0 即關閉對起始層的特别處理。"
 
 #: fdmprinter.def.json
 msgctxt "material_initial_print_temperature label"
@@ -1523,7 +1523,7 @@ msgstr "流量溫度圖"
 #: fdmprinter.def.json
 msgctxt "material_flow_temp_graph description"
 msgid "Data linking material flow (in mm3 per second) to temperature (degrees Celsius)."
-msgstr "數據連接材料流量（mm3/s）到溫度（攝氏）。"
+msgstr "數據連接耗材流量（mm3/s）到溫度（攝氏）。"
 
 #: fdmprinter.def.json
 msgctxt "material_extrusion_cool_down_speed label"
@@ -1533,7 +1533,7 @@ msgstr "擠出降溫速度修正"
 #: fdmprinter.def.json
 msgctxt "material_extrusion_cool_down_speed description"
 msgid "The extra speed by which the nozzle cools while extruding. The same value is used to signify the heat up speed lost when heating up while extruding."
-msgstr "解決在擠料的同時因為噴嘴冷卻所造成的影響的額外速度修正。相同的值被用於表示在擠壓時所失去的升溫速度。"
+msgstr "解決在擠料的同時因為噴頭冷卻所造成的影響的額外速度修正。相同的值被用於表示在擠壓時所失去的升溫速度。"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temperature label"
@@ -1573,7 +1573,7 @@ msgstr "流量"
 #: fdmprinter.def.json
 msgctxt "material_flow description"
 msgid "Flow compensation: the amount of material extruded is multiplied by this value."
-msgstr "流量補償：擠出的材料量乘以此值。"
+msgstr "流量補償：擠出的耗材量乘以此值。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_enable label"
@@ -1603,7 +1603,7 @@ msgstr "回抽距離"
 #: fdmprinter.def.json
 msgctxt "retraction_amount description"
 msgid "The length of material retracted during a retraction move."
-msgstr "回抽移動期間回抽的材料長度。"
+msgstr "回抽移動期間回抽的耗材長度。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_speed label"
@@ -1643,7 +1643,7 @@ msgstr "回抽額外裝填量"
 #: fdmprinter.def.json
 msgctxt "retraction_extra_prime_amount description"
 msgid "Some material can ooze away during a travel move, which can be compensated for here."
-msgstr "有些材料可能會在空跑過程中滲出，可以在這裡對其進行補償。"
+msgstr "有些耗材可能會在空跑過程中滲出，可以在這裡對其進行補償。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_min_travel label"
@@ -1683,7 +1683,7 @@ msgstr "待機溫度"
 #: fdmprinter.def.json
 msgctxt "material_standby_temperature description"
 msgid "The temperature of the nozzle when another nozzle is currently used for printing."
-msgstr "當另一個噴嘴進行列印時，這個噴嘴要保持的溫度。"
+msgstr "當另一個噴頭進行列印時，這個噴頭要保持的溫度。"
 
 #: fdmprinter.def.json
 msgctxt "switch_extruder_retraction_amount label"
@@ -1863,7 +1863,7 @@ msgstr "支撐底板速度"
 #: fdmprinter.def.json
 msgctxt "speed_support_bottom description"
 msgid "The speed at which the floor of support is printed. Printing it at lower speed can improve adhesion of support on top of your model."
-msgstr "列印支撐底板的速度。以較低的速度列印可以改善支撐在模型頂部的黏著。"
+msgstr "列印支撐底板的速度。以較低的速度列印可以改善支撐在模型頂部的附著。"
 
 #: fdmprinter.def.json
 msgctxt "speed_prime_tower label"
@@ -1883,7 +1883,7 @@ msgstr "空跑速度"
 #: fdmprinter.def.json
 msgctxt "speed_travel description"
 msgid "The speed at which travel moves are made."
-msgstr "噴嘴在非列印時的移動速度"
+msgstr "噴頭在非列印時的移動速度"
 
 #: fdmprinter.def.json
 msgctxt "speed_layer_0 label"
@@ -1893,7 +1893,7 @@ msgstr "起始層速度"
 #: fdmprinter.def.json
 msgctxt "speed_layer_0 description"
 msgid "The speed for the initial layer. A lower value is advised to improve adhesion to the build plate."
-msgstr "起始層的速度。建議採用較低的值以便改善與列印平台的黏著。"
+msgstr "起始層的速度。建議採用較低的值以便改善與列印平台的附著。"
 
 #: fdmprinter.def.json
 msgctxt "speed_print_layer_0 label"
@@ -1903,7 +1903,7 @@ msgstr "起始層列印速度"
 #: fdmprinter.def.json
 msgctxt "speed_print_layer_0 description"
 msgid "The speed of printing for the initial layer. A lower value is advised to improve adhesion to the build plate."
-msgstr "列印起始層的速度。建議採用較低的值以便改善與列印平台的黏著。"
+msgstr "列印起始層的速度。建議採用較低的值以便改善與列印平台的附著。"
 
 #: fdmprinter.def.json
 msgctxt "speed_travel_layer_0 label"
@@ -1943,7 +1943,7 @@ msgstr "慢速列印層數"
 #: fdmprinter.def.json
 msgctxt "speed_slowdown_layers description"
 msgid "The first few layers are printed slower than the rest of the model, to get better adhesion to the build plate and improve the overall success rate of prints. The speed is gradually increased over these layers."
-msgstr "前幾層的列印速度比模型的其他層慢，以便實現與列印平台的更好黏著，並改善整體的列印成功率。該速度在這些層中會逐漸增加。"
+msgstr "前幾層的列印速度比模型的其他層慢，以便實現與列印平台的更好附著，並改善整體的列印成功率。該速度在這些層中會逐漸增加。"
 
 #: fdmprinter.def.json
 msgctxt "speed_equalize_flow_enabled label"
@@ -1953,7 +1953,7 @@ msgstr "均衡耗材流量"
 #: fdmprinter.def.json
 msgctxt "speed_equalize_flow_enabled description"
 msgid "Print thinner than normal lines faster so that the amount of material extruded per second remains the same. Thin pieces in your model might require lines printed with smaller line width than provided in the settings. This setting controls the speed changes for such lines."
-msgstr "以較快的速度列印比正常線條更細的線條，使每秒擠出的材料量保持相同。模型中較薄的部分可能需要以低於設定中所提供寬度的線寬來列印線條。該設定控制這些線條的速度變化。"
+msgstr "以較快的速度列印比正常線條更細的線條，使每秒擠出的耗材量保持相同。模型中較薄的部分可能需要以低於設定中所提供寬度的線寬來列印線條。該設定控制這些線條的速度變化。"
 
 #: fdmprinter.def.json
 msgctxt "speed_equalize_flow_max label"
@@ -2103,7 +2103,7 @@ msgstr "支撐底板加速度"
 #: fdmprinter.def.json
 msgctxt "acceleration_support_bottom description"
 msgid "The acceleration with which the floors of support are printed. Printing them at lower acceleration can improve adhesion of support on top of your model."
-msgstr "列印支撐底板的加速度。以較低的加速度列印可以改善支撐在模型頂部的黏著。"
+msgstr "列印支撐底板的加速度。以較低的加速度列印可以改善支撐在模型頂部的附著。"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_prime_tower label"
@@ -2383,7 +2383,7 @@ msgstr "梳理模式"
 #: fdmprinter.def.json
 msgctxt "retraction_combing description"
 msgid "Combing keeps the nozzle within already printed areas when traveling. This results in slightly longer travel moves but reduces the need for retractions. If combing is off, the material will retract and the nozzle moves in a straight line to the next point. It is also possible to avoid combing over top/bottom skin areas by combing within the infill only."
-msgstr "梳理可在空跑時讓噴頭保持在已列印區域內。這會使空跑距離稍微延長，但可減少回抽需求。如果關閉梳理，則材料將回抽，且噴頭沿著直線移動到下一個點。也可以通過僅在填充內進行梳理避免梳理頂部/底部表層區域。"
+msgstr "梳理可在空跑時讓噴頭保持在已列印區域內。這會使空跑距離稍微延長，但可減少回抽需求。如果關閉梳理，則耗材將回抽，且噴頭沿著直線移動到下一個點。也可以通過僅在填充內進行梳理避免梳理頂部/底部表層區域。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_combing option off"
@@ -2598,7 +2598,7 @@ msgstr "每層至少列印時間"
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time description"
 msgid "The minimum time spent in a layer. This forces the printer to slow down, to at least spend the time set here in one layer. This allows the printed material to cool down properly before printing the next layer. Layers may still take shorter than the minimal layer time if Lift Head is disabled and if the Minimum Speed would otherwise be violated."
-msgstr "在層中花費的最少時間。這會迫使列印機減速，以便至少在一層中消耗此處所規定的時間。這會讓已列印材料充分冷卻後再列印下一層。如果抬升噴頭被禁用，且如果不這麼做會違反“最小速度“，則層所花時間可能仍會少於最小層時間。"
+msgstr "在層中花費的最少時間。這會迫使列印機減速，以便至少在一層中消耗此處所規定的時間。這會讓已列印耗材充分冷卻後再列印下一層。如果抬升噴頭被關閉，且如果不這麼做會違反“最小速度“，則層所花時間可能仍會少於最小層時間。"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_speed label"
@@ -2733,12 +2733,12 @@ msgstr "添加支撐的最小懸垂角度。當角度為 0° 時，將支撐所�
 #: fdmprinter.def.json
 msgctxt "support_pattern label"
 msgid "Support Pattern"
-msgstr "支撐列印模式"
+msgstr "支撐列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "support_pattern description"
 msgid "The pattern of the support structures of the print. The different options available result in sturdy or easy to remove support."
-msgstr "支撐結構的列印模式。有不同的選項可產生堅固的或容易清除的支撐。"
+msgstr "支撐結構的列印樣式。有不同的選項可產生堅固的或容易清除的支撐。"
 
 #: fdmprinter.def.json
 msgctxt "support_pattern option lines"
@@ -2868,7 +2868,7 @@ msgstr "支撐距離優先級"
 #: fdmprinter.def.json
 msgctxt "support_xy_overrides_z description"
 msgid "Whether the Support X/Y Distance overrides the Support Z Distance or vice versa. When X/Y overrides Z the X/Y distance can push away the support from the model, influencing the actual Z distance to the overhang. We can disable this by not applying the X/Y distance around overhangs."
-msgstr "支撐 X/Y 距離是否覆蓋支撐 Z 距離或反之。當 X/Y 覆蓋 Z 時，X/Y 距離可將支撐從模型上推離，影響與懸垂之間的實際 Z 距離。我們可以通過不在懸垂周圍應用 X/Y 距離來禁用此選項。"
+msgstr "支撐 X/Y 距離是否覆蓋支撐 Z 距離或反之。當 X/Y 覆蓋 Z 時，X/Y 距離可將支撐從模型上推離，影響與懸垂之間的實際 Z 距離。我們可以通過不在懸垂周圍應用 X/Y 距離來關閉此選項。"
 
 #: fdmprinter.def.json
 msgctxt "support_xy_overrides_z option xy_overrides_z"
@@ -2938,7 +2938,7 @@ msgstr "支撐填充層厚度"
 #: fdmprinter.def.json
 msgctxt "support_infill_sparse_thickness description"
 msgid "The thickness per layer of support infill material. This value should always be a multiple of the layer height and is otherwise rounded."
-msgstr "支撐填充材料每層的厚度。該值應始終為層高的倍數，否則數值會被四捨五入到層高的倍數。"
+msgstr "支撐填充耗材每層的厚度。該值應始終為層高的倍數，否則數值會被四捨五入到層高的倍數。"
 
 #: fdmprinter.def.json
 msgctxt "gradual_support_infill_steps label"
@@ -2978,7 +2978,7 @@ msgstr "啟用支撐頂板"
 #: fdmprinter.def.json
 msgctxt "support_roof_enable description"
 msgid "Generate a dense slab of material between the top of support and the model. This will create a skin between the model and support."
-msgstr "在支撐頂部和模型之間生成一個密集的材料板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐頂部和模型之間生成一個密集的耗材板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable label"
@@ -2988,7 +2988,7 @@ msgstr "啟用支撐底板"
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable description"
 msgid "Generate a dense slab of material between the bottom of the support and the model. This will create a skin between the model and support."
-msgstr "在支撐底部和模型之間生成一個密集的材料板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐底部和模型之間生成一個密集的耗材板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_height label"
@@ -3068,7 +3068,7 @@ msgstr "支撐底板密度"
 #: fdmprinter.def.json
 msgctxt "support_bottom_density description"
 msgid "The density of the floors of the support structure. A higher value results in better adhesion of the support on top of the model."
-msgstr "支撐結構底板的密度。較高的值會在模型頂部產生更好的支撐黏著。"
+msgstr "支撐結構底板的密度。較高的值會在模型頂部產生更好的支撐附著。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_line_distance label"
@@ -3083,12 +3083,12 @@ msgstr "已列印支撐底板線條之間的距離。該設定是通過支撐底
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern label"
 msgid "Support Interface Pattern"
-msgstr "支撐接觸面列印模式"
+msgstr "支撐接觸面列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern description"
 msgid "The pattern with which the interface of the support with the model is printed."
-msgstr "支撐與模型之間接觸面的列印模式。"
+msgstr "支撐與模型之間接觸面的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_pattern option lines"
@@ -3123,12 +3123,12 @@ msgstr "鋸齒狀"
 #: fdmprinter.def.json
 msgctxt "support_roof_pattern label"
 msgid "Support Roof Pattern"
-msgstr "支撐頂板列印模式"
+msgstr "支撐頂板列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_pattern description"
 msgid "The pattern with which the roofs of the support are printed."
-msgstr "列印支撐頂板的列印模式。"
+msgstr "列印支撐頂板的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_pattern option lines"
@@ -3163,12 +3163,12 @@ msgstr "鋸齒狀"
 #: fdmprinter.def.json
 msgctxt "support_bottom_pattern label"
 msgid "Support Floor Pattern"
-msgstr "支撐底板列印模式"
+msgstr "支撐底板列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_pattern description"
 msgid "The pattern with which the floors of the support are printed."
-msgstr "列印支撐底板的列印模式。"
+msgstr "列印支撐底板的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_pattern option lines"
@@ -3258,7 +3258,7 @@ msgstr "啟用裝填光點"
 #: fdmprinter.def.json
 msgctxt "prime_blob_enable description"
 msgid "Whether to prime the filament with a blob before printing. Turning this setting on will ensure that the extruder will have material ready at the nozzle before printing. Printing Brim or Skirt can act like priming too, in which case turning this setting off saves some time."
-msgstr "列印前是否裝填有光點的耗材。開啟此設定將確保列印前擠出機的噴頭處已準備好材料。列印 Brim 或 Skirt 也可作為裝填用途，這種情况下關閉此設定可以節省時間。"
+msgstr "列印前是否裝填有光點的耗材。開啟此設定將確保列印前擠出機的噴頭處已準備好耗材。列印 Brim 或 Skirt 也可作為裝填用途，這種情况下關閉此設定可以節省時間。"
 
 #: fdmprinter.def.json
 msgctxt "extruder_prime_pos_x label"
@@ -3328,7 +3328,7 @@ msgstr "Skirt 線條計數"
 #: fdmprinter.def.json
 msgctxt "skirt_line_count description"
 msgid "Multiple skirt lines help to prime your extrusion better for small models. Setting this to 0 will disable the skirt."
-msgstr "多個 Skirt 線條幫助為小型模型更好地裝填你的擠出部分。將其設為 0 將禁用 skirt。"
+msgstr "多個 Skirt 線條幫助為小型模型更好地裝填你的擠出部分。將其設為 0 將關閉 skirt。"
 
 #: fdmprinter.def.json
 msgctxt "skirt_gap label"
@@ -3392,7 +3392,7 @@ msgstr "Raft 額外邊緣"
 #: fdmprinter.def.json
 msgctxt "raft_margin description"
 msgid "If the raft is enabled, this is the extra raft area around the model which is also given a raft. Increasing this margin will create a stronger raft while using more material and leaving less area for your print."
-msgstr "如果啟用了raft，在模型周圍也會增加額外邊緣。增加這個邊距將產生更強的raft，不過也會使用更多的材料，並減少列印機的可列印面積。"
+msgstr "如果啟用了raft，在模型周圍也會增加額外邊緣。增加這個邊距將產生更強的raft，不過也會使用更多的耗材，並減少列印機的可列印面積。"
 
 #: fdmprinter.def.json
 msgctxt "raft_airgap label"
@@ -3472,7 +3472,7 @@ msgstr "Raft 中間線寬度"
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_width description"
 msgid "Width of the lines in the middle raft layer. Making the second layer extrude more causes the lines to stick to the build plate."
-msgstr "中間 Raft 層的線寬。讓第二層擠出更多會導致線條黏著在列印平台上。"
+msgstr "中間 Raft 層的線寬。讓第二層擠出更多會導致線條附著在列印平台上。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_spacing label"
@@ -3492,7 +3492,7 @@ msgstr "Raft 基礎厚度"
 #: fdmprinter.def.json
 msgctxt "raft_base_thickness description"
 msgid "Layer thickness of the base raft layer. This should be a thick layer which sticks firmly to the printer build plate."
-msgstr "基礎 Raft 層的層厚度。該層應為與列印機列印平台牢固黏著的厚層。"
+msgstr "基礎 Raft 層的層厚度。該層應為與列印機列印平台牢固附著的厚層。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_width label"
@@ -3542,7 +3542,7 @@ msgstr "Raft 中間列印速度"
 #: fdmprinter.def.json
 msgctxt "raft_interface_speed description"
 msgid "The speed at which the middle raft layer is printed. This should be printed quite slowly, as the volume of material coming out of the nozzle is quite high."
-msgstr "列印中間 Raft 層的速度。該層應以很慢的速度列印，因為噴頭所出的材料量非常高。"
+msgstr "列印中間 Raft 層的速度。該層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_speed label"
@@ -3552,7 +3552,7 @@ msgstr "Raft 基礎列印速度"
 #: fdmprinter.def.json
 msgctxt "raft_base_speed description"
 msgid "The speed at which the base raft layer is printed. This should be printed quite slowly, as the volume of material coming out of the nozzle is quite high."
-msgstr "列印基礎 Raft 層的速度。該層應以很慢的速度列印，因為噴頭所出的材料量非常高。"
+msgstr "列印基礎 Raft 層的速度。該層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
 
 #: fdmprinter.def.json
 msgctxt "raft_acceleration label"
@@ -3692,7 +3692,7 @@ msgstr "啟用換料塔"
 #: fdmprinter.def.json
 msgctxt "prime_tower_enable description"
 msgid "Print a tower next to the print which serves to prime the material after each nozzle switch."
-msgstr "在列印件旁邊印一個塔，用在每次噴嘴開關後填充材料。"
+msgstr "在列印件旁邊印一個塔，用在每次噴頭開關後填充耗材。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_size label"
@@ -3712,7 +3712,7 @@ msgstr "換料塔最小體積"
 #: fdmprinter.def.json
 msgctxt "prime_tower_min_volume description"
 msgid "The minimum volume for each layer of the prime tower in order to purge enough material."
-msgstr "為了清除足夠的材料，換料塔每層的最小體積。"
+msgstr "為了清除足夠的耗材，換料塔每層的最小體積。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_wall_thickness label"
@@ -3752,7 +3752,7 @@ msgstr "換料塔流量"
 #: fdmprinter.def.json
 msgctxt "prime_tower_flow description"
 msgid "Flow compensation: the amount of material extruded is multiplied by this value."
-msgstr "流量補償：擠出的材料量乘以此值。"
+msgstr "流量補償：擠出的耗材量乘以此值。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_wipe_enabled label"
@@ -3762,7 +3762,7 @@ msgstr "在換料塔上擦拭非作用中的噴頭"
 #: fdmprinter.def.json
 msgctxt "prime_tower_wipe_enabled description"
 msgid "After printing the prime tower with one nozzle, wipe the oozed material from the other nozzle off on the prime tower."
-msgstr "在用一個噴頭列印換料塔後，從換料塔上的另一個噴頭擦去滲出的材料。"
+msgstr "在用一個噴頭列印換料塔後，從換料塔上的另一個噴頭擦去滲出的耗材。"
 
 #: fdmprinter.def.json
 msgctxt "dual_pre_wipe label"
@@ -3772,7 +3772,7 @@ msgstr "切換後擦拭噴頭"
 #: fdmprinter.def.json
 msgctxt "dual_pre_wipe description"
 msgid "After switching extruder, wipe the oozed material off of the nozzle on the first thing printed. This performs a safe slow wipe move at a place where the oozed material causes least harm to the surface quality of your print."
-msgstr "切換擠出機後，在列印的第一個物件上擦去噴頭上的滲出材料。這會在滲出材料對列印品表面品質造成最小損害的位置進行緩慢安全的擦拭動作。"
+msgstr "切換擠出機後，在列印的第一個物件上擦去噴頭上的滲出耗材。這會在滲出耗材對列印品表面品質造成最小損害的位置進行緩慢安全的擦拭動作。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_purge_volume label"
@@ -3802,7 +3802,7 @@ msgstr "擦拭牆角度"
 #: fdmprinter.def.json
 msgctxt "ooze_shield_angle description"
 msgid "The maximum angle a part in the ooze shield will have. With 0 degrees being vertical, and 90 degrees being horizontal. A smaller angle leads to less failed ooze shields, but more material."
-msgstr "擦拭牆中的一部分的最大角度。0度為垂直，90度為水平。較小的角度擦拭效果較好，但是要用更多的材料。"
+msgstr "擦拭牆中的一部分的最大角度。0度為垂直，90度為水平。較小的角度擦拭效果較好，但是要用更多的耗材。"
 
 #: fdmprinter.def.json
 msgctxt "ooze_shield_dist label"
@@ -3882,7 +3882,7 @@ msgstr "刪除網格交集部分"
 #: fdmprinter.def.json
 msgctxt "carve_multiple_volumes description"
 msgid "Remove areas where multiple meshes are overlapping with each other. This may be used if merged dual material objects overlap with each other."
-msgstr "刪除多個網格彼此重疊的區域。如果合併的雙重材料對象彼此重疊，則可以使用此選項。"
+msgstr "刪除多個網格彼此重疊的區域。如果合併的雙重耗材對象彼此重疊，則可以使用此選項。"
 
 #: fdmprinter.def.json
 msgctxt "alternate_carve_order label"
@@ -4087,7 +4087,7 @@ msgstr "啟用防風罩"
 #: fdmprinter.def.json
 msgctxt "draft_shield_enabled description"
 msgid "This will create a wall around the model, which traps (hot) air and shields against exterior airflow. Especially useful for materials which warp easily."
-msgstr "這將在模型周圍創建一個壁，該壁會吸住（熱）空氣並遮住外部氣流。對於容易捲曲的材料尤為有用。"
+msgstr "這將在模型周圍創建一個壁，該壁會吸住（熱）空氣並遮住外部氣流。對於容易捲曲的耗材尤為有用。"
 
 #: fdmprinter.def.json
 msgctxt "draft_shield_dist label"
@@ -4157,7 +4157,7 @@ msgstr "啟用滑行"
 #: fdmprinter.def.json
 msgctxt "coasting_enable description"
 msgid "Coasting replaces the last part of an extrusion path with a travel path. The oozed material is used to print the last piece of the extrusion path in order to reduce stringing."
-msgstr "滑行會用一個空跑路徑替代擠出路徑的最後部分。滲出材料用於列印擠出路徑的最後部分，以便減少接縫。"
+msgstr "滑行會用一個空跑路徑替代擠出路徑的最後部分。滲出耗材用於列印擠出路徑的最後部分，以便減少接縫。"
 
 #: fdmprinter.def.json
 msgctxt "coasting_volume label"
@@ -4197,7 +4197,7 @@ msgstr "額外表層牆壁計數"
 #: fdmprinter.def.json
 msgctxt "skin_outline_count description"
 msgid "Replaces the outermost part of the top/bottom pattern with a number of concentric lines. Using one or two lines improves roofs that start on infill material."
-msgstr "用多個同心線代替頂部/底部列印模式的最外面部分。使用一條或兩條線改善從填充材料開始的頂板。"
+msgstr "用多個同心線代替頂部/底部列印樣式的最外面部分。使用一條或兩條線改善從填充耗材開始的頂板。"
 
 #: fdmprinter.def.json
 msgctxt "skin_alternate_rotation label"
@@ -4267,7 +4267,7 @@ msgstr "義大利麵式流量"
 #: fdmprinter.def.json
 msgctxt "spaghetti_flow description"
 msgid "Adjusts the density of the spaghetti infill. Note that the Infill Density only controls the line spacing of the filling pattern, not the amount of extrusion for spaghetti infill."
-msgstr "調整義大利麵式填充的密度。注意，填充密度僅控制填充列印模式的線條間距，而不是義大利麵式填充的擠出量。"
+msgstr "調整義大利麵式填充的密度。注意，填充密度僅控制填充列印樣式的線條間距，而不是義大利麵式填充的擠出量。"
 
 #: fdmprinter.def.json
 msgctxt "spaghetti_infill_extra_volume label"
@@ -4297,7 +4297,7 @@ msgstr "錐形支撐角度"
 #: fdmprinter.def.json
 msgctxt "support_conical_angle description"
 msgid "The angle of the tilt of conical support. With 0 degrees being vertical, and 90 degrees being horizontal. Smaller angles cause the support to be more sturdy, but consist of more material. Negative angles cause the base of the support to be wider than the top."
-msgstr "錐形支撐的傾斜角度。角度 0 度時為垂直，角度 90 度時為水平。較小的角度會讓支撐更為牢固，但需要更多材料。負角會讓支撐底座比頂部寬。"
+msgstr "錐形支撐的傾斜角度。角度 0 度時為垂直，角度 90 度時為水平。較小的角度會讓支撐更為牢固，但需要更多耗材。負角會讓支撐底座比頂部寬。"
 
 #: fdmprinter.def.json
 msgctxt "support_conical_min_width label"
@@ -4397,7 +4397,7 @@ msgstr "WP 速度"
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed description"
 msgid "Speed at which the nozzle moves when extruding material. Only applies to Wire Printing."
-msgstr "擠出材料時噴頭移動的速度。僅應用於單線列印。"
+msgstr "擠出耗材時噴頭移動的速度。僅應用於單線列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_printspeed_bottom label"
@@ -4447,7 +4447,7 @@ msgstr "WP 列印流量"
 #: fdmprinter.def.json
 msgctxt "wireframe_flow description"
 msgid "Flow compensation: the amount of material extruded is multiplied by this value. Only applies to Wire Printing."
-msgstr "流量補償：擠出的材料量乘以此值。僅應用於單線列印。"
+msgstr "流量補償：擠出的耗材量乘以此值。僅應用於單線列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_flow_connection label"
@@ -4511,7 +4511,7 @@ msgid ""
 "This can cause better adhesion to previous layers, while not heating the material in those layers too much. Only applies to Wire Printing."
 msgstr ""
 "以半速擠出的上行移動的距離。\n"
-"這會與之前的層產生更好的附著，而不會將這些層中的材料過度加熱。僅應用於單線列印。"
+"這會與之前的層產生更好的附著，而不會將這些層中的耗材過度加熱。僅應用於單線列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_top_jump label"
@@ -4531,7 +4531,7 @@ msgstr "WP 倒塌"
 #: fdmprinter.def.json
 msgctxt "wireframe_fall_down description"
 msgid "Distance with which the material falls down after an upward extrusion. This distance is compensated for. Only applies to Wire Printing."
-msgstr "材料在向上擠出後倒塌的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "耗材在向上擠出後倒塌的距離。將對此距離進行補償。僅應用於單線列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_drag_along label"
@@ -4541,7 +4541,7 @@ msgstr "WP 拖行"
 #: fdmprinter.def.json
 msgctxt "wireframe_drag_along description"
 msgid "Distance with which the material of an upward extrusion is dragged along with the diagonally downward extrusion. This distance is compensated for. Only applies to Wire Printing."
-msgstr "向上擠出材料與斜向下擠出一起拖動的距離。將對此距離進行補償。僅應用於單線列印。"
+msgstr "向上擠出耗材與斜向下擠出一起拖動的距離。將對此距離進行補償。僅應用於單線列印。"
 
 #: fdmprinter.def.json
 msgctxt "wireframe_strategy label"
@@ -4626,17 +4626,17 @@ msgstr "啟用熨平"
 #: fdmprinter.def.json
 msgctxt "ironing_enabled description"
 msgid "Go over the top surface one additional time, but without extruding material. This is meant to melt the plastic on top further, creating a smoother surface."
-msgstr "再一次經過頂部表面，但不擠出材料。這是為了進一步融化頂部的塑料，打造更平滑的表面。"
+msgstr "再一次經過頂部表面，但不擠出耗材。這是為了進一步融化頂部的塑料，打造更平滑的表面。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_pattern label"
 msgid "Ironing Pattern"
-msgstr "熨平列印模式"
+msgstr "熨平列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "ironing_pattern description"
 msgid "The pattern to use for ironing top surfaces."
-msgstr "用於熨平頂部表面的列印模式。"
+msgstr "用於熨平頂部表面的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_pattern option concentric"
@@ -4666,7 +4666,7 @@ msgstr "熨平流量"
 #: fdmprinter.def.json
 msgctxt "ironing_flow description"
 msgid "The amount of material, relative to a normal skin line, to extrude during ironing. Keeping the nozzle filled helps filling some of the crevices of the top surface, but too much results in overextrusion and blips on the side of the surface."
-msgstr "熨平期間相對於正常表層線條的擠出材料量。保持噴頭填充狀态有助於填充頂部表面的一些縫隙，但如填充過多則會導致表面上過度擠出和光點。"
+msgstr "熨平期間相對於正常表層線條的擠出耗材量。保持噴頭填充狀态有助於填充頂部表面的一些縫隙，但如填充過多則會導致表面上過度擠出和光點。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_inset label"
