@@ -1642,12 +1642,12 @@ msgstr "列印平台調平"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:38
 msgctxt "@label"
 msgid "To make sure your prints will come out great, you can now adjust your buildplate. When you click 'Move to Next Position' the nozzle will move to the different positions that can be adjusted."
-msgstr "為了確保列印品質出色，你現在可以開始調整你的列印平台。當你點擊「移動到下一個位置」時，噴頭將移動到可以調節的不同位置。"
+msgstr "為了確保列印品質出色，你現在可以開始調整你的列印平台。當你點擊「移動到下一個位置」時，噴頭將移動到不同的可調節位置。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:47
 msgctxt "@label"
 msgid "For every position; insert a piece of paper under the nozzle and adjust the print build plate height. The print build plate height is right when the paper is slightly gripped by the tip of the nozzle."
-msgstr "在列印頭停止的每一個位置下方插入一張紙，並調整平台高度。當紙張恰好被噴頭的尖端輕微壓住時，此時列印平台的高度已被正確校準。"
+msgstr "在噴頭停止的每一個位置下方插入一張紙，並調整平台高度。當紙張恰好被噴頭的尖端輕微壓住時，表示列印平台已被校準在正確的高度。"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:62
 msgctxt "@action:button"
@@ -1739,7 +1739,7 @@ msgstr "X Min 限位開關："
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:151
 msgctxt "@info:status"
 msgid "Works"
-msgstr "工作"
+msgstr "正常"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:109
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:130
@@ -1829,7 +1829,7 @@ msgstr "已暫停"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:190
 msgctxt "@label:MonitorStatus"
 msgid "Preparing..."
-msgstr "初始化中..."
+msgstr "準備中..."
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:112
 msgctxt "@label:MonitorStatus"
@@ -1872,7 +1872,7 @@ msgid ""
 "You have customized some profile settings.\n"
 "Would you like to keep or discard those settings?"
 msgstr ""
-"你已自訂某些列印參數設定。\n"
+"你已自訂部份列印參數設定。\n"
 "你想保留或捨棄這些設定嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:110
@@ -1921,7 +1921,7 @@ msgstr "保留"
 #: /home/ruben/Projects/Cura/resources/qml/DiscardOrKeepProfileChangesDialog.qml:222
 msgctxt "@action:button"
 msgid "Create New Profile"
-msgstr "創建新列印參數"
+msgstr "創建新的列印參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:44
 msgctxt "@title"
@@ -1986,12 +1986,12 @@ msgstr "每公尺成本"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:241
 msgctxt "@label"
 msgid "This material is linked to %1 and shares some of its properties."
-msgstr "此耗材與 %1 相關聯，並共享其某些屬性。"
+msgstr "此耗材與 %1 相關聯，並共享其部份屬性。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:248
 msgctxt "@label"
 msgid "Unlink Material"
-msgstr "解綁耗材"
+msgstr "解除聯結耗材"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:259
 msgctxt "@label"
@@ -2001,7 +2001,7 @@ msgstr "描述"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:272
 msgctxt "@label"
 msgid "Adhesion Information"
-msgstr "黏著資訊"
+msgstr "附著資訊"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MaterialView.qml:298
 msgctxt "@label"
@@ -2011,7 +2011,7 @@ msgstr "列印設定"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:14
 msgctxt "@title:tab"
 msgid "Setting Visibility"
-msgstr "設定可見性"
+msgstr "設定顯示參數"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:44
 msgctxt "@label:textbox"
@@ -2077,7 +2077,7 @@ msgstr "需重新啟動 Cura，新的設定才能生效。"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:289
 msgctxt "@info:tooltip"
 msgid "Slice automatically when changing settings."
-msgstr "當設定被更改時自動進行切片。"
+msgstr "當設定變更時自動進行切片。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:297
 msgctxt "@option:check"
@@ -2107,17 +2107,17 @@ msgstr "當模型被選中時，視角將自動調整到最合適的觀察位置
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:340
 msgctxt "@action:button"
 msgid "Center camera when item is selected"
-msgstr "當專案被選中時，自動對中視角"
+msgstr "當專案被選中時，自動置中視角"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:349
 msgctxt "@info:tooltip"
 msgid "Should the default zoom behavior of cura be inverted?"
-msgstr "需要令 Cura 的預設縮放操作反轉嗎？"
+msgstr "需要讓 Cura 的預設縮放操作反轉嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:354
 msgctxt "@action:button"
 msgid "Invert the direction of camera zoom."
-msgstr "反轉視角變焦方向。"
+msgstr "反轉視角縮放方向。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:363
 msgctxt "@info:tooltip"
@@ -2132,7 +2132,7 @@ msgstr "跟隨滑鼠方向縮放"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:377
 msgctxt "@info:tooltip"
 msgid "Should models on the platform be moved so that they no longer intersect?"
-msgstr "需要移動平台上的模型，使它們不再相交嗎？"
+msgstr "需要移動平台上的模型，使它們不再交錯嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:382
 msgctxt "@option:check"
@@ -2187,7 +2187,7 @@ msgstr "縮小過大模型"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:464
 msgctxt "@info:tooltip"
 msgid "An model may appear extremely small if its unit is for example in meters rather than millimeters. Should these models be scaled up?"
-msgstr "某些模型採用較大的單位(例如：公尺)，導致模型變得非常小，要將這些模型放大嗎？"
+msgstr "部份模型採用較大的單位(例如：公尺)，導致模型變得非常小，要將這些模型放大嗎？"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:469
 msgctxt "@option:check"
@@ -2232,17 +2232,17 @@ msgstr "總是詢問"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:527
 msgctxt "@option:openProject"
 msgid "Always open as a project"
-msgstr "始終作為一個專案開啟"
+msgstr "總是作為一個專案開啟"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:528
 msgctxt "@option:openProject"
 msgid "Always import models"
-msgstr "始終匯入模型"
+msgstr "總是匯入模型"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:564
 msgctxt "@info:tooltip"
 msgid "When you have made changes to a profile and switched to a different one, a dialog will be shown asking whether you want to keep your modifications or not, or you can choose a default behaviour and never show that dialog again."
-msgstr "當你對列印參數進行更改並切換到其他列印參數時將顯示一個對話框，詢問你是否要保留修改。你也可以選擇一個預設行為並令其不再顯示該對話框。"
+msgstr "當你對列印參數進行更改然後切換到其他列印參數時，將顯示一個對話框詢問你是否要保留修改。你也可以選擇預設不顯示該對話框。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:573
 msgctxt "@label"
@@ -2252,7 +2252,7 @@ msgstr "覆寫列印參數"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:622
 msgctxt "@label"
 msgid "Privacy"
-msgstr "隱私"
+msgstr "隱私權"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:629
 msgctxt "@info:tooltip"
@@ -2267,7 +2267,7 @@ msgstr "啟動時檢查更新"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:644
 msgctxt "@info:tooltip"
 msgid "Should anonymous data about your print be sent to Ultimaker? Note, no models, IP addresses or other personally identifiable information is sent or stored."
-msgstr "你願意將關於你的列印資料以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄/發送任何模型、IP 地址或其他私人資料。"
+msgstr "你願意將關於你的列印資料以匿名形式發送到 Ultimaker 嗎？注意：我們不會記錄或發送任何模型、IP 地址或其他私人資料。"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:649
 msgctxt "@option:check"
@@ -3434,7 +3434,7 @@ msgid ""
 "\n"
 "Click to open the profile manager."
 msgstr ""
-"某些設定/覆寫值與存儲在列印參數中的值不同。\n"
+"部份設定/覆寫值與存儲在列印參數中的值不同。\n"
 "\n"
 "點擊開啟列印參數管理器。"
 
