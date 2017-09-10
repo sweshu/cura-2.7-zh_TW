@@ -1008,7 +1008,7 @@ msgstr "應用在外壁路徑上的嵌入。如果外壁小於噴頭，並且在
 #: fdmprinter.def.json
 msgctxt "outer_inset_first label"
 msgid "Outer Before Inner Walls"
-msgstr "先外壁後內壁"
+msgstr "先印外壁後印內壁"
 
 #: fdmprinter.def.json
 msgctxt "outer_inset_first description"
@@ -1018,7 +1018,7 @@ msgstr "啟用時以從外向內的順序列印壁。當使用高黏度塑料如
 #: fdmprinter.def.json
 msgctxt "alternate_extra_perimeter label"
 msgid "Alternate Extra Wall"
-msgstr "交錯額外壁"
+msgstr "交錯額外牆壁"
 
 #: fdmprinter.def.json
 msgctxt "alternate_extra_perimeter description"
@@ -1028,7 +1028,7 @@ msgstr "每兩層建立一個額外牆壁，這些額外的牆壁能更緊密地
 #: fdmprinter.def.json
 msgctxt "travel_compensate_overlapping_walls_enabled label"
 msgid "Compensate Wall Overlaps"
-msgstr "補償壁重疊"
+msgstr "補償牆壁重疊"
 
 #: fdmprinter.def.json
 msgctxt "travel_compensate_overlapping_walls_enabled description"
@@ -1058,12 +1058,12 @@ msgstr "列印內壁時如果該位置已經有牆壁存在，所進行的的流
 #: fdmprinter.def.json
 msgctxt "fill_perimeter_gaps label"
 msgid "Fill Gaps Between Walls"
-msgstr "填充壁之間空隙"
+msgstr "填充牆壁之間空隙"
 
 #: fdmprinter.def.json
 msgctxt "fill_perimeter_gaps description"
 msgid "Fills the gaps between walls where no walls fit."
-msgstr "填充牆壁之間的縫隙"
+msgstr "填充牆壁之間空隙"
 
 #: fdmprinter.def.json
 msgctxt "fill_perimeter_gaps option nowhere"
@@ -1158,7 +1158,7 @@ msgstr "Z 縫相對"
 #: fdmprinter.def.json
 msgctxt "z_seam_relative description"
 msgid "When enabled, the z seam coordinates are relative to each part's centre. When disabled, the coordinates define an absolute position on the build plate."
-msgstr "啟用時，Z 縫座標為相對於各個部分中心的值。關閉時，座標定義列印平台上的一個絕對位置。"
+msgstr "啟用時，Z 接縫座標為相對於各個部分中心的值。關閉時，座標固定在列印平台上的一個絕對位置。"
 
 #: fdmprinter.def.json
 msgctxt "skin_no_small_gaps_heuristic label"
@@ -1278,7 +1278,7 @@ msgstr "要使用的整數線條方向列表。列表中的元素隨層的進度
 #: fdmprinter.def.json
 msgctxt "sub_div_rad_add label"
 msgid "Cubic Subdivision Shell"
-msgstr "立方體分區外殼"
+msgstr "立方體細分外殼"
 
 #: fdmprinter.def.json
 msgctxt "sub_div_rad_add description"
@@ -1363,7 +1363,7 @@ msgstr "漸進填充階梯高度"
 #: fdmprinter.def.json
 msgctxt "gradual_infill_step_height description"
 msgid "The height of infill of a given density before switching to half the density."
-msgstr "在切換到一半密度之前，給定密度的填充高度。"
+msgstr "切換到一半密度的填充高度。"
 
 #: fdmprinter.def.json
 msgctxt "infill_before_walls label"
@@ -1373,7 +1373,7 @@ msgstr "先印填充再印牆壁"
 #: fdmprinter.def.json
 msgctxt "infill_before_walls description"
 msgid "Print the infill before printing the walls. Printing the walls first may lead to more accurate walls, but overhangs print worse. Printing the infill first leads to sturdier walls, but the infill pattern might sometimes show through the surface."
-msgstr "列印壁前先列印填充。先列印壁可能產生更精確的壁，但懸垂列印品質會較差。先列印填充會產生更牢固的壁，但有時候填充的列印樣式會透過表面顯現出來。"
+msgstr "列印牆壁前先列印填充。先列印牆壁可能產生更精確的牆壁，但懸垂列印品質會較差。先列印填充會產生更牢固的牆壁，但有時候填充的列印樣式會透過表面顯現出來。"
 
 #: fdmprinter.def.json
 msgctxt "min_infill_area label"
@@ -1653,7 +1653,7 @@ msgstr "回抽最小空跑距離"
 #: fdmprinter.def.json
 msgctxt "retraction_min_travel description"
 msgid "The minimum distance of travel needed for a retraction to happen at all. This helps to get fewer retractions in a small area."
-msgstr "回抽發生所需的最小空跑距離。這有助於在較小區域內實現更少的回抽。"
+msgstr "觸發回抽所需的最小空跑距離。這有助於在較小區域內實現更少的回抽。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_count_max label"
@@ -1763,7 +1763,7 @@ msgstr "牆壁速度"
 #: fdmprinter.def.json
 msgctxt "speed_wall description"
 msgid "The speed at which the walls are printed."
-msgstr "列印壁的速度。"
+msgstr "列印牆壁的速度。"
 
 #: fdmprinter.def.json
 msgctxt "speed_wall_0 label"
@@ -1973,7 +1973,7 @@ msgstr "啟用加速度控制"
 #: fdmprinter.def.json
 msgctxt "acceleration_enabled description"
 msgid "Enables adjusting the print head acceleration. Increasing the accelerations can reduce printing time at the cost of print quality."
-msgstr "啟用調整噴頭的加速度。增加加速度可以減少打印時間卻會犧牲列印品質。"
+msgstr "啟用調整噴頭的加速度。增加加速度可以減少列印時間卻會犧牲列印品質。"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_print label"
@@ -1998,12 +1998,12 @@ msgstr "列印填充的加速度。"
 #: fdmprinter.def.json
 msgctxt "acceleration_wall label"
 msgid "Wall Acceleration"
-msgstr "壁加速度"
+msgstr "牆壁加速度"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_wall description"
 msgid "The acceleration with which the walls are printed."
-msgstr "列印壁的加速度。"
+msgstr "列印牆壁的加速度。"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_wall_0 label"
