@@ -1564,7 +1564,7 @@ msgstr "如何解决耗材的設定衝突？"
 #: /home/ruben/Projects/Cura/resources/qml/WorkspaceSummaryDialog.qml:207
 msgctxt "@action:label"
 msgid "Setting visibility"
-msgstr "設定可見性"
+msgstr "參數顯示設定"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:317
 msgctxt "@action:label"
@@ -2011,7 +2011,7 @@ msgstr "列印設定"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:14
 msgctxt "@title:tab"
 msgid "Setting Visibility"
-msgstr "設定顯示參數"
+msgstr "參數顯示設定"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:44
 msgctxt "@label:textbox"
@@ -3080,7 +3080,7 @@ msgstr "顯示設定資料夾"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:353
 msgctxt "@action:menu"
 msgid "Configure setting visibility..."
-msgstr "設定設定可見性..."
+msgstr "參數顯示設定..."
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:27
 msgctxt "@label:PrintjobStatus"

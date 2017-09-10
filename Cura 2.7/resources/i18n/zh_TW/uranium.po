@@ -39,12 +39,12 @@ msgstr "Wavefront OBJ 檔案"
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:17
 msgctxt "@item:inlistbox"
 msgid "STL File (ASCII)"
-msgstr "STL 檔案 (ASCII)"
+msgstr "STL 檔案 (純文字)"
 
 #: /home/ruben/Projects/Uranium/plugins/FileHandlers/STLWriter/__init__.py:23
 msgctxt "@item:inlistbox"
 msgid "STL File (Binary)"
-msgstr "STL 檔案 (二進制)"
+msgstr "STL 檔案 (二進位)"
 
 #: /home/ruben/Projects/Uranium/plugins/UpdateChecker/UpdateCheckerJob.py:51
 msgctxt "@info"
@@ -85,7 +85,7 @@ msgstr "檢查更新"
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:33
 msgctxt "@item:inmenu"
 msgid "Local File"
-msgstr "本地檔案"
+msgstr "本機檔案"
 
 #: /home/ruben/Projects/Uranium/plugins/LocalFileOutputDevice/LocalFileOutputDevice.py:34
 msgctxt "@action:button Preceded by 'Ready to'."
@@ -297,7 +297,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "@info:version-upgrade"
 msgid "A configuration from an older version of {0} was imported."
-msgstr "已匯入舊版本 {0} 所使用的配置。"
+msgstr "已匯入舊版本 {0} 所使用的設定。"
 
 #: /home/ruben/Projects/Uranium/UM/View/GL/OpenGL.py:46
 msgctxt "@message"
@@ -368,7 +368,7 @@ msgstr "安裝新外掛"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:55
 msgctxt "@label"
 msgid "You will need to restart the application before changes in plugins have effect."
-msgstr "在外掛發生變化之前，你需要重新啟動應用程式。"
+msgstr "你需要重新啟動應用程式讓外掛生效。"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:93
 msgctxt "@label"
@@ -393,7 +393,7 @@ msgstr "開啟檔案"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:171
 msgctxt "@label"
 msgid "No text available"
-msgstr "沒有文本可用"
+msgstr "沒有文件可用"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PluginsPage.qml:177
 msgctxt "@title:window"
@@ -429,7 +429,7 @@ msgstr "預設"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PreferencesDialog.qml:146
 msgctxt "@title:tab"
 msgid "General"
-msgstr "基本"
+msgstr "一般"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/PreferencesDialog.qml:147
 msgctxt "@title:tab"
@@ -466,7 +466,7 @@ msgstr[0] "該設定已被 %1 的值所隱藏，若需顯示，更改此值可�
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/SettingVisibilityPage.qml:12
 msgctxt "@title:tab"
 msgid "Setting Visibility"
-msgstr "設定可見性"
+msgstr "參數顯示設定"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/SettingVisibilityPage.qml:42
 msgctxt "@label:textbox"
@@ -521,7 +521,7 @@ msgstr "升級 \"%1\""
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:84
 msgctxt "@action:button"
 msgid "Update profile"
-msgstr "列印參數檔案"
+msgstr "升級列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:92
 msgctxt "@action:button"
@@ -551,7 +551,7 @@ msgstr "受保護的列印參數"
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:112
 msgctxt "@label"
 msgid "Custom profile"
-msgstr "自定義列印參數"
+msgstr "自訂列印參數"
 
 #: /home/ruben/Projects/Uranium/UM/Qt/qml/UM/Preferences/ProfilesPage.qml:139
 msgctxt "@action:button"
@@ -626,32 +626,32 @@ msgstr "STL 檔案閱讀器"
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "description"
 msgid "Makes it possible to read Wavefront OBJ files."
-msgstr "支援讀取 Wavefront OBJ 檔案。"
+msgstr "提供讀取 Wavefront OBJ 檔案的支援。"
 
 #: FileHandlers/OBJReader/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Reader"
-msgstr "Wavefront OBJ 檔案閱讀器"
+msgstr "Wavefront OBJ 檔案讀取器"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "description"
 msgid "Makes it possible to write Wavefront OBJ files."
-msgstr "支援寫入 Wavefront OBJ 檔案。"
+msgstr "提供寫入 Wavefront OBJ 檔案的支援。"
 
 #: FileHandlers/OBJWriter/plugin.json
 msgctxt "name"
 msgid "Wavefront OBJ Writer"
-msgstr "Wavefront OBJ 檔案編輯器"
+msgstr "Wavefront OBJ 檔案寫入器"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing STL files."
-msgstr "提供寫入 STL 檔案的。"
+msgstr "提供寫入 STL 檔案的支援。"
 
 #: FileHandlers/STLWriter/plugin.json
 msgctxt "name"
 msgid "STL Writer"
-msgstr "STL 檔案編輯器"
+msgstr "STL 檔案寫入器"
 
 #: ConsoleLogger/plugin.json
 msgctxt "description"
@@ -661,7 +661,7 @@ msgstr "輸出日誌資訊至控制台。"
 #: ConsoleLogger/plugin.json
 msgctxt "name"
 msgid "Console Logger"
-msgstr "控制台日誌記錄"
+msgstr "控制台日誌記錄器"
 
 #: UpdateChecker/plugin.json
 msgctxt "description"
@@ -676,12 +676,12 @@ msgstr "韌體更新檢查"
 #: LocalFileOutputDevice/plugin.json
 msgctxt "description"
 msgid "Enables saving to local files."
-msgstr "啟用儲存到本地檔案的功能。"
+msgstr "啟用儲存到本機檔案的功能。"
 
 #: LocalFileOutputDevice/plugin.json
 msgctxt "name"
 msgid "Local File Output Device"
-msgstr "本地檔案輸出裝置"
+msgstr "本機檔案輸出裝置"
 
 #: Tools/ScaleTool/plugin.json
 msgctxt "description"
