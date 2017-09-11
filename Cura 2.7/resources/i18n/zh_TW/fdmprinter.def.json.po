@@ -543,32 +543,32 @@ msgstr "列印頭移動的預設加速度。"
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_xy label"
 msgid "Default X-Y Jerk"
-msgstr "預設 X-Y 平面瞬動速度（Jerk）"
+msgstr "預設 X-Y 平面加加速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_xy description"
 msgid "Default jerk for movement in the horizontal plane."
-msgstr "水平面移動的預設瞬動速度。"
+msgstr "水平面移動的預設加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_z label"
 msgid "Default Z Jerk"
-msgstr "預設 Z 軸瞬動速度（Jerk）"
+msgstr "預設 Z 軸加加速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_z description"
 msgid "Default jerk for the motor of the Z-direction."
-msgstr "Z 軸方向馬達的預設瞬動速度。"
+msgstr "Z 軸方向馬達的預設加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_e label"
 msgid "Default Filament Jerk"
-msgstr "預設擠出馬達瞬動速度"
+msgstr "預設擠出馬達加加速度"
 
 #: fdmprinter.def.json
 msgctxt "machine_max_jerk_e description"
 msgid "Default jerk for the motor of the filament."
-msgstr "擠出馬達的預設瞬動速度。"
+msgstr "擠出馬達的預設加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "machine_minimum_feedrate label"
@@ -2168,17 +2168,17 @@ msgstr "列印 skirt 和 brim 的加速度。一般情况是以起始層加速�
 #: fdmprinter.def.json
 msgctxt "jerk_enabled label"
 msgid "Enable Jerk Control"
-msgstr "啟用瞬動速度控制"
+msgstr "啟用加加速度控制"
 
 #: fdmprinter.def.json
 msgctxt "jerk_enabled description"
 msgid "Enables adjusting the jerk of print head when the velocity in the X or Y axis changes. Increasing the jerk can reduce printing time at the cost of print quality."
-msgstr "啟用當 X 或 Y 軸的速度變化時調整列印頭的瞬動速度。提高瞬動速度可以通過以列印品質為代價來縮短列印時間。"
+msgstr "啟用當 X 或 Y 軸的速度變化時調整列印頭的加加速度。提高加加速度可以通過以列印品質為代價來縮短列印時間。"
 
 #: fdmprinter.def.json
 msgctxt "jerk_print label"
 msgid "Print Jerk"
-msgstr "列印瞬動速度"
+msgstr "列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_print description"
@@ -2188,7 +2188,7 @@ msgstr "列印頭的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_infill label"
 msgid "Infill Jerk"
-msgstr "填充瞬動速度"
+msgstr "填充加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_infill description"
@@ -2198,7 +2198,7 @@ msgstr "列印填充時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_wall label"
 msgid "Wall Jerk"
-msgstr "牆壁瞬動速度"
+msgstr "牆壁加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_wall description"
@@ -2208,7 +2208,7 @@ msgstr "列印牆壁時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_wall_0 label"
 msgid "Outer Wall Jerk"
-msgstr "外壁瞬動速度"
+msgstr "外壁加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_wall_0 description"
@@ -2218,7 +2218,7 @@ msgstr "列印最外壁時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_wall_x label"
 msgid "Inner Wall Jerk"
-msgstr "內壁瞬動速度"
+msgstr "內壁加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_wall_x description"
@@ -2228,7 +2228,7 @@ msgstr "列印所有內壁時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_roofing label"
 msgid "Top Surface Skin Jerk"
-msgstr "頂部表層瞬動速度"
+msgstr "頂部表層加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_roofing description"
@@ -2238,7 +2238,7 @@ msgstr "列印頂部表層時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_topbottom label"
 msgid "Top/Bottom Jerk"
-msgstr "頂部/底部瞬動速度"
+msgstr "頂部/底部加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_topbottom description"
@@ -2248,7 +2248,7 @@ msgstr "列印頂部/底部層時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_ironing label"
 msgid "Ironing Jerk"
-msgstr "燙平瞬動速度"
+msgstr "燙平加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_ironing description"
@@ -2258,7 +2258,7 @@ msgstr "執行燙平時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support label"
 msgid "Support Jerk"
-msgstr "支撐瞬動速度"
+msgstr "支撐加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support description"
@@ -2268,7 +2268,7 @@ msgstr "列印支撐結構時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support_infill label"
 msgid "Support Infill Jerk"
-msgstr "支撐填充瞬動速度"
+msgstr "支撐填充加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support_infill description"
@@ -2278,7 +2278,7 @@ msgstr "列印支撐填充時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support_interface label"
 msgid "Support Interface Jerk"
-msgstr "支撐介面瞬動速度"
+msgstr "支撐介面加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support_interface description"
@@ -2288,7 +2288,7 @@ msgstr "列印支撐頂板和底板的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support_roof label"
 msgid "Support Roof Jerk"
-msgstr "支撐頂板瞬動速度"
+msgstr "支撐頂板加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support_roof description"
@@ -2298,7 +2298,7 @@ msgstr "列印支撐頂板的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_support_bottom label"
 msgid "Support Floor Jerk"
-msgstr "支撐底板瞬動速度"
+msgstr "支撐底板加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support_bottom description"
@@ -2308,7 +2308,7 @@ msgstr "列印支撐底板時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_prime_tower label"
 msgid "Prime Tower Jerk"
-msgstr "換料塔瞬動速度"
+msgstr "換料塔加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_prime_tower description"
@@ -2318,7 +2318,7 @@ msgstr "列印換料塔時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_travel label"
 msgid "Travel Jerk"
-msgstr "空跑瞬動速度"
+msgstr "空跑加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_travel description"
@@ -2328,7 +2328,7 @@ msgstr "進行空跑時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_layer_0 label"
 msgid "Initial Layer Jerk"
-msgstr "起始層瞬動速度"
+msgstr "起始層加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_layer_0 description"
@@ -2338,7 +2338,7 @@ msgstr "起始層的列印最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_print_layer_0 label"
 msgid "Initial Layer Print Jerk"
-msgstr "起始層列印瞬動速度"
+msgstr "起始層列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_print_layer_0 description"
@@ -2348,7 +2348,7 @@ msgstr "列印起始層時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_travel_layer_0 label"
 msgid "Initial Layer Travel Jerk"
-msgstr "起始層空跑瞬動速度"
+msgstr "起始層空跑加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_travel_layer_0 description"
@@ -2358,7 +2358,7 @@ msgstr "起始層中的空跑加速度。"
 #: fdmprinter.def.json
 msgctxt "jerk_skirt_brim label"
 msgid "Skirt/Brim Jerk"
-msgstr "Skirt/Brim 瞬動速度"
+msgstr "Skirt/Brim 加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_skirt_brim description"
@@ -3597,42 +3597,42 @@ msgstr "列印基礎 Raft 層的加速度。"
 #: fdmprinter.def.json
 msgctxt "raft_jerk label"
 msgid "Raft Print Jerk"
-msgstr "Raft 列印瞬動速度"
+msgstr "Raft 列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_jerk description"
 msgid "The jerk with which the raft is printed."
-msgstr "列印 Raft 的瞬動速度。"
+msgstr "列印 Raft 的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_jerk label"
 msgid "Raft Top Print Jerk"
-msgstr "Raft 頂部列印瞬動速度"
+msgstr "Raft 頂部列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_jerk description"
 msgid "The jerk with which the top raft layers are printed."
-msgstr "列印頂部 Raft 層的瞬動速度。"
+msgstr "列印頂部 Raft 層的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_jerk label"
 msgid "Raft Middle Print Jerk"
-msgstr "Raft 中間列印瞬動速度"
+msgstr "Raft 中間列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_jerk description"
 msgid "The jerk with which the middle raft layer is printed."
-msgstr "列印中間 Raft 層的瞬動速度。"
+msgstr "列印中間 Raft 層的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_jerk label"
 msgid "Raft Base Print Jerk"
-msgstr "Raft 基礎列印瞬動速度"
+msgstr "Raft 基礎列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_jerk description"
 msgid "The jerk with which the base raft layer is printed."
-msgstr "列印基礎 Raft 層的瞬動速度。"
+msgstr "列印基礎 Raft 層的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_fan_speed label"
