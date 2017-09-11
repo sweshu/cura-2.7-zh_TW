@@ -520,7 +520,7 @@ msgstr "無法使用目前設定進行切片。以下設定存在錯誤：{0}"
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:317
 msgctxt "@info:status"
 msgid "Unable to slice because the prime tower or prime position(s) are invalid."
-msgstr "無法切片（原因：主塔或主位置無效）。"
+msgstr "無法切片（原因：換料塔或主位置無效）。"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:325
 msgctxt "@info:status"

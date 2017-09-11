@@ -733,12 +733,12 @@ msgstr "單一支撐底板線寬。"
 #: fdmprinter.def.json
 msgctxt "prime_tower_line_width label"
 msgid "Prime Tower Line Width"
-msgstr "填料塔線寬。"
+msgstr "換料塔線寬。"
 
 #: fdmprinter.def.json
 msgctxt "prime_tower_line_width description"
 msgid "Width of a single prime tower line."
-msgstr "單一填料塔線寬。"
+msgstr "單一換料塔線寬。"
 
 #: fdmprinter.def.json
 msgctxt "initial_layer_line_width_factor label"
@@ -1868,12 +1868,12 @@ msgstr "列印支撐底板的速度。以較低的速度列印可以改善支撐
 #: fdmprinter.def.json
 msgctxt "speed_prime_tower label"
 msgid "Prime Tower Speed"
-msgstr "填料塔速度"
+msgstr "換料塔速度"
 
 #: fdmprinter.def.json
 msgctxt "speed_prime_tower description"
 msgid "The speed at which the prime tower is printed. Printing the prime tower slower can make it more stable when the adhesion between the different filaments is suboptimal."
-msgstr "列印填料塔的速度。當不同耗材之間的黏合力不是最佳時，較慢地列印速度可以讓它更穩定。"
+msgstr "列印換料塔的速度。當不同耗材之間的黏合力不是最佳時，較慢地列印速度可以讓它更穩定。"
 
 #: fdmprinter.def.json
 msgctxt "speed_travel label"
