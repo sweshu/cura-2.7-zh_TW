@@ -1653,7 +1653,7 @@ msgstr "回抽最小空跑距離"
 #: fdmprinter.def.json
 msgctxt "retraction_min_travel description"
 msgid "The minimum distance of travel needed for a retraction to happen at all. This helps to get fewer retractions in a small area."
-msgstr "觸發回抽所需的最小空跑距離。這有助於在較小區域內實現更少的回抽。"
+msgstr "觸發回抽所需的最小空跑距離。這有助於減少小區域內的回抽次數。"
 
 #: fdmprinter.def.json
 msgctxt "retraction_count_max label"
