@@ -2593,7 +2593,7 @@ msgstr "應用框架"
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:120
 msgctxt "@label"
 msgid "GCode generator"
-msgstr "GCode 生成器"
+msgstr "GCode 產生器"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:121
 msgctxt "@label"
@@ -3348,12 +3348,12 @@ msgstr "漸層填充（Gradual infill）將隨著列印高度的提升而逐漸�
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:267
 msgctxt "@label"
 msgid "Generate Support"
-msgstr "生成支撐"
+msgstr "產生支撐"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:300
 msgctxt "@label"
 msgid "Generate structures to support parts of the model which have overhangs. Without these structures, such parts would collapse during printing."
-msgstr "在模型的懸垂（Overhangs）部分生成支撐結構。若不這樣做，這些部分在列印時將倒塌。"
+msgstr "在模型的懸垂（Overhangs）部分產生支撐結構。若不這樣做，這些部分在列印時將倒塌。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:317
 msgctxt "@label"
@@ -3671,7 +3671,7 @@ msgstr "版本自 2.2 升級到 2.4"
 #: ImageReader/plugin.json
 msgctxt "description"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr "支援從 2D 圖片檔案生成可列印 3D 模型的能力。"
+msgstr "支援從 2D 圖片檔案產生可列印 3D 模型的能力。"
 
 #: ImageReader/plugin.json
 msgctxt "name"

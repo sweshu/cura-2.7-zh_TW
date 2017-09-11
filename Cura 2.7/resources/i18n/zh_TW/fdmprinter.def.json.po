@@ -303,7 +303,7 @@ msgstr "G-code 類型"
 #: fdmprinter.def.json
 msgctxt "machine_gcode_flavor description"
 msgid "The type of gcode to be generated."
-msgstr "需要生成的 G-code 類型"
+msgstr "需要產生的 G-code 類型"
 
 #: fdmprinter.def.json
 msgctxt "machine_gcode_flavor option RepRap (Marlin/Sprinter)"
@@ -838,7 +838,7 @@ msgstr "頂部表層"
 #: fdmprinter.def.json
 msgctxt "roofing_layer_count description"
 msgid "The number of top most skin layers. Usually only one top most layer is sufficient to generate higher quality top surfaces."
-msgstr "最頂部表層層數。通常只需一層最頂部就足以生成較高品質的頂部表面。"
+msgstr "最頂部表層層數。通常只需一層最頂部就足以產生較高品質的頂部表面。"
 
 #: fdmprinter.def.json
 msgctxt "roofing_pattern label"
@@ -1383,7 +1383,7 @@ msgstr "最小填充區域"
 #: fdmprinter.def.json
 msgctxt "min_infill_area description"
 msgid "Don't generate areas of infill smaller than this (use skin instead)."
-msgstr "不要生成小於此面積的填充區域（使用表層取代）。"
+msgstr "不要產生小於此面積的填充區域（使用表層取代）。"
 
 #: fdmprinter.def.json
 msgctxt "expand_skins_into_infill label"
@@ -2633,12 +2633,12 @@ msgstr "支撐"
 #: fdmprinter.def.json
 msgctxt "support_enable label"
 msgid "Generate Support"
-msgstr "生成支撐"
+msgstr "產生支撐"
 
 #: fdmprinter.def.json
 msgctxt "support_enable description"
 msgid "Generate structures to support parts of the model which have overhangs. Without these structures, such parts would collapse during printing."
-msgstr "在模型的懸垂（Overhangs）部分生成支撐結構。若不這樣做，這些部分在列印時將倒塌。"
+msgstr "在模型的懸垂（Overhangs）部分產生支撐結構。若不這樣做，這些部分在列印時將倒塌。"
 
 #: fdmprinter.def.json
 msgctxt "support_extruder_nr label"
@@ -2968,7 +2968,7 @@ msgstr "啟用支撐介面"
 #: fdmprinter.def.json
 msgctxt "support_interface_enable description"
 msgid "Generate a dense interface between the model and the support. This will create a skin at the top of the support on which the model is printed and at the bottom of the support, where it rests on the model."
-msgstr "在模型和支撐之間生成一個密度較高的介面。這會在列印模型所在的支撐頂部和模型停放的支撐底部創造出一個表層。"
+msgstr "在模型和支撐之間產生一個密度較高的介面。這會在列印模型所在的支撐頂部和模型停放的支撐底部創造出一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_enable label"
@@ -2978,7 +2978,7 @@ msgstr "啟用支撐頂板"
 #: fdmprinter.def.json
 msgctxt "support_roof_enable description"
 msgid "Generate a dense slab of material between the top of support and the model. This will create a skin between the model and support."
-msgstr "在支撐頂部和模型之間生成一個密集的平板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐頂部和模型之間產生一個密集的平板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable label"
@@ -2988,7 +2988,7 @@ msgstr "啟用支撐底板"
 #: fdmprinter.def.json
 msgctxt "support_bottom_enable description"
 msgid "Generate a dense slab of material between the bottom of the support and the model. This will create a skin between the model and support."
-msgstr "在支撐底部和模型之間生成一個密集的平板。這會在模型和支撐之間形成一個表層。"
+msgstr "在支撐底部和模型之間產生一個密集的平板。這會在模型和支撐之間形成一個表層。"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_height label"
@@ -4002,7 +4002,7 @@ msgstr "支撐網格"
 #: fdmprinter.def.json
 msgctxt "support_mesh description"
 msgid "Use this mesh to specify support areas. This can be used to generate support structure."
-msgstr "使用此網格指定支撐區域。可用於生成支撐結構。"
+msgstr "使用此網格指定支撐區域。可用於產生支撐結構。"
 
 #: fdmprinter.def.json
 msgctxt "support_mesh_drop_down label"
