@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cura 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 16:53+0000\n"
-"PO-Revision-Date: 2017-09-11 08:24+0800\n"
+"PO-Revision-Date: 2017-09-11 08:27+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -1808,7 +1808,7 @@ msgstr "列印頂部/底部層的速度。"
 #: fdmprinter.def.json
 msgctxt "speed_ironing label"
 msgid "Ironing Speed"
-msgstr "熨平速度"
+msgstr "燙平速度"
 
 #: fdmprinter.def.json
 msgctxt "speed_ironing description"
@@ -2048,12 +2048,12 @@ msgstr "列印頂部/底部層的加速度。"
 #: fdmprinter.def.json
 msgctxt "acceleration_ironing label"
 msgid "Ironing Acceleration"
-msgstr "熨平加速度"
+msgstr "燙平加速度"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_ironing description"
 msgid "The acceleration with which ironing is performed."
-msgstr "執行熨平的加速度。"
+msgstr "執行燙平的加速度。"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_support label"
@@ -2248,12 +2248,12 @@ msgstr "列印頂部/底部層時的最大瞬時速度變化。"
 #: fdmprinter.def.json
 msgctxt "jerk_ironing label"
 msgid "Ironing Jerk"
-msgstr "熨平瞬動速度"
+msgstr "燙平瞬動速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_ironing description"
 msgid "The maximum instantaneous velocity change while performing ironing."
-msgstr "執行熨平時的最大瞬時速度變化。"
+msgstr "執行燙平時的最大瞬時速度變化。"
 
 #: fdmprinter.def.json
 msgctxt "jerk_support label"
@@ -4621,7 +4621,7 @@ msgstr "噴頭和水平下行線之間的距離。較大的間隙會讓斜下行
 #: fdmprinter.def.json
 msgctxt "ironing_enabled label"
 msgid "Enable Ironing"
-msgstr "啟用熨平"
+msgstr "啟用燙平"
 
 #: fdmprinter.def.json
 msgctxt "ironing_enabled description"
@@ -4631,12 +4631,12 @@ msgstr "再一次經過頂部表面，但不擠出耗材。這是為了進一步
 #: fdmprinter.def.json
 msgctxt "ironing_pattern label"
 msgid "Ironing Pattern"
-msgstr "熨平列印樣式"
+msgstr "燙平列印樣式"
 
 #: fdmprinter.def.json
 msgctxt "ironing_pattern description"
 msgid "The pattern to use for ironing top surfaces."
-msgstr "用於熨平頂部表面的列印樣式。"
+msgstr "用於燙平頂部表面的列印樣式。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_pattern option concentric"
@@ -4651,32 +4651,32 @@ msgstr "鋸齒狀"
 #: fdmprinter.def.json
 msgctxt "ironing_line_spacing label"
 msgid "Ironing Line Spacing"
-msgstr "熨平線條間距"
+msgstr "燙平線條間距"
 
 #: fdmprinter.def.json
 msgctxt "ironing_line_spacing description"
 msgid "The distance between the lines of ironing."
-msgstr "熨平線條之間的距離。"
+msgstr "燙平線條之間的距離。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_flow label"
 msgid "Ironing Flow"
-msgstr "熨平流量"
+msgstr "燙平流量"
 
 #: fdmprinter.def.json
 msgctxt "ironing_flow description"
 msgid "The amount of material, relative to a normal skin line, to extrude during ironing. Keeping the nozzle filled helps filling some of the crevices of the top surface, but too much results in overextrusion and blips on the side of the surface."
-msgstr "熨平期間相對於正常表層線條的擠出耗材量。保持噴頭填充狀态有助於填充頂部表面的一些縫隙，但如填充過多則會導致表面上過度擠出和光點。"
+msgstr "燙平期間相對於正常表層線條的擠出耗材量。保持噴頭填充狀态有助於填充頂部表面的一些縫隙，但如填充過多則會導致表面上過度擠出和光點。"
 
 #: fdmprinter.def.json
 msgctxt "ironing_inset label"
 msgid "Ironing Inset"
-msgstr "熨平嵌入"
+msgstr "燙平嵌入"
 
 #: fdmprinter.def.json
 msgctxt "ironing_inset description"
 msgid "A distance to keep from the edges of the model. Ironing all the way to the edge of the mesh may result in a jagged edge on your print."
-msgstr "與模型邊緣保持的距離。一直熨平至網格的邊緣可能導致列印品出現鋸齒狀邊緣。"
+msgstr "與模型邊緣保持的距離。一直燙平至網格的邊緣可能導致列印品出現鋸齒狀邊緣。"
 
 #: fdmprinter.def.json
 msgctxt "command_line_settings label"
