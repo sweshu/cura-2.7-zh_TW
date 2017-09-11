@@ -3373,7 +3373,7 @@ msgstr "列印平台附著"
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:462
 msgctxt "@label"
 msgid "Enable printing a brim or raft. This will add a flat area around or under your object which is easy to cut off afterwards."
-msgstr "允許列印 Brim 或 Raft。這將在你的對象周圍或下方添加一個容易切斷的平面區域。"
+msgstr "允許列印 Brim 或木筏。這將在你的物件周圍或下方添加一個容易切斷的平面區域。"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:515
 msgctxt "@label"
