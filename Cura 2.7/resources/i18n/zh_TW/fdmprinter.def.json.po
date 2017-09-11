@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cura 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 16:53+0000\n"
-"PO-Revision-Date: 2017-09-10 23:32+0800\n"
+"PO-Revision-Date: 2017-09-11 08:24+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -193,7 +193,7 @@ msgstr "原點是否位於中心"
 #: fdmprinter.def.json
 msgctxt "machine_center_is_zero description"
 msgid "Whether the X/Y coordinates of the zero position of the printer is at the center of the printable area."
-msgstr "列印機的 X/Y 座標原點是否位於可列印區域的中心。"
+msgstr "印表機的 X/Y 座標原點是否位於可列印區域的中心。"
 
 #: fdmprinter.def.json
 msgctxt "machine_extruder_count label"
@@ -2598,7 +2598,7 @@ msgstr "每層最少列印時間"
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time description"
 msgid "The minimum time spent in a layer. This forces the printer to slow down, to at least spend the time set here in one layer. This allows the printed material to cool down properly before printing the next layer. Layers may still take shorter than the minimal layer time if Lift Head is disabled and if the Minimum Speed would otherwise be violated."
-msgstr "在層中花費的最少時間。這會迫使列印機減速，以便至少在一層中消耗此處所規定的時間。這會讓已列印耗材充分冷卻後再列印下一層。如果抬升噴頭被關閉，且如果不這麼做會違反“最小速度“，則層所花時間可能仍會少於最小層時間。"
+msgstr "在層中花費的最少時間。這會迫使印表機減速，以便至少在一層中消耗此處所規定的時間。這會讓已列印耗材充分冷卻後再列印下一層。如果抬升噴頭被關閉，且如果不這麼做會違反“最小速度“，則層所花時間可能仍會少於最小層時間。"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_speed label"
@@ -2608,7 +2608,7 @@ msgstr "最小風扇速度"
 #: fdmprinter.def.json
 msgctxt "cool_min_speed description"
 msgid "The minimum print speed, despite slowing down due to the minimum layer time. When the printer would slow down too much, the pressure in the nozzle would be too low and result in bad print quality."
-msgstr "最低列印速度，排除因最短層時間而減速。當列印機減速過多時，噴頭中的壓力將過低並導致較差的列印品質。"
+msgstr "最低列印速度，排除因最短層時間而減速。當印表機減速過多時，噴頭中的壓力將過低並導致較差的列印品質。"
 
 #: fdmprinter.def.json
 msgctxt "cool_lift_head label"
@@ -3392,7 +3392,7 @@ msgstr "Raft 額外邊緣"
 #: fdmprinter.def.json
 msgctxt "raft_margin description"
 msgid "If the raft is enabled, this is the extra raft area around the model which is also given a raft. Increasing this margin will create a stronger raft while using more material and leaving less area for your print."
-msgstr "如果啟用了raft，在模型周圍也會增加額外邊緣。增加這個邊距將產生更強的raft，不過也會使用更多的耗材，並減少列印機的可列印面積。"
+msgstr "如果啟用了raft，在模型周圍也會增加額外邊緣。增加這個邊距將產生更強的raft，不過也會使用更多的耗材，並減少印表機的可列印面積。"
 
 #: fdmprinter.def.json
 msgctxt "raft_airgap label"
@@ -3492,7 +3492,7 @@ msgstr "Raft 基礎厚度"
 #: fdmprinter.def.json
 msgctxt "raft_base_thickness description"
 msgid "Layer thickness of the base raft layer. This should be a thick layer which sticks firmly to the printer build plate."
-msgstr "基礎 Raft 層的層厚度。該層應為與列印機列印平台牢固附著的厚層。"
+msgstr "基礎 Raft 層的層厚度。該層應為與印表機列印平台牢固附著的厚層。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_width label"
