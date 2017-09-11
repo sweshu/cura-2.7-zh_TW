@@ -683,12 +683,12 @@ msgstr "單一填充線寬。"
 #: fdmprinter.def.json
 msgctxt "skirt_brim_line_width label"
 msgid "Skirt/Brim Line Width"
-msgstr "線寬（Skirt / Brim）"
+msgstr "外圍/邊緣線寬"
 
 #: fdmprinter.def.json
 msgctxt "skirt_brim_line_width description"
 msgid "Width of a single skirt or brim line."
-msgstr "單一 skirt（裙襬）或 brim（邊緣）線寬。"
+msgstr "單一外圍或邊緣的線寬。"
 
 #: fdmprinter.def.json
 msgctxt "support_line_width label"
@@ -1918,12 +1918,12 @@ msgstr "起始層中的空跑速度。建議採用較低的值，以防止將之
 #: fdmprinter.def.json
 msgctxt "skirt_brim_speed label"
 msgid "Skirt/Brim Speed"
-msgstr "Skirt/Brim 速度"
+msgstr "外圍/邊緣速度"
 
 #: fdmprinter.def.json
 msgctxt "skirt_brim_speed description"
 msgid "The speed at which the skirt and brim are printed. Normally this is done at the initial layer speed, but sometimes you might want to print the skirt or brim at a different speed."
-msgstr "列印 skirt 和 brim 的速度。一般情况是以起始層速度列印這些部分，但有時候你可能想要以不同速度來列印 skirt 或 brim。"
+msgstr "列印外圍和邊緣的速度。一般情况是以起始層速度列印這些部分，但有時候你可能想要以不同速度來列印外圍或邊緣。"
 
 #: fdmprinter.def.json
 msgctxt "max_feedrate_z_override label"
@@ -2158,12 +2158,12 @@ msgstr "起始層中的空跑加速度。"
 #: fdmprinter.def.json
 msgctxt "acceleration_skirt_brim label"
 msgid "Skirt/Brim Acceleration"
-msgstr "Skirt/Brim 加速度"
+msgstr "外圍/邊緣加速度"
 
 #: fdmprinter.def.json
 msgctxt "acceleration_skirt_brim description"
 msgid "The acceleration with which the skirt and brim are printed. Normally this is done with the initial layer acceleration, but sometimes you might want to print the skirt or brim at a different acceleration."
-msgstr "列印 skirt 和 brim 的加速度。一般情况是以起始層加速度列印這些部分，但有時候你可能想要以不同加速度來列印 skirt 或 brim。"
+msgstr "列印外圍和邊緣的加速度。一般情况是以起始層加速度列印這些部分，但有時候你可能想要以不同加速度來列印外圍或邊緣。"
 
 #: fdmprinter.def.json
 msgctxt "jerk_enabled label"
@@ -2358,12 +2358,12 @@ msgstr "起始層中的空跑加速度。"
 #: fdmprinter.def.json
 msgctxt "jerk_skirt_brim label"
 msgid "Skirt/Brim Jerk"
-msgstr "Skirt/Brim 加加速度"
+msgstr "外圍/邊緣加加速度"
 
 #: fdmprinter.def.json
 msgctxt "jerk_skirt_brim description"
 msgid "The maximum instantaneous velocity change with which the skirt and brim are printed."
-msgstr "列印 skirt 和 brim 時的最大瞬時速度變化。"
+msgstr "列印外圍和邊緣時的最大瞬時速度變化。"
 
 #: fdmprinter.def.json
 msgctxt "travel label"
@@ -3253,12 +3253,12 @@ msgstr "附著"
 #: fdmprinter.def.json
 msgctxt "prime_blob_enable label"
 msgid "Enable Prime Blob"
-msgstr "啟用裝填光點"
+msgstr "啟用少量裝填"
 
 #: fdmprinter.def.json
 msgctxt "prime_blob_enable description"
 msgid "Whether to prime the filament with a blob before printing. Turning this setting on will ensure that the extruder will have material ready at the nozzle before printing. Printing Brim or Skirt can act like priming too, in which case turning this setting off saves some time."
-msgstr "列印前是否裝填有光點的耗材。開啟此設定將確保列印前擠出機的噴頭處已準備好耗材。列印 Brim 或 Skirt 也可作為裝填用途，這種情况下關閉此設定可以節省時間。"
+msgstr "列印前是否裝填少量的耗材。開啟此設定將確保列印前擠出機的噴頭處已準備好耗材。列印邊緣或外圍也可作為裝填用途，這種情况下關閉此設定可以節省時間。"
 
 #: fdmprinter.def.json
 msgctxt "extruder_prime_pos_x label"
@@ -3288,17 +3288,17 @@ msgstr "列印平台附著類型"
 #: fdmprinter.def.json
 msgctxt "adhesion_type description"
 msgid "Different options that help to improve both priming your extrusion and adhesion to the build plate. Brim adds a single layer flat area around the base of your model to prevent warping. Raft adds a thick grid with a roof below the model. Skirt is a line printed around the model, but not connected to the model."
-msgstr "幫助改善擠出裝填以及與列印平台附著的不同選項。Brim 會在模型基座周圍添加單層平面區域，以防止翹曲。木筏會在模型底下添加一個有頂板的厚網格。Skirt 是在模型四周列印的一條線，但並不與模型連接。"
+msgstr "幫助改善擠出裝填以及與列印平台附著的不同選項。邊緣會在模型基座周圍添加單層平面區域，以防止翹曲。木筏會在模型底下添加一個有頂板的厚網格。外圍是在模型四周列印的一條線，但並不與模型連接。"
 
 #: fdmprinter.def.json
 msgctxt "adhesion_type option skirt"
 msgid "Skirt"
-msgstr "Skirt"
+msgstr "外圍"
 
 #: fdmprinter.def.json
 msgctxt "adhesion_type option brim"
 msgid "Brim"
-msgstr "Brim"
+msgstr "邊緣"
 
 #: fdmprinter.def.json
 msgctxt "adhesion_type option raft"
@@ -3318,22 +3318,22 @@ msgstr "列印平台附著擠出機"
 #: fdmprinter.def.json
 msgctxt "adhesion_extruder_nr description"
 msgid "The extruder train to use for printing the skirt/brim/raft. This is used in multi-extrusion."
-msgstr "用於列印 skirt/brim/木筏的擠出機組。用於多重擠出。"
+msgstr "用於列印外圍/邊緣/木筏的擠出機組。用於多重擠出。"
 
 #: fdmprinter.def.json
 msgctxt "skirt_line_count label"
 msgid "Skirt Line Count"
-msgstr "Skirt 線條計數"
+msgstr "外圍線條數量"
 
 #: fdmprinter.def.json
 msgctxt "skirt_line_count description"
 msgid "Multiple skirt lines help to prime your extrusion better for small models. Setting this to 0 will disable the skirt."
-msgstr "多個 Skirt 線條幫助為小型模型更好地裝填你的擠出部分。將其設為 0 將關閉 skirt。"
+msgstr "多條外圍線條有助你在列印小型模型時，更好地裝填的擠出機組。將其設為 0 將關閉外圍。"
 
 #: fdmprinter.def.json
 msgctxt "skirt_gap label"
 msgid "Skirt Distance"
-msgstr "Skirt 距離"
+msgstr "外圍間距"
 
 #: fdmprinter.def.json
 msgctxt "skirt_gap description"
@@ -3341,48 +3341,48 @@ msgid ""
 "The horizontal distance between the skirt and the first layer of the print.\n"
 "This is the minimum distance, multiple skirt lines will extend outwards from this distance."
 msgstr ""
-"skirt 和列印第一層之間的水平距離。\n"
-"這是最小距離，多個 skirt 線條將從此距離向外延伸。"
+"外圍和列印第一層之間的水平距離。\n"
+"這是最小距離，多個外圍線條將從此距離向外延伸。"
 
 #: fdmprinter.def.json
 msgctxt "skirt_brim_minimal_length label"
 msgid "Skirt/Brim Minimum Length"
-msgstr "Skirt/Brim 最小長度"
+msgstr "外圍/邊緣最小長度"
 
 #: fdmprinter.def.json
 msgctxt "skirt_brim_minimal_length description"
 msgid "The minimum length of the skirt or brim. If this length is not reached by all skirt or brim lines together, more skirt or brim lines will be added until the minimum length is reached. Note: If the line count is set to 0 this is ignored."
-msgstr "skirt 或 brim 的最小長度。如果所有 skirt 或 brim 線條之和都没有達到此長度，則將添加更多 skirt 或 brim 線條直至達到最小長度。注意： 如果線條計數設為 0，則將忽略此選項。"
+msgstr "外圍或邊緣的最小長度。如果所有外圍或邊緣線條之和都没有達到此長度，則將添加更多外圍或邊緣線條直至達到最小長度。注意：如果線條計數設為 0，則將忽略此選項。"
 
 #: fdmprinter.def.json
 msgctxt "brim_width label"
 msgid "Brim Width"
-msgstr "Brim 寬度"
+msgstr "邊緣寬度"
 
 #: fdmprinter.def.json
 msgctxt "brim_width description"
 msgid "The distance from the model to the outermost brim line. A larger brim enhances adhesion to the build plate, but also reduces the effective print area."
-msgstr "模型到最外側 brim 線的距離。較大的 brim 可增强與列印平台的附著，但也會減少有效列印區域。"
+msgstr "模型到最外側邊緣線的距離。較大的邊緣可增强與列印平台的附著，但也會減少有效列印區域。"
 
 #: fdmprinter.def.json
 msgctxt "brim_line_count label"
 msgid "Brim Line Count"
-msgstr "Brim 線條計數"
+msgstr "邊緣線條數量"
 
 #: fdmprinter.def.json
 msgctxt "brim_line_count description"
 msgid "The number of lines used for a brim. More brim lines enhance adhesion to the build plate, but also reduces the effective print area."
-msgstr "brim 所用線條數量。更多 brim 線條可增强與列印平台的附著，但也會減少有效列印區域。"
+msgstr "邊緣所用線條數量。更多邊緣線條可增强與列印平台的附著，但也會減少有效列印區域。"
 
 #: fdmprinter.def.json
 msgctxt "brim_outside_only label"
 msgid "Brim Only on Outside"
-msgstr "僅在外部列印 Brim"
+msgstr "僅在外部列印邊緣"
 
 #: fdmprinter.def.json
 msgctxt "brim_outside_only description"
 msgid "Only print the brim on the outside of the model. This reduces the amount of brim you need to remove afterwards, while it doesn't reduce the bed adhesion that much."
-msgstr "僅在模型外部列印 brim。這會減少你之後需要移除的 brim 量，而不會過度影響熱床附著。"
+msgstr "僅在模型外部列印邊緣。這會減少你之後需要移除的邊緣量，而不會過度影響列印平台附著。"
 
 #: fdmprinter.def.json
 msgctxt "raft_margin label"
