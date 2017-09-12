@@ -3417,12 +3417,12 @@ msgstr "使模型的第一層和第二層在 Z 方向上重疊以補償在空隙
 #: fdmprinter.def.json
 msgctxt "raft_surface_layers label"
 msgid "Raft Top Layers"
-msgstr "木筏頂部"
+msgstr "木筏頂部數"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_layers description"
 msgid "The number of top layers on top of the 2nd raft layer. These are fully filled layers that the model sits on. 2 layers result in a smoother top surface than 1."
-msgstr "第二木筏層上方的頂部層數。這是模型所座落的完全填充層。兩層會產生比一層更平滑的頂部表面。"
+msgstr "第二木筏層上方頂部的層數。這是模型所座落的完全填充層。兩層會產生比一層更平滑的頂部表面。"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_thickness label"
@@ -3432,7 +3432,7 @@ msgstr "木筏頂部厚度"
 #: fdmprinter.def.json
 msgctxt "raft_surface_thickness description"
 msgid "Layer thickness of the top raft layers."
-msgstr "木筏頂部層的層厚度。"
+msgstr "木筏頂部的層厚。"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_line_width label"
@@ -3457,62 +3457,62 @@ msgstr "木筏頂部線條之間的距離。間距應等於線寬，以便打造
 #: fdmprinter.def.json
 msgctxt "raft_interface_thickness label"
 msgid "Raft Middle Thickness"
-msgstr "木筏中間厚度"
+msgstr "木筏中層厚度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_thickness description"
 msgid "Layer thickness of the middle raft layer."
-msgstr "木筏中間層的層厚度。"
+msgstr "木筏中層的層厚。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_width label"
 msgid "Raft Middle Line Width"
-msgstr "木筏中間層線寬"
+msgstr "木筏中層線寬"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_width description"
 msgid "Width of the lines in the middle raft layer. Making the second layer extrude more causes the lines to stick to the build plate."
-msgstr "木筏中間層的線寬。第二層擠出多一些會讓線條附著在列印平台上。"
+msgstr "木筏中層的線寬。第二層擠出多一些會讓線條附著在列印平台上。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_spacing label"
 msgid "Raft Middle Spacing"
-msgstr "木筏中間層間距"
+msgstr "木筏中層間距"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_line_spacing description"
 msgid "The distance between the raft lines for the middle raft layer. The spacing of the middle should be quite wide, while being dense enough to support the top raft layers."
-msgstr "木筏中間層線條之間的距離。中間的間距應足夠寬，同時也要足夠密集，以便支撐木筏頂部層。"
+msgstr "木筏中層線條之間的距離。中層的間距應足夠寬，同時也要足夠密集，以便支撐木筏頂部。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_thickness label"
 msgid "Raft Base Thickness"
-msgstr "木筏地基厚度"
+msgstr "木筏底部厚度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_thickness description"
 msgid "Layer thickness of the base raft layer. This should be a thick layer which sticks firmly to the printer build plate."
-msgstr "木筏地基層的層厚度。本層應為與印表機列印平台穩固附著厚實的一層。"
+msgstr "木筏底部的層厚。本層應為與印表機列印平台穩固附著厚實的一層。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_width label"
 msgid "Raft Base Line Width"
-msgstr "木筏地基線寬"
+msgstr "木筏底部線寬"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_width description"
 msgid "Width of the lines in the base raft layer. These should be thick lines to assist in build plate adhesion."
-msgstr "木筏地基層的線寬。這些線條應該是粗線，以便協助列印平台附著。"
+msgstr "木筏底部的線寬。這些線條應該是粗線，以便協助列印平台附著。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_spacing label"
 msgid "Raft Line Spacing"
-msgstr "木筏地基間距"
+msgstr "木筏底部間距"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_line_spacing description"
 msgid "The distance between the raft lines for the base raft layer. Wide spacing makes for easy removal of the raft from the build plate."
-msgstr "木筏地基層線條之間的距離。寬間距方便讓木筏從列印平台移除。"
+msgstr "木筏底部線條之間的距離。寬間距方便讓木筏從列印平台移除。"
 
 #: fdmprinter.def.json
 msgctxt "raft_speed label"
@@ -3532,27 +3532,27 @@ msgstr "木筏頂部列印速度"
 #: fdmprinter.def.json
 msgctxt "raft_surface_speed description"
 msgid "The speed at which the top raft layers are printed. These should be printed a bit slower, so that the nozzle can slowly smooth out adjacent surface lines."
-msgstr "列印木筏頂部層的速度。這些層應以較慢的速度列印，以便噴頭緩慢地整平臨近的表面線條。"
+msgstr "列印木筏頂部的速度。這些層應以稍慢的速度列印，以便噴頭緩慢地整平臨近的表面線條。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_speed label"
 msgid "Raft Middle Print Speed"
-msgstr "木筏中間層列印速度"
+msgstr "木筏中層列印速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_speed description"
 msgid "The speed at which the middle raft layer is printed. This should be printed quite slowly, as the volume of material coming out of the nozzle is quite high."
-msgstr "列印木筏中間層的速度。該層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
+msgstr "列印木筏中層的速度。這些層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_speed label"
 msgid "Raft Base Print Speed"
-msgstr "木筏地基列印速度"
+msgstr "木筏底部列印速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_speed description"
 msgid "The speed at which the base raft layer is printed. This should be printed quite slowly, as the volume of material coming out of the nozzle is quite high."
-msgstr "列印木筏地基層的速度。該層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
+msgstr "列印木筏底部的速度。這些層應以很慢的速度列印，因為噴頭所出的耗材量非常高。"
 
 #: fdmprinter.def.json
 msgctxt "raft_acceleration label"
@@ -3572,27 +3572,27 @@ msgstr "木筏頂部列印加速度"
 #: fdmprinter.def.json
 msgctxt "raft_surface_acceleration description"
 msgid "The acceleration with which the top raft layers are printed."
-msgstr "列印木筏頂部層的加速度。"
+msgstr "列印木筏頂部的加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_acceleration label"
 msgid "Raft Middle Print Acceleration"
-msgstr "木筏中間層列印加速度"
+msgstr "木筏中層列印加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_acceleration description"
 msgid "The acceleration with which the middle raft layer is printed."
-msgstr "列印木筏中間層的加速度。"
+msgstr "列印木筏中層的加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_acceleration label"
 msgid "Raft Base Print Acceleration"
-msgstr "木筏地基列印加速度"
+msgstr "木筏底部列印加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_acceleration description"
 msgid "The acceleration with which the base raft layer is printed."
-msgstr "列印木筏地基層的加速度。"
+msgstr "列印木筏底部的加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_jerk label"
@@ -3612,27 +3612,27 @@ msgstr "木筏頂部列印加加速度"
 #: fdmprinter.def.json
 msgctxt "raft_surface_jerk description"
 msgid "The jerk with which the top raft layers are printed."
-msgstr "列印木筏頂部層的加加速度。"
+msgstr "列印木筏頂部的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_jerk label"
 msgid "Raft Middle Print Jerk"
-msgstr "木筏中間層列印加加速度"
+msgstr "木筏中層列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_jerk description"
 msgid "The jerk with which the middle raft layer is printed."
-msgstr "列印木筏中間層的加加速度。"
+msgstr "列印木筏中層的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_jerk label"
 msgid "Raft Base Print Jerk"
-msgstr "木筏地基列印加加速度"
+msgstr "木筏底部列印加加速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_jerk description"
 msgid "The jerk with which the base raft layer is printed."
-msgstr "列印木筏地基層的加加速度。"
+msgstr "列印木筏底部的加加速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_fan_speed label"
@@ -3652,27 +3652,27 @@ msgstr "木筏頂部風扇速度"
 #: fdmprinter.def.json
 msgctxt "raft_surface_fan_speed description"
 msgid "The fan speed for the top raft layers."
-msgstr "木筏頂部層的風扇速度。"
+msgstr "木筏頂部的風扇速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_fan_speed label"
 msgid "Raft Middle Fan Speed"
-msgstr "木筏中間層風扇速度"
+msgstr "木筏中層風扇速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_fan_speed description"
 msgid "The fan speed for the middle raft layer."
-msgstr "木筏中間層的風扇速度。"
+msgstr "木筏中層的風扇速度。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_fan_speed label"
 msgid "Raft Base Fan Speed"
-msgstr "木筏地基風扇速度"
+msgstr "木筏底部風扇速度"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_fan_speed description"
 msgid "The fan speed for the base raft layer."
-msgstr "木筏地基層的風扇速度。"
+msgstr "木筏底部的風扇速度。"
 
 #: fdmprinter.def.json
 msgctxt "dual label"
