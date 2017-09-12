@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cura 2.7\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
 "POT-Creation-Date: 2017-08-02 16:53+0000\n"
-"PO-Revision-Date: 2017-09-11 23:10+0800\n"
+"PO-Revision-Date: 2017-09-12 21:43+0800\n"
 "Last-Translator: ZHANG,HE-JI <dinowchang@gmail.com>\n"
 "Language-Team: TEAM\n"
 "Language: zh_TW\n"
@@ -1415,7 +1415,7 @@ msgstr "寬度 (mm)"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:103
 msgctxt "@info:tooltip"
 msgid "The depth in millimeters on the build plate"
-msgstr "列印平台深度，以毫米為單位。"
+msgstr "列印平台深度，以毫米為單位"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:108
 msgctxt "@action:label"
@@ -2724,12 +2724,12 @@ msgstr "影響因素"
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:157
 msgctxt "@label"
 msgid "This setting is always shared between all extruders. Changing it here will change the value for all extruders"
-msgstr "這個設定由全部的擠出機共享，變更這個設定將改變全部擠出機的設定值。"
+msgstr "這個設定由全部的擠出機共享，變更這個設定將改變全部擠出機的設定值"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:160
 msgctxt "@label"
 msgid "The value is resolved from per-extruder values "
-msgstr "這個數值是由每個擠出機的設定值解析出來的。"
+msgstr "這個數值是由每個擠出機的設定值解析出來的"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:186
 msgctxt "@label"
