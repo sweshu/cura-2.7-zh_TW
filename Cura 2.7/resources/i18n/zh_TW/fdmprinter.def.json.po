@@ -1388,62 +1388,62 @@ msgstr "不要產生小於此面積的填充區域（使用表層取代）。"
 #: fdmprinter.def.json
 msgctxt "expand_skins_into_infill label"
 msgid "Expand Skins Into Infill"
-msgstr "將表層擴展到填充中"
+msgstr "將表層延伸到填充中"
 
 #: fdmprinter.def.json
 msgctxt "expand_skins_into_infill description"
 msgid "Expand skin areas of top and/or bottom skin of flat surfaces. By default, skins stop under the wall lines that surround infill but this can lead to holes appearing when the infill density is low. This setting extends the skins beyond the wall lines so that the infill on the next layer rests on skin."
-msgstr "擴展平面頂部和/或底部表層的區域。預設情况下，表層會在環繞填充的壁線下方停止，但如果填充密度較低，則可能導致出現孔洞。該設定將表層延展到壁線以外，因此下一層的填充會座落在表層上。"
+msgstr "延伸平面頂部和/或底部表層的區域。預設情况下，表層會在環繞填充的壁線下方停止，但如果填充密度較低，則可能導致出現孔洞。該設定將表層延展到壁線以外，因此下一層的填充會座落在表層上。"
 
 #: fdmprinter.def.json
 msgctxt "expand_upper_skins label"
 msgid "Expand Top Skins Into Infill"
-msgstr "將頂部表層擴展到填充中"
+msgstr "將頂部表層延伸到填充中"
 
 #: fdmprinter.def.json
 msgctxt "expand_upper_skins description"
 msgid "Expand the top skin areas (areas with air above) so that they support infill above."
-msgstr "擴展頂部表層區域（上方有空氣的區域），讓它們支撐上方的填充。"
+msgstr "延伸頂部表層區域（上方有空氣的區域），讓它們支撐上方的填充。"
 
 #: fdmprinter.def.json
 msgctxt "expand_lower_skins label"
 msgid "Expand Bottom Skins Into Infill"
-msgstr "將底部表層擴展到填充中"
+msgstr "將底部表層延伸到填充中"
 
 #: fdmprinter.def.json
 msgctxt "expand_lower_skins description"
 msgid "Expand the bottom skin areas (areas with air below) so that they are anchored by the infill layers above and below."
-msgstr "擴展底部表層區域（下方有空氣的區域），讓它們由上下的填充層錨定。"
+msgstr "延伸底部表層區域（下方有空氣的區域），讓它們由上下的填充層錨定。"
 
 #: fdmprinter.def.json
 msgctxt "expand_skins_expand_distance label"
 msgid "Skin Expand Distance"
-msgstr "表層擴展距離"
+msgstr "表層延伸距離"
 
 #: fdmprinter.def.json
 msgctxt "expand_skins_expand_distance description"
 msgid "The distance the skins are expanded into the infill. The default distance is enough to bridge the gap between the infill lines and will stop holes appearing in the skin where it meets the wall when the infill density is low. A smaller distance will often be sufficient."
-msgstr "表層擴展到填充中的距離。預設距離足以彌合填充線之間的間隙，並且在填充密度低時，可以防止在表層與壁接觸的位置出現孔洞。通常較小的距離就足夠了。"
+msgstr "表層延伸到填充中的距離。預設距離足以彌合填充線之間的間隙，並且在填充密度低時，可以防止在表層與壁接觸的位置出現孔洞。通常較小的距離就足夠了。"
 
 #: fdmprinter.def.json
 msgctxt "max_skin_angle_for_expansion label"
 msgid "Maximum Skin Angle for Expansion"
-msgstr "最大擴展表層角度"
+msgstr "最大延伸表層角度"
 
 #: fdmprinter.def.json
 msgctxt "max_skin_angle_for_expansion description"
 msgid "Top and/or bottom surfaces of your object with an angle larger than this setting, won't have their top/bottom skin expanded. This avoids expanding the narrow skin areas that are created when the model surface has a near vertical slope. An angle of 0° is horizontal, while an angle of 90° is vertical."
-msgstr "如果模型的頂部和/或底部表面的角度大於此設定，則不要擴展其頂部/底部表層。這會避免擴展在模型表面有接近垂直的坡度時所形成的狹窄表層區域。0° 的角為水平，90° 的角為垂直。"
+msgstr "如果模型的頂部和/或底部表面的角度大於此設定，則不要延伸其頂部/底部表層。這會避免延伸作用在模型表面有接近垂直的斜面時所形成的狹窄表層區域。0° 的角為水平，90° 的角為垂直。"
 
 #: fdmprinter.def.json
 msgctxt "min_skin_width_for_expansion label"
 msgid "Minimum Skin Width for Expansion"
-msgstr "最小擴展表層寬度"
+msgstr "最小延伸表層寬度"
 
 #: fdmprinter.def.json
 msgctxt "min_skin_width_for_expansion description"
 msgid "Skin areas narrower than this are not expanded. This avoids expanding the narrow skin areas that are created when the model surface has a slope close to the vertical."
-msgstr "如果表層區域寬度小於此值，則不會擴展。這會避免擴展在模型表面的坡度接近垂直時所形成的狹窄表層區域。"
+msgstr "如果表層區域寬度小於此值，則不會延伸。這會避免延伸在模型表面的斜度接近垂直時所形成的狹窄表層區域。"
 
 #: fdmprinter.def.json
 msgctxt "material label"

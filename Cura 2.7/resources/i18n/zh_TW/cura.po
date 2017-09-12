@@ -3208,7 +3208,7 @@ msgstr "設為主要擠出機"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:202
 msgctxt "@title:menu menubar:toplevel"
 msgid "E&xtensions"
-msgstr "擴展(&X)"
+msgstr "擴充功能(&X)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:235
 msgctxt "@title:menu menubar:toplevel"
