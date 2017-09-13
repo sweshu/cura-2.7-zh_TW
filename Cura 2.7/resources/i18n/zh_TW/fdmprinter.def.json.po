@@ -1828,7 +1828,7 @@ msgstr "在列印支撐結構時的速度。以更高的速度列印支撐可以
 #: fdmprinter.def.json
 msgctxt "speed_support_infill label"
 msgid "Support Infill Speed"
-msgstr "支撐的填充速度"
+msgstr "支撐填充速度"
 
 #: fdmprinter.def.json
 msgctxt "speed_support_infill description"
@@ -1873,7 +1873,7 @@ msgstr "換料塔速度"
 #: fdmprinter.def.json
 msgctxt "speed_prime_tower description"
 msgid "The speed at which the prime tower is printed. Printing the prime tower slower can make it more stable when the adhesion between the different filaments is suboptimal."
-msgstr "列印換料塔的速度。當不同耗材之間的黏合力不是最佳時，較慢地列印速度可以讓它更穩定。"
+msgstr "列印換料塔的速度。當不同耗材之間的黏合力不佳時，較慢地列印速度可以讓它更穩定。"
 
 #: fdmprinter.def.json
 msgctxt "speed_travel label"
@@ -2518,12 +2518,12 @@ msgstr "開啟列印冷卻"
 #: fdmprinter.def.json
 msgctxt "cool_fan_enabled description"
 msgid "Enables the print cooling fans while printing. The fans improve print quality on layers with short layer times and bridging / overhangs."
-msgstr "列印時啟用列印冷卻風扇。風扇可以在層時間較短和有橋接/懸垂的層上提高列印品質。"
+msgstr "列印時啟用列印冷卻風扇。風扇可以在列印時間較短的層和橋接/懸垂結構提高列印品質。"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed label"
 msgid "Fan Speed"
-msgstr "風扇速度"
+msgstr "風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed description"
@@ -2533,92 +2533,92 @@ msgstr "列印冷卻風扇旋轉的速度。"
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_min label"
 msgid "Regular Fan Speed"
-msgstr "正常風扇速度"
+msgstr "標準風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_min description"
 msgid "The speed at which the fans spin before hitting the threshold. When a layer prints faster than the threshold, the fan speed gradually inclines towards the maximum fan speed."
-msgstr "在跨過最大風扇轉速門檻前，散熱風扇都使用這個轉速，一旦該層的列印速度比這個門檻還快，風扇轉速就會逐漸提高到最大轉速。"
+msgstr "在單層列印時間大於門檻值時，風扇運轉的速度。當單層列印時間小於門檻值時，風扇轉速就會逐漸往最大轉速提高。"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_max label"
 msgid "Maximum Fan Speed"
-msgstr "最大風扇速度"
+msgstr "最大風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_max description"
 msgid "The speed at which the fans spin on the minimum layer time. The fan speed gradually increases between the regular fan speed and maximum fan speed when the threshold is hit."
-msgstr "當該層的列印時間比「每層至少列印時間」這個門檻還快，風扇轉速就會逐漸提高到最大轉速。"
+msgstr "在“最短單層列印時間”時，風扇運轉的速度。當單層列印時間小於門檻值時，風扇轉速就會從標準風扇轉速逐漸增加。單層列印時間愈短，風扇轉速愈快，直到最大風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time_fan_speed_max label"
 msgid "Regular/Maximum Fan Speed Threshold"
-msgstr "一般/最大風扇轉速門檻"
+msgstr "標準風扇轉速門檻值"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time_fan_speed_max description"
 msgid "The layer time which sets the threshold between regular fan speed and maximum fan speed. Layers that print slower than this time use regular fan speed. For faster layers the fan speed gradually increases towards the maximum fan speed."
-msgstr "列印該層時散熱風扇一般轉度和最大風扇轉度之間的門檻值。如果該層列印時間比這個門檻值還慢，就使用常規風扇轉速，如果該層列印時間比這個門檻快，就逐步增加到最大風扇轉速。"
+msgstr "使用標準風扇轉速的單層列印時間門檻值。如果單層列印時間大於這個門檻值，就使用標準風扇轉速。如果單層列印時間比這個門檻值短，就逐步增加風扇轉速，直到最大風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_0 label"
 msgid "Initial Fan Speed"
-msgstr "起始風扇速度"
+msgstr "起始層風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_speed_0 description"
 msgid "The speed at which the fans spin at the start of the print. In subsequent layers the fan speed is gradually increased up to the layer corresponding to Regular Fan Speed at Height."
-msgstr "開始列印時的風扇轉速。在隨後的層中，風扇轉速會逐漸增加到對應層所設定的轉速。"
+msgstr "列印起始層時的風扇轉速。在隨後的層中，風扇轉速會逐漸增加到對應層所設定的速度。"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_full_at_height label"
 msgid "Regular Fan Speed at Height"
-msgstr "正常風扇速度（高度）"
+msgstr "標準風扇轉速（高度）"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_full_at_height description"
 msgid "The height at which the fans spin on regular fan speed. At the layers below the fan speed gradually increases from Initial Fan Speed to Regular Fan Speed."
-msgstr "使用一般風扇轉速的高度，在這層之下，風扇轉速會從起始轉速逐漸增加。"
+msgstr "使用標準風扇轉速的高度。風扇轉速會從起始轉速逐漸增加，在此高度達到標準風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_full_layer label"
 msgid "Regular Fan Speed at Layer"
-msgstr "正常風扇速度（層）"
+msgstr "標準風扇轉速（層）"
 
 #: fdmprinter.def.json
 msgctxt "cool_fan_full_layer description"
 msgid "The layer at which the fans spin on regular fan speed. If regular fan speed at height is set, this value is calculated and rounded to a whole number."
-msgstr "哪一層要使用一般風扇轉速。如果一般風扇轉速高度已被設定，這個值將會被計算出來並且四捨五入。"
+msgstr "要使用標準風扇轉速的層。如果標準風扇轉速高度已被設定，這個值將會被計算出來並且四捨五入。"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time label"
 msgid "Minimum Layer Time"
-msgstr "每層最少列印時間"
+msgstr "最短單層列印時間"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_layer_time description"
 msgid "The minimum time spent in a layer. This forces the printer to slow down, to at least spend the time set here in one layer. This allows the printed material to cool down properly before printing the next layer. Layers may still take shorter than the minimal layer time if Lift Head is disabled and if the Minimum Speed would otherwise be violated."
-msgstr "在層中花費的最少時間。這會迫使印表機減速，以便至少在一層中消耗此處所規定的時間。這會讓已列印耗材充分冷卻後再列印下一層。如果抬升噴頭被關閉，且如果不這麼做會違反“最小速度“，則層所花時間可能仍會少於最小層時間。"
+msgstr "單層列印時間的下限。這會迫使印表機減速，以便在單層列印中消耗此處所規定的時間。這會讓模型充分冷卻後再列印下一層。如果“噴頭抬升”功能被關閉，為了不違反“最低列印速度”，單層列印時間仍有可能低於此設定值。"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_speed label"
 msgid "Minimum Speed"
-msgstr "最小風扇速度"
+msgstr "最低列印速度"
 
 #: fdmprinter.def.json
 msgctxt "cool_min_speed description"
 msgid "The minimum print speed, despite slowing down due to the minimum layer time. When the printer would slow down too much, the pressure in the nozzle would be too low and result in bad print quality."
-msgstr "最低列印速度，排除因最短層時間而減速。當印表機減速過多時，噴頭中的壓力將過低並導致較差的列印品質。"
+msgstr "列印速度的下限，限制因“最短單層列印時間”的減速。當印表機減速過多時，噴頭中的壓力將過低並導致較差的列印品質。"
 
 #: fdmprinter.def.json
 msgctxt "cool_lift_head label"
 msgid "Lift Head"
-msgstr "列印頭抬高"
+msgstr "噴頭抬升"
 
 #: fdmprinter.def.json
 msgctxt "cool_lift_head description"
 msgid "When the minimum speed is hit because of minimum layer time, lift the head away from the print and wait the extra time until the minimum layer time is reached."
-msgstr "當因最低層時間達到最低速度時，將列印頭從列印品上抬高，並等候達到最低層時間。"
+msgstr "當“最短單層列印時間”受到“最低列印速度”限制時，將噴頭從模型上抬高，並等候達到最短單層列印時間。"
 
 #: fdmprinter.def.json
 msgctxt "support label"
@@ -3637,42 +3637,42 @@ msgstr "列印木筏底部的加加速度。"
 #: fdmprinter.def.json
 msgctxt "raft_fan_speed label"
 msgid "Raft Fan Speed"
-msgstr "木筏風扇速度"
+msgstr "木筏風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "raft_fan_speed description"
 msgid "The fan speed for the raft."
-msgstr "木筏的風扇速度。"
+msgstr "木筏的風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_fan_speed label"
 msgid "Raft Top Fan Speed"
-msgstr "木筏頂部風扇速度"
+msgstr "木筏頂部風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "raft_surface_fan_speed description"
 msgid "The fan speed for the top raft layers."
-msgstr "木筏頂部的風扇速度。"
+msgstr "木筏頂部的風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_fan_speed label"
 msgid "Raft Middle Fan Speed"
-msgstr "木筏中層風扇速度"
+msgstr "木筏中層風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "raft_interface_fan_speed description"
 msgid "The fan speed for the middle raft layer."
-msgstr "木筏中層的風扇速度。"
+msgstr "木筏中層的風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_fan_speed label"
 msgid "Raft Base Fan Speed"
-msgstr "木筏底部風扇速度"
+msgstr "木筏底部風扇轉速"
 
 #: fdmprinter.def.json
 msgctxt "raft_base_fan_speed description"
 msgid "The fan speed for the base raft layer."
-msgstr "木筏底部的風扇速度。"
+msgstr "木筏底部的風扇轉速。"
 
 #: fdmprinter.def.json
 msgctxt "dual label"
